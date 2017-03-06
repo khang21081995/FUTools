@@ -1,0 +1,1523 @@
+Which of the following languages can be used to write server side scripting in ASP.NET | Both A and C (C# va Visual Basic)
+The Following are the minimum requirement to run Asp.net | Common Language Runtime
+When a .aspx page is requested from the web server, the out put will be rendered to browser in following format | HTML
+What executable unit gets created when we build an ASP.Net application?Skill/Topic | . DLL
+The best way to delimit ASP.Net code from HTML code in your pages is by using --------------- tags.Skill/Topic: Beginner | < Script >
+The code will be processed on web server when the runat attribute of the < Script > tag has the following value.Skill/Topic: Beginner | Server
+The Asp.net server control, which provides an alternative way of displaying text on web page, isSkill/Topic: Beginner | < asp:label >
+asp:dropdownlist> tag replaces which of the HTML tagsSkill/Topic: Beginner | < Select >
+The first event to be triggered in an aspx page isSkill/Topic: Beginner | Page_Init()
+Postback occurs in which of the following formsSkill/Topic: Beginner | Webforms
+what namespace does the Web page belong in the .NET Framework class hierarchy?Skill/Topic: Beginner | System.web.UI.Page
+Which method do you invoke on the Data Adapter control to load your generated datasetSkill/Topic: Beginner | Fill ( )
+How many configuration files can an ASP.NET projects have?Skill/Topic: Beginner | One
+How do you register a user control?Skill/Topic: Beginner | Add Src, Tagprefix, Tagname
+How do you post the current page to a different aspx page ?Skill/Topic: Beginner | FORM ACTION="actiopage.aspx" RUNAT="server" method="post"
+Which of these namespaces used for FileAccessSkill/Topic: Beginner | System.IO
+Which of the following is true ?Skill/Topic: Beginner |  Custom controls are displayed correctly in VS.Net Designer
+Can a dll run as stand alone application ?Skill/Topic: Beginner |  No
+To add a custom control to a Web form we have to register with Skill/Topic: Beginner | All of the above
+Custom Controls are derived from which of the classesSkill/Topic: Beginner | System.Web.UI.Customcontrols.Webcontrol
+A web application running on multiple servers is called as Skill/Topic: Beginner | Webfarm
+What is the transport protocol used to call a webserviceSkill/Topic: Beginner | SOAP
+How ASP.Net Different from ASPSkill/Topic: Beginner | Scripting is separated from the HTML, Code is compiled as a DLL, the DLLs can be executed on server
+What’s the difference between Response.Write() andResponse.Output.Write()?Skill/Topic: Beginner | Response.Output.Write() allows you to write formatted output
+Why is Global.asax is used Skill/Topic: Beginner | Implement application and session level events
+There can be more than 1 machine.config file in a systemSkill/Topic: Beginner | True
+What is the extension of a web user control file ?Skill/Topic: Beginner | . Ascx
+What is the default session out timeSkill/Topic: Beginner | 20 Min
+Which of the following is true ?Skill/Topic: Beginner | IsPostBack is a readonly property of System.Web.UI.Page class
+It is possible to set Maximum length for a text box through codeSkill/Topic: Intermediate | True
+The number of forms that can be added to a aspx page isSkill/Topic: Intermediate | 1
+How do you manage states in asp.net applicationSkill/Topic: Intermediate | All of the above
+what is the difference between user control and custom controlSkill/Topic: Intermediate | One Custom Control can be use in different project but not the same with User control
+The interface used by ASP.Net to create Unique Id’s?Skill/Topic: Intermediate | System.UI.Naming.Container
+Which property of the session object is used to set the local identifier ?Skill/Topic: Intermediate | LCID
+Select the caching type supported by ASP.NetSkill/Topic: Intermediate | Both a & b ( Output Caching va DataCaching)
+Where is the default Session data is stored in ASP.NetSkill/Topic: Intermediate | InProcess
+How do you disable client side validation ?Skill/Topic: Intermediate | Set the inherits property to codeb
+Select the validation control used for “PatternMatching”Skill/Topic: Intermediate | RegularExpressionValidator
+How do you trace the application_End event on runtime?Skill/Topic: Intermediate | Can not be done
+How do you turn off the Session state for a webform ?Skill/Topic: Intermediate | In Web.config file set the tag to false
+Who can access Session state variablesSkill/Topic: Intermediate | A Single session
+Select the type Processing model that asp.net simulateSkill/Topic: Intermediate | Event-driven
+Does the “EnableViewState” allows the page to save the users input on a formSkill/Topic: Intermediate | Yes
+Web Controls Supports CSSSkill/Topic: Intermediate | True
+Session Object classes are defined in which of the following namespace?Skill/Topic: Intermediate | System.Web.SessionState
+Which DLL translate XML to SQL in IISSkill/Topic: Intermediate | SQLISAPI.dll
+What is the default authentication mode for IISSkill/Topic: Intermediate | Anonymous
+Which of the following is not a valid state management tool?Skill/Topic: Intermediate | Querystate
+What is the maximum number of cookies that can be allowed to a web siteSkill/Topic: Intermediate | 20
+Select the control which does not have any visible interfaceSkill/Topic: Intermediate | Repeater
+How do you explicitly kill a user’s session ?Skill/Topic: Intermediate | Session.Abandon
+Why do we use XMLSerializer classSkill/Topic: Intermediate | WebServices
+What does Response.End will do?Skill/Topic: Intermediate | It will stop the server process
+Which control supports pagingSkill/Topic: Intermediate | Datagrid
+Where do you store the information about the user localeSkill/Topic: Intermediate | System.Web.UI.Page.Culture
+What is the purpose of code behind ?Skill/Topic: Intermediate | To separate HTML Layout and code to different file
+What is a satallite assembly ?Skill/Topic: Intermediate | An Assembly containing localized resources for another assembly
+Which of the following is not a member of Response Object?Skill/Topic: Advanced | Execute
+The object used by SQL connection to make Security DemandsSkill/Topic: Advanced | SQLPermission
+Which of the following is not a member of ADODBCommand objectSkill/Topic: Advanced |  Open
+Which method do you invoke on the DataAdapter control to load your generated dataset with data?Skill/Topic: Advanced |  Fill
+How to open more than one datareader at a timeSkill/Topic: Advanced | Use different datareader and connection variable
+What is the advantage of Disconnected mode of ADO.Net in ASP.NetSkill/Topic: Advanced | user data can update and retrieve in dataset and when connection connected, update values with server
+Which objects is used to create foreign key between tables?Skill/Topic: Advanced | DataRelation
+Which one of the following namespaces contains the definition for IdbConnectionSkill/Topic: Advanced | System.Data
+Select the Interface which provides Fast, connected forward-only access to dataSkill/Topic: | IdataReader
+How do we Delete, Update, Select data in a DatasetSkill/Topic: Advanced | Using SQLDataAdapter
+Which of the following is not a member of ConnectionObjectSkill/Topic: Advanced |  Execute
+Is it Possible to Serialize HashTable with XMLSerializerSkill/Topic: Advanced | Yes
+What is the Full Form of WSDLSkill/Topic: Advanced | Web Service Description Language
+What is the difference between Server.Transfer & Response.RedirectSkill/Topic: Advanced | Response.Redirect needs roundtrip, Server.Transfer does not
+Which Language can Support SOAPSkill/Topic: Advanced | All of the above
+What is the size of the session IDSkill/Topic: Advanced | 32 bit long string
+Which of the following extension does a webservice file will haveSkill/Topic: Advanced | .Asmx
+What is a strong name?Skill/Topic: Advanced | Combination Of both Public,Private key and digital signature
+What is the purpose of Reflection?Skill/Topic: Advanced | For Reading metadata at runtime
+Is it possible edit data in a repeater controlSkill/Topic: Advanced | No
+Why is Global.asax is used for ?Skill/Topic: Advanced | To implement application & Session level events
+What is a diffgram ?Skill/Topic: Advanced | The one which renders the dataset object contents to XML
+What is the lifespan for items stored in viewstateSkill/Topic: Advanced | Exists for the Life of the current page
+What data types do a Rangevalidator supportsSkill/Topic: Advanced | All of the above
+Select the output of the statement < form method=post action=”test.aspx” > Skill/Topic: Advanced | Transfers all the form data to test.aspx with HTTP headers
+What is the out put of the following codebyte a=200;byte b=100;byte c=a+b;Response.Write ( C );Skill/Topic: Advanced | Compile Time error
+What is the out put of Following codeString a=”Hello”;String b=”World”String c= a+bResponse.Write ( “C “);Skill/Topic: Advanced | C
+Whats the significance of Request.MapPath( )Skill/Topic: Advanced | Maps the specified virtual path to a physical path
+Which of the following are not a member of Server ObjectSkill/Topic: Advanced | Open
+What is the significance of Server .MapPathSkill/Topic: Advanced | Returns the physical file path that corresponds to virtual specified path
+What is the Server.MachineName doesSkill/Topic: Advanced | Gets the Server’s Machine Name
+Whats is the significance of Response.ClearHeaders( )Skill/Topic: Advanced | Clears all Headers from the buffer stream
+What is the significance of Response.AddHeaders( )Skill/Topic: Advanced | Adds HTTP Headers to output stream
+What is the difference between HTTP handlers & HTTP modulesSkill/Topic: Advanced | Httphandler is an class and Httpmodule is an assembly
+Which namespace allows us to formauthentication ?Skill/Topic: Advanced | System.Web.Security
+Which method displays the custom controlSkill/Topic: Advanced | Render
+When is the user controls code is executedSkill/Topic: Advanced | After the webform loads
+Client Sertificate is a collection ofSkill/Topic: Advanced |  Request
+What section of the config.Web file is used for storing a list of authorized users?Skill/Topic: Advanced |  4
+What version of the javascript should be used for client side scriptSkill/Topic: Advanced | 2.0
+How do you add ASP.Net 3rd party componentSkill/Topic: Advanced | Add reference of dll file and place the code where ever required
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+you are required to build an application that can serialize an object to a file. Then, this file can be transferred to another program written in java and running in Linux operating system to be de-serialized. Which of the following classes is the best choice for the above task? | SoapFormatter
+Which of the following can be defined as generic? | All of the others
+What is output of this code? Static void Main(){ int number1 = 3; int number2 = 2; float number3 = number1/number2;... | 1
+What are NOT Web Server controls? | HTML controls
+String cnnString = @"Data Source=localhost\SQLExpress;Initial Catalog=Northwind;Integrated Security=True"; (Assume that connection string and table name is correct.) | Total rows of Products table
+How do we implement encapsulation by C#? | Define named properties.
+Which of the following associations of try, catch and finally is INVALID? | catch{}finally{}
+What is output of this code? string s1 ="Visual C# And .NET Technology"; string s2 = s1.Substring(0, s1.IndexOf('#')); System.Console.WriteLine(s2.ToUpper()); | VISUAL C
+... is an object in which the data retrieved from the database can be stored. | DataSet
+What kind of memory where an object is allocated? | Managed heap
+To help optimize the garbage collection process, each object in the heap is assigned to a specific generation. If an object is marked as Generation 0, it means: | That object is a newly allocated object and has never been marked for collection.
+What is output when request the page that contains the code bellow? protected void Page_Load(object sender, EventArgs e){ Response.Write("<h1>Hello world!</h1>"); } | Hello world!
+Which sentence about thread pool is correct? | The thread pool manages threads effciently by minimizing the number of threads that must be created, started, and stopped.
+given the following code segment, what is the output? string s ="Hello"; string r; r = s; r+="World!"; System.Console.WriteLine(s); | Hello
+What is output of the following code? using System; interface Animal .... | Mammal
+Which sentence is correct? | An abstract class is a class that cannot be instantiated.
+Which sentence about BufferedStream is correct? | BufferedStream provides temporary storage for a stream of bytes that may be committed to storage at a later time.
+What is output of this code? interface Class1 { public void SayHello(string yourName); } class Class2:Class1 public override void SayHello(string yourName); | Compile error
+Which of following extension does a Web service file will have? | asmx
+Which sentence about namespace is correct? | Classes from many namespaces can reside in one assembly.
+Does C# support multi inherritance?(Choose the most correct answer) | Yes, but only for inheritance from many interfaces.
+Which kind of threads is automatically killed when the application domain unloads? | Background threads
+String cnnString = @"Data Source=localhost\SQLExpress;Initial Catalog=Northwind;Integrated Security=True"; System.Data.SqlClient.SqlConnection cn = new System.Data.SqlClient.SqlConnection(cnnString); | True
+class Class1 { internal string field1; } Class Program { Class1 obj1 = new Class1(); | defabc
+What is utility allows you to view the set of all content files and referenced assemblies? | Solution Explorer
+What is term for conversion from an object to a value type? | Unboxing
+the ... object allows us to retrieve & manipulate data in the database. | Connection
+In Windows Form application, which control is used to display text when the mouse points to a particular control? | ToolTip
+Web service technology is based on what? | XML and SOAP
+Why the data is not inserted using the following code? SqlCommand insertConmmand = new SqlCommand(); insertCommand.CommandType = CommandType.Text; | Don't have integrated connection for the command object.
+Which property of Form allows to set the button on the Form that is clicked when user press the Enter key? | AcceptButton
+In ASP.NET application, and _____ variables can be accessed by all the pages in the application. | Global, Session
+using System; class Program Console.WriteLine("catch"); Console.WriteLine("finally"); | catch finally
+Which property of TextBox control in Windows Forms application is used to create password input box? | PasswordChar
+What is utility shows all of the types in your current project from an object-oriented perspective? | Object Browser.
+What is the result of the following code? SqlConnection conn = new SqlConnection(); conn.ConnectionString = CONNECTION_STRING; | The DataAdapter will create 3 data tables in the dataset.
+An object that supports the ____ interface stores state information for an asynchronous operation, and provides a synchronization object to allow threads to be signaled when the operation completes. | IAsyncResult
+For using SQL.NET Data Provider what using statement of the following is correct? | using System.Data.SqlClient;
+Console.WriteLine(o1.ToString()); | 1
+The type of event declaration must be of ... type. | Delegate
+Which property of the Exception class specifiles textual information that indicates the reason for the error and provides possible resolutions? | Message
+In Windows Form application,. which property is used to get or set the edges of the control is anchored to the edges of its container? | Anchor
+What is the property of ASP.NET DropDownList control can make change events cause a postback? | AutoPostBack
+What are formatters you can choose when serialization an object? | BinaryFormater, SoapFormater and XMLSerializer.
+Which sentence about shared assemblies is correct? | Shared assemblies are deployed to GAC.
+Which sentence about.NET assemblies is correct? | .NET assemblies are versioning, self-describing and configurable.
+Given the following code segment, what will the value returned from the method be? public int ViktorMove() | 504
+How do you explicitly kill a user's session? | Session.Abandon()
+Determine the output of the following code segment System.Console.Writeline("The value of x/y is: {0}".z); | Compile error!
+What is the first step to define an event? | Define a delegate that contains the method to be called when the event is fired.
+What are enumerations? | Enumerations are a handy programming construct that allows to group name/value pairs.
+The ___ control is used to display text when the mouse points to a particular control | ToolTip
+How can we define an overridden base method? | Use virtual keyword.
+What is unboxing? | Unboxing is conversion from a value type to an object.
+How do we implement encapsulation by C#? | Define named properties.
+public static int Method42(int i) | delegate int Class1.Method42(int i);
+Item stored in ViewState exist for the life of the current page? | False
+ADO.NET supports multiple data provides, each of which is optimized to interact with a specific DBMSs. | True
+System.Data.SqlClient.SqlCommand cmd = cn.CreateCommand(); string query = "Select * From Customers"; | -1
+The ... object allows us to rertrieve & manipulate data in the database. | Command
+System.Data.SqlClient.SqlConnection cn = new System.Data.SqlClient.SqlConnection(); | Nothing
+A C# class can be inherited from multi interfaces? | No
+You need to get access to an Microsoft Excel 2003 file. Which data adapter would you see? | OleDdDataAdapter
+Do we have to set value for a variable before using? | No
+Which sentence about private assemblies is correct? | Private assemblies reside in the same directory of application making use of them.
+It is possible to check whether an .aspx page is posted back to the server with the help of the ... property of the page. | IsPostBack
+____ property is used to get or set the edges of the control are anchored to the edges of its container. | Anchor
+Choose 2- correct statements about server-side and Client-side codes? | Client side code is executed on the browser. Server side code is executed at the server side on IIS in ASP.NET framework.
+How do we create a new text file? (choose 2) | Use StreamWriter class. Use CreateText() method of FileInfo class.
+Which of following extension does a Web service file will have? | Asmx
+... variable can be accessed by all the pages in the application. (Choose 2) | Session Application
+What is protected access modifier? | Marks a member as accessible only by the class or any derived classes.
+Why the data is not inserted using the following code? | The "Insert" query is wrong.
+What are formatters you can choose when serialization an object? | BinaryFormater, SoapFormater and XMLSerializer.
+Select the output of the statement <form method = "post" action = "test.aspx" | Transfers all the form data to test.aspx with HTTP headers.
+Can we use methods that have some arguments for a delegate? | Yes
+What are properties of [WebMethod] attribute? | Description, MessageName and EnableSession.
+Web service technology is based on what? (choose 2) | XML SOAP
+class Mammal : Animal public string Name { get; set; } | No errors, but there is 1 warning.
+Which sentence about namespace is correct? | Classes from many namespaces can reside in one assembly.
+_____ control combines the features of the TextBox and the ListBox controls | ComboBox
+Name two properties common in every validation control? | Color property ControlToValidate property
+Determine the output of the following code segment: int x = 2009; int y = 2010; System.Console.WriteLine("The value of x & y is : {0}", (x&y)); | 2008
+What are responsibilities of CLR? | Loading the type into memory and compiling CIL into platform-specific instruction.
+List<int> array1 = new List<int>(); foreach (int n in array1) System.Console.WriteLine(array1.ToString()); | Nothing
+The ... method of the ... object is used to redirect the user to another page. | Redirect, Response
+How can we check that some changes have been made to a DataTable since it was loaded? | We can use the property IsChanged to check whether a datatable is changed or not
+Which sentence about foreground threads is correct? | Foreground threads have the ability to prevent the current application from terminating.
+The method____of the Control class conceals the control from the user. | Visible
+Which sentence about Application Domain is correct? | The CLR is able to load and unload a formal process much quicker than Application Domains.
+Which one of the following namespaces contains the definition for IdbConnection ? | System.Data
+Select the Interface which provides Fast, connected forward-only access to data | IdataReader
+How do we Delete, Update, Select data in a Dataset ? | Using SQLDataAdapter
+Which of the following is not a member of ConnectionObject ? | Open
+Is it Possible to Serialize HashTable with XMLSerializer | Yes
+What is the Full Form of WSDL ? | Web Service Description Language
+What is the difference between Server.Transfer & Response.Redirect ? | Response.Redirect needs roundtrip, Server.Transfer does not
+Which Language can Support SOAP ? | All of the above
+What is the size of the session ID ? | 32 bit long string
+Which of the following extension does a webservice file will have ? | .Asmx
+What is a strong name? | Combination Of both Public,Private key and digital signature
+What is the purpose of Reflection? | For Reading metadata at runtime
+Is it possible edit data in a repeater control | No
+Why is Global.asax is used for ? | To implement application & Session level events
+What is a diffgram ? | The one which renders the dataset object contents to XML
+What is the lifespan for items stored in viewstate ? | Exists for the Life of the current page
+What data types do a Rangevalidator supports? | All of the above
+Select the output of the statement < form method=post action="test.aspx" > | Transfers all the form data to test.aspx with HTTP headers
+What is the out put of the following code : byte a=200; byte b=100; byte c=a+b; Response.Write ( C ); | 300
+What is the out put of Following code : String a="Hello"; String b="World" ; String c= a+b ; Response.Write ( "C"); | C
+Whats the significance of Request.MapPath( ) ? | Maps the specified virtual path to a physical path
+Which of the following are not a member of Server Object ? | Open
+What is the significance of Server .MapPath ? | Returns the physical file path that corresponds to virtual specified path
+What is the Server.MachineName does ? | Gets the Server's Machine Name
+Whats is the significance of Response.ClearHeaders( ) ? | Clears all Headers from the buffer stream
+What is the significance of Response.AddHeaders( ) ? | Adds HTTP Headers to output stream
+What is the difference between HTTP handlers & HTTP modules ? | Httphandler is an class and Httpmodule is an assembly
+Which namespace allows us to formauthentication ? | System.Web.Security
+Which method displays the custom control ? | Render
+When is the user controls code is executed ? | After the webform loads
+The interface used by ASP.Net to create Unique Id's? | System.UI.Naming.Container
+Which property of the session object is used to set the local identifier ? | LCID
+Select the caching type supported by ASP.Net | Both Output Caching and DataCaching
+Where is the default Session data is stored in ASP.Net? | InProcess
+How do you disable client side validation ? | Set the inherits property to codeb
+Select the validation control used for "PatternMatching" | RegularExpressionValidator
+How do you trace the application_End event on runtime? | Can not be done
+Who can access Session state variables ? | A Single session
+Select the type Processing model that asp.net simulate | Event-driven
+Does the "EnableViewState" allows the page to save the users input on a form? | Yes
+Web Controls Supports CSS | True
+Session Object classes are defined in which of the following namespace? | System.Web.SessionState
+Which DLL translate XML to SQL in IIS ? | SQLISAPI.dll
+What is the default authentication mode for IIS ? | Anonymous
+Which of the following is not a valid state management tool? | Cookies
+What is the maximum number of cookies that can be allowed to a web site ? | 20
+Select the control which does not have any visible interface | Repeater
+How do you explicitly kill a user's session ? | Session.Abandon
+Why do we use XMLSerializer class ? | WebServices
+What does Response.End will do? | It will stop the server process
+Which control supports paging ? | Datagrid
+Where do you store the information about the user locale ? | System.Web.UI.Page.Culture
+What is the purpose of code behind ? | To separate HTML Layout and code to different file
+What is a satallite assembly ? | An Assembly containing localized resources for another assembly
+Which of the following is not a member of Response Object? | Execute
+Which of the following is not a member of ADODBCommand object ? | Open
+Which method do you invoke on the DataAdapter control to load your generated dataset with data? | Fill
+How to open more than one datareader at a time ? | Use different datareader and connection variable
+What is the advantage of Disconnected mode of ADO.Net in ASP.Net ? | User data can update and retrieve in dataset and when connection connected, update values with server
+Which objects is used to create foreign key between tables? | DataRelation
+Which of the following languages can be used to write server side scripting in ASP.NET? | C#
+The Following are the minimum requirement to run Asp.net pages? | Common Language Runtime
+When a .aspx page is requested from the web server, the out put will be rendered to browser in following format. | HTML
+What executable unit gets created when we build an ASP.Net application? | . DLL
+The best way to delimit ASP.Net code from HTML code in your pages is by using --------------- tags. | < Script >
+The code will be processed on web server when the runat attribute of the < Script > tag has the following value. | Server
+The Asp.net server control, which provides an alternative way of displaying text on web page, is | < asp:label >
+<asp:dropdownlist> tag replaces which of the HTML tags | < Select >
+The first event to be triggered in an aspx page is | Page_Init()
+Postback occurs in which of the following forms | Webforms
+What namespace does the Web page belong in the .NET Framework class hierarchy? | System.web.UI.Page
+Which method do you invoke on the Data Adapter control to load your generated dataset? | Fill ( )
+How many configuration files can an ASP.NET projects have? | One
+How do you register a user control? | Add Src, Tagprefix, Tagname
+Which of the following is true ? | Custom controls are displayed correctly in VS.Net Designer
+Can a dll run as stand alone application ? | No
+To add a custom control to a Web form we have to register with | All of the above
+Custom Controls are derived from which of the classes | System.Web.UI.Customcontrols.Webcontrol
+A web application running on multiple servers is called as | Website
+What is the transport protocol used to call a webservice? | SOAP
+How ASP.Net Different from ASP? | Scripting is separated from the HTML, Code is compiled as a DLL, the DLLs can be executed on server
+What's the difference between Response.Write() and Response.Output.Write()? | Response.Output.Write() allows you to write formatted output
+Why is Global.asax is used ? | Implement application and session level events
+There can be more than 1 machine.config file in a system? | True
+What is the extension of a web user control file ? | .Ascx
+What is the default session time out? | 20 Min
+Which of the following is true ? | IsPostBack is a readonly property of System.Web.UI.Page class
+It is possible to set Maximum length for a text box through code. | True
+The number of forms that can be added to a aspx page is | 1
+How do you manage states in asp.net application? | All of the above
+Which of the following languages can be used to write server side scripting in ASP.NET? | C#
+The Following are the minimum requirement to run Asp.net pages? | Common Language Runtime
+When a .aspx page is requested from the web server, the out put will be rendered to browser in following format. | HTML
+What executable unit gets created when we build an ASP.Net application? | . DLL
+The best way to delimit ASP.Net code from HTML code in your pages is by using ---- tags. | < Script >
+The code will be processed on web server when the runat attribute of the < Script > tag has the following value. | Server
+The Asp.net server control, which provides an alternative way of displaying text on web page, is | < asp:label >
+<asp:dropdownlist> tag replaces which of the HTML tags | < Select >
+The first event to be triggered in an aspx page is | Page_Init()
+Postback occurs in which of the following forms | Webforms
+What namespace does the Web page belong in the .NET Framework class hierarchy? | System.web.UI.Page
+Which method do you invoke on the Data Adapter control to load your generated dataset? | Fill ( )
+How many configuration files can an ASP.NET projects have? | One
+How do you register a user control? | Add Src, Tagprefix, Tagname
+Which of the following is true ? | Custom controls are displayed correctly in VS.Net Designer
+Can a dll run as stand alone application ? | No
+To add a custom control to a Web form we have to register with | All of the above
+Custom Controls are derived from which of the classes | System.Web.UI.Customcontrols.Webcontrol
+A web application running on multiple servers is called as | Website
+What is the transport protocol used to call a webservice? | SOAP
+How ASP.Net Different from ASP? | Scripting is separated from the HTML, Code is compiled as a DLL, the DLLs can be executed on server
+What's the difference between Response.Write() and Response.Output.Write()? | Response.Output.Write() allows you to write formatted output
+Why is Global.asax is used ? | Implement application and session level events
+There can be more than 1 machine.config file in a system? | True
+What is the extension of a web user control file ? | . Ascx
+Which of the following is true ? | IsPostBack is a readonly property of System.Web.UI.Page class
+It is possible to set Maximum length for a text box through code. | True
+The number of forms that can be added to a aspx page is | 1
+How do you manage states in asp.net application? | All of the above
+1.	Which of the following languages can be used to write server side scripting in ASP.NET? | Both A and C
+2.	The Following are the minimum requirement to run Asp.net | Common Language Runtime
+3.	When a .aspx page is requested from the web server, the out put will be rendered to browser in following format. | HTML
+4.	What executable unit gets created when we build an ASP.Net application? | . DLL
+5.	The best way to delimit ASP.Net code from HTML code in your pages is by using --------------- tags. | < Script >
+6.	The code will be processed on web server when the runat attribute of the < Script > tag has the following value. | Server
+7.	The Asp.net server control, which provides an alternative way of displaying text on web page, is | < asp:label >
+8.	asp:dropdownlist> tag replaces which of the HTML tags | < Select >
+9.	The first event to be triggered in an aspx page is | Page_Init()
+10.	Postback occurs in which of the following forms | Webforms
+11.	what namespace does the Web page belong in the .NET Framework class hierarchy? | System.web.UI.Page
+12.	Which method do you invoke on the Data Adapter control to load your generated dataset | Fill ( )
+13.	How many configuration files can an ASP.NET projects have? | One
+14.	How do you register a user control? | Add Src, Tagprefix, Tagname
+15.	How do you post the current page to a different aspx page ? | FORM ACTION="actiopage.aspx" RUNAT="server" method="post"
+16.	Which of these namespaces used for FileAccess | System.IO
+17.	Which of the following is true ? | Custom controls are displayed correctly in VS.Net Designer
+18.	Can a dll run as stand alone application ? | No
+19.	To add a custom control to a Web form we have to register with | All of the above
+20.	Custom Controls are derived from which of the classes | System.Web.UI.Customcontrols.Webcontrol
+21.	A web application running on multiple servers is called as | Webfarm
+22.	What is the transport protocol used to call a webservice | SOAP
+23.	How ASP.Net Different from ASP | Scripting is separated from the HTML, Code is compiled as a DLL, the DLLs can be executed on server
+24.	What’s the difference between Response.Write() andResponse.Output.Write()? | Response.Output.Write() allows you to write formatted output
+25.	Why is Global.asax is used | Implement application and session level events
+26.	There can be more than 1 machine.config file in a system | True
+27.	What is the extension of a web user control file ? | . Ascx
+28.	What is the default session out time | 20 Min
+29.	Which of the following is true ? | IsPostBack is a readonly property of System.Web.UI.Page class
+30.	It is possible to set Maximum length for a text box through code | True
+31.	The number of forms that can be added to a aspx page is | 1
+32.	How do you manage states in asp.net application | All of the above
+33.	what is the difference between user control and custom control | One Custom Control can be use in different project but not the same with User control
+34.	The interface used by ASP.Net to create Unique Id’s? | System.UI.Naming.Container
+35.	Which property of the session object is used to set the local identifier ? | LCID
+36.	Select the caching type supported by ASP.Net | Both a & b
+37.	Where is the default Session data is stored in ASP.Net | InProcess
+38.	How do you disable client side validation ? | Set the inherits property to codeb
+39.	Select the validation control used for “PatternMatching” | RegularExpressionValidator
+40.	How do you trace the application_End event on runtime? | Can not be done
+41.	How do you turn off the Session state for a webform ? | In Web.config file set the tag to false
+42.	Who can access Session state variables | A Single session
+43.	Select the type Processing model that asp.net simulate | Event-driven
+44.	Does the “EnableViewState” allows the page to save the users input on a form | Yes
+45.	Web Controls Supports CSS | True
+46.	Session Object classes are defined in which of the following namespace? | System.Web.SessionState
+47.	Which DLL translate XML to SQL in IIS | SQLISAPI.dll
+48.	What is the default authentication mode for IIS | Anonymous
+49.	Which of the following is not a valid state management tool? | Querystate
+50.	What is the maximum number of cookies that can be allowed to a web site | 20
+51.	Select the control which does not have any visible interface | Repeater 
+52.	How do you explicitly kill a user’s session ? | Session.Abandon
+53.	Why do we use XMLSerializer class | WebServices
+54.	What does Response.End will do? | It will stop the server process
+55.	Which control supports paging | Datagrid
+56.	Where do you store the information about the user locale | System.Web.UI.Page.Culture
+57.	What is the purpose of code behind ? | To separate HTML Layout and code to different file
+58.	What is a satallite assembly ? | An Assembly containing localized resources for another assembly
+59.	Which of the following is not a member of Response Object? | Execute
+60.	The object used by SQL connection to make Security Demands | SQLPermission
+61.	Which of the following is not a member of ADODBCommand object | Open
+62.	Which method do you invoke on the DataAdapter control to load your generated dataset with data? | Fill
+63.	How to open more than one datareader at a time | Use different datareader and connection variable
+64.	What is the advantage of Disconnected mode of ADO.Net in ASP.Net | user data can update and retrieve in dataset and when connection connected, update values with server
+65.	Which objects is used to create foreign key between tables? | DataRelation
+66.	Which one of the following namespaces contains the definition for IdbConnection | System.Data
+67.	Select the Interface which provides Fast, connected forward-only access to data | IdataReader
+68.	How do we Delete, Update, Select data in a Dataset | Using SQLDataAdapter
+69.	Which of the following is not a member of ConnectionObject | Execute
+70.	Is it Possible to Serialize HashTable with XMLSerializer | Yes
+71.	What is the Full Form of WSDL | Web Service Description Language
+72.	What is the difference between Server.Transfer & Response.Redirect | Response.Redirect needs roundtrip, Server.Transfer does not
+73.	Which Language can Support SOAP | All of the above
+74.	What is the size of the session ID | 32 bit long string
+75.	Which of the following extension does a webservice file will have | .Asmx
+76.	What is a strong name? | Combination Of both Public,Private key and digital signature
+77.	What is the purpose of Reflection? | For Reading metadata at runtime
+78.	Is it possible edit data in a repeater control | No
+79.	Why is Global.asax is used for ? | To implement application & Session level events
+80.	What is a diffgram ? | The one which renders the dataset object contents to XML
+81.	What is the lifespan for items stored in viewstate | Exists for the Life of the current page
+82.	What data types do a Rangevalidator supports | All of the above
+83.	Select the output of the statement < form method=post action=”test.aspx” > | Transfers all the form data to test.aspx with HTTP headers
+84.	What is the out put of the following codebyte a=200;byte b=100;byte c=a+b;Response.Write ( C ); | Compile Time error
+85.	What is the out put of Following codeString a=”Hello”;String b=”World”String c= a+bResponse.Write ( “C “); | C
+86.	Whats the significance of Request.MapPath( ) | Maps the specified virtual path to a physical path
+87.	Which of the following are not a member of Server Object | Open
+88.	What is the significance of Server .MapPath | Returns the physical file path that corresponds to virtual specified path
+89.	What is the Server.MachineName does | Gets the Server’s Machine Name
+90.	Whats is the significance of Response.ClearHeaders( ) | Clears all Headers from the buffer stream
+91.	What is the significance of Response.AddHeaders( ) | Adds HTTP Headers to output stream
+92.	What is the difference between HTTP handlers & HTTP modules | Httphandler is an class and Httpmodule is an assembly
+93.	Which namespace allows us to formauthentication ? | System.Web.Security
+94.	Which method displays the custom control | Render
+95.	When is the user controls code is executed | After the webform loads
+96.	Client Sertificate is a collection of | Request
+97.	What section of the config.Web file is used for storing a list of authorized users? | 4
+98.	What version of the javascript should be used for client side script | 2.0
+99.	How do you add ASP.Net 3rd party component | Add reference of dll file and place the code where ever required
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+is any action directed at the application | Event
+property is used to get or set the object that contains data about the control. | Value
+ with respect to Data Grid control are True |Each Field , The DataGrid
+When an MDI parent form is closed, the Closing event of all MDI child | true
+What of the followings is correct for creating a command object with the connection con | Select * From Student”, con
+it the normal ouput type for a WinForm project | Windows Application
+To preserve screen space on the monitor, VS.NET provides us with | Command, Solution, Auto-Hide,Properties
+The ____control groups a set of controls within a non-labeled an scrollable frame | Panel
+The ____feature of Windows Installer provider a standard method for distributing components | Merge Modules
+To create an instance of the Font class using existing Font and FontStyle, the constructor is | public Font(string fontname, float size
+Which control is used to display a short, customized help message for individual | ToolTip
+For using SQL.NET Data Provider what using statement of the following is correct | using System.Data.SqlClient;
+Which namespace is VS.NET contains classes that help in constructing and sending emails | System.Web.Mail
+To perform a change to a table using the Command object named Cmd|Cmd.ExecuteNonQuery()
+When a Data Form is created using the Data Form Wizard| DataReader Connection Command
+property of a connection object is used to get or set the string used to open a database| ConnectionString
+property is used to get or set the edges of the control are anchored to the edges of its container| Anchor
+property is used to get or set the shortcut menu associated with the control | Popup Menu
+System.Windows.Forms is an important | Namespace
+To get values of the columns of the i-th row in a DataTable object named datatable | DataRow array = datatable.Rows[i].ItemArray;
+Brushes can be created using one of the following classe | Texture , Solid, Linear
+What mode is VS.NET allow you create a portable exe(EXE) file|  Both Debug Mode and Release Mode
+The instance properties and methods are those, which are common to all the instances of the class | true
+The shared properties and methods are those, which are specific to a particular instance | true
+ADO.NET provides features for accessing traditional databases like SQL Server | ODBC OLEB
+Name the .NET data providers which are available is VS.NET| ODBC.NET, OLEDB, ORACLE Framework
+The____ event of the PrintDocument class is triggered immediately before each PrintPage event ocurs| QueryPageSettings
+is the easiest way to allow the user to interact with the application | Form
+Which namespace does the class ListView belong to | System.Windows.Form
+The____property of a DataGrid control, allow filling various kinds of data in a DataGrid | DataSource
+The Pen class belongs to the ____namespace and cannot be inherited | System.Drawing
+are the visual effects supported in WinForms | Visual Inheritance Control Anchoring Cotrol Docking  Transparent Forms
+The value of the HelpButton property is ignored if the maximize of minimize boxes are shown. | False
+List the key elements of COM | Services snd specifications
+are the Print support controls provided by WinForms |PreviewControl and Document
+What of the followings are data validation mode in WinForms | Form Control and Field
+What of the folllowings is correct if we want to set the Achild form as a child |AChild.MdiParent = TheParent;
+The ____control groups a set of controls within a non-labeled and scrollable frame | Panel
+Arrange the sequence in which the key events are triggered | KeyDown, KeyUp, KeyPress
+The types of list box supported in Winforms are | ListBox
+What are thee steps involved involved in calling one from another form | Invoke Show
+Which of the following objects can we use to read data from a Micorosoft SQL Server 2000 database| SqlAdapter, OleDbData,Ado
+What is component is used to fetch the values from the data source to DataSet |DataAdapter
+The ____property of the Form control is used to determine whether | IsMdiChild
+are the collection of reusable classes or types | Class Libraries
+control combines the features of the TextBox and the ListBox controls |ComboBox
+A custom control should you use to verify an authorized aplication user called as | Complex control
+System built on ADO.NET are intrinsically highly scaleable |True
+When we use the DataSet object, ADO.NET is based on disconnected data access. | true
+What control support us to display the list items in different types as text only, | ListView
+IntelliSence pops up a list of _____that can be called on an object | Properties
+The____ control is used to display text when the mouse points to a particular control |ToolTip
+What are the types of Dialog boxes | Modeless , Modal
+which class is the base class for all the controls that can be used in Windows Forms |Control
+GDI + resides in _____ assembly. | System.Drawing
+The ____ property of the LinkLabel control is used to specity the text | linkArea
+ for creating a connection object to database named MyDB |SqlConnection con = new SqlConnection(“Data Source=myserver;Integrated Sercurity=SSPI; Initial Catalog=MyDB”);
+List the advantages of DCOM | Provides ,Fully,Supports
+The view types supported in Winforms are  | Report View
+If maximize and minimize buttons are displayed then the HelpButton property is ignored | False
+The ____ event of the Form control is used to perform tasks such as allocatin | Load
+To get values of the colums of the i-th row in a DataTable object named datatable |DataRow array = datatable. Rows[i].ItemArray;
+ADO.Net.Provider features for accessing traditional database like SQL | OLEDB + XML
+Dataset store its data inXML | true
+IntelliSence pops up a list of ___ that can be called on an onject | Hints + Properties
+Link Label is a commands control |true
+-Microsoft Windows Installer is shipped alog with Windows 2000, windows ME  | True
+The___event of the Form control is used to perform tasks such as allocating | allocate
+To preserve screen space on the monitor , VS.NET provides us with |SolutionExplorer  + Tabbed  + Class View  + Command  + Properties Window
+The term packaging imlies bunding up all the files in the application into a single file | True
+.NET Framework has two main components, are | NET Framework class library , Common Language Runtime
+Presents a logical view of our work using an Explorer-like view of the classes, methods and properties | Class View
+What is managed code | It is the code targeting the .NET runtime
+Which thing is not included in a .NET PE file |Source code
+______are the collection of reusable classes or types | Class libraries
+What is the name of entity that compiles CIL code into meaningful CPU  instructions| Just-in-time (JIT) compiler.
+What is the output format of the file the C# compiler produces | IL
+How many times the .NET programs are compiled | 2
+A namespace is a logical compile-time mechanism. | true
+Under which of the following environments does your programs execution code run | CLR
+A C# class can be inherited from multi other classes | NO
+A delegate must define name of the method on which it makes calls | true
+Marks a member as accessible limited to the current assembly, but not outside the assembly | True
+Stack is a first-in, first-out queue  | True
+Which parameter modifier marks a parameter as passed by value | None
+Does destructor of a class impact to garbage collection | Yes
+An interface is name collection of semantically related abstract member | true
+How do we implement encapsulation | define a contructor
+Override method and overridden base method must have the same return type | true
+Elements of a List<T> variable cannot have different type | true
+Boxing is conversion form an object to a value type. | True
+Value types can be null | true
+Shared assemblies are libraries intended to be consumed by numerous application on a single machine| true
+Background threads are viewed by the CLR as expendable paths of execution that can be ignored at any point in time | true
+Strong name is used to uniquely identify the publisher of a .NET library | True
+can multiple versions of the name .NET assembly be installed on a single machine | Yes
+a class library that is written by C# can be used in any other .NET programming language | True
+What is described in “Win32 process ” term | Set of resource , necessary memory
+a given application domain can have only thread executing with it at any given time | false
+a single process may contain multiple application domains | true
+default context is used to group together .NET object | True
+Why do we use Thread pool? | When using thread pool, The Thread pool manages thread
+an we draw a hexagonal with GDI+ | Yes, by using DrawPolygon method of Graphics object
+StreamWriter sw = new StreamWriter(“Text.txt”)| if file “Text.txt” does not exist, this code will create a new file
+Object graph is a set of related object of serialized object | True
+can we cancel closing a form | Yes, by using FormClosing event
+What is the first event is raised when the form has been allocated on the managed heap | Load
+Which event of form handles pressing a key | KeyDown
+how do we create a control to enter password | Use TextBox control with PasswordChar property is set a value
+What are states that a CheckBox can have | Checked Only
+Panel controls are used to group related controls in a logical unit | true
+What is spin control | DomainUpDown, NumericUpDown
+What is SoapFormatter | SoapFormatter is a serialization formatter that represents graph as a SOAP message
+can we add a control at runtime | Yes
+ADO.NET provides a single set of types that communicate | false 
+ADO.NET supports multiple data providers, each of which is optimized to  | True
+A command builder is only able to autogenerate SQL commands for use by a data adapter, if | Longest answer
+Does Microsoft supply data provider for Oracle database | yes
+Does DataTable class support a method that allows obtaining the data reader-like navigation scheme | yes
+Which sentence about DataSet is correct | A DataSet is an in-memory representation of external data
+What is a third-party data provider | MySQL
+Which class is used to insert, remove, evaluate and manipulate the values in a table of one DataSet | DataTable
+Data reader represents a read-only, forward-only cursor. | True
+Which information is included in a connection string | Name of machine, name of the database on that machine, required
+Select Students.StudentNo, Students.LastName | Return records that have StudentNo, LastName, FirstName from Students table and ClassName from Classes table
+Which sentence about Connection object is | Connection object is used to establish a session with the data source.
+Which is return value of ExecuteNonQuery() method of a Command object | An integer is number of affected rows
+A persistent cookie is not destroyed after the user logs off your site | True
+In below events of page, which one is raised first | Prelnit
+What is method of form to transmit the form data back to web server for processing | Get Post
+What are properties of [WebService] attribute |Description. Name and Namespace.
+What are client-side script languages | VBScript and JavaScript
+A web server is a software product in charge of hosting your web applications | true
+ASP.NET supports single-file model only. | true
+Can the errors be displayed in a pop-up message box | Yes
+The runtime will automatically assign a new session ID for user when he/she logs on to. | True
+Which sentence about ViewState is correct | Values of each GUI widget on the page are stored in a hidden form field.
+What are building blocks of an XML Web service |A discovery service, a description service and a transport protocol
+For testing and development does website have to be hosted under IIS | Yes
+System.Console.WriteLine("Number 1 is 1"); | Compile error
+The base keyword is used to access members of a base class from within a derived class. | True
+Which of the following can be defined as generic | Structures, Delegate,Methods,Classes...
+What kind of memory where an object is allocated | Stack area
+public static int Method42(inti)  | delegate int Met42(inti);
+System.Console.WriteLine("Hello {0}". yourName):  | Compile error
+Where can you change 'Default Namespace" of Visual Studio |The Application tab of the project's Properties window.
+System.Console.WriteLine ("The value of x & y is : {0}". (x & y));  | 2008
+System.Console.WriteLine("Hello {0}". yourName):  | Coompile error
+Console.WriteLine("try");  | Try Finally
+The library provides shelter from the complexities of raw API calls and | Base class
+Output of this code is "Nguyen Van A". | True
+We CANNOT use methods that have some arguments for a delegate?  | No
+Enumerations are a handy programming construct that allow you to group name/value pairs. | True
+C# language offers the following features | No pointers required: Automatic memory management through garbage collection!
+When will the garbage collector run | When the application is low on memory
+Which class is at the top of.NET class hierarchy? | System.Object
+What does the keyword "virtual" declare for a method | The method can be overridden.
+List<int>arrayl = new List<int>0;  | Nothing
+Which keyword is used when you wish to explicitly reference the fields and members of | This
+An abstract class is a class that cannot be instantiated. | True
+Assume that you wish to build a delegate that can point to any method that returns a bool | public delegate boolMethodl(string si) ;
+What can be signature of an application's entry point | public static void Main() { }
+An engine that shared by all .NET-aware languages is called | A common runtime engine
+An object is the instantiation of a class. | true
+What is default accessibility for the structures in | internal
+When is the garbage collector invoked | It s invoked when the stack does not have sufficient memory to allocate a requested object
+Which type of the System. Threading namespace can be used to resolve the issue of concurrency | Monitor
+The DataTable structure is defined by its _ and _. | Columns. Constraints
+Which delegate of System.Threading namespace points to any methods that  | System.Threading namespace does not contain this delegate.
+Suppose we have multi-file assembly as follows: lib.dll. parti.netmodule. part2. | True
+To get values of the columns of the i-th row in a DataTable object named datatable | Object Q array = datatable.Rows[i].ltemArray;
+Can we connect to SQL Server Database without using SqIConnection? | Yes. we can connect to SQL Server Database using OleDbConnection.
+Assume you wish show data of Customers table in a DataGridView control. | DataTable
+The code has a compile error | True string strSQL
+What is return value of ExecuteNonQueryO method of a Command object | An integer is number of affected rows
+The dataset has not been populated. | True
+Console.WriteLine(dtColumns.Count);  | 0
+Connection object is used to establish a session with the data source | True
+You need to get access to a database that is stored on a server running  | SqIDataAdapter
+Which of the statements on Serializable is true | An instance of a type that is Serializable can be easily transmitted over the network,
+A DataSet object is one of the components of the data provider.  | False
+which sentence about background threads is correct | Background threads are viewed by the CLR as expendable paths of execution that can be ignored at any point in time
+An assembly consists of Assembly Metadata. Type Metadata. _ and  | IL Code and Resources
+Does NET Framework support to monitor the modification of a given external file | Yes
+What is state of a thread after creating a Thread object | Unstarted
+What is the TrackBar control | The  TrackBar control allows user to select a value from a range (of values), using scroll bar-like input mechanism.
+You are required to build an application that can serialize an object to a file. Then, this file can be | SoapFormatter
+Which member of System.Threading namespace is an enumeration | ThreadPriority
+By default can we delete a folder that contains subdirectories and files | No
+You want to add a control to your form that allows you to set a particular option on or off. | CheckBox
+The…method of the …object is used to redirect the user to another page. | Redirect, Response
+Which sentence about WSDL is correct | WSDL is used to describe information about the web service | WSDL is used to describe information about the web service
+(line 12), if you want to build an in-house XML | [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1, 
+What is NOT a client-site technology | VB.NET
+How many Page directives an ASP.NET page can include | Session, Application
+Assume you wish to check validation of E-mail data. Which validation control is the most suitable to do it | RegularExpressionValidator
+What is advantage of code-behind page model | It is possible to have designers working on the markup while programmers author the C# code.
+What is name of this web service | My Webservice
+Miss calling the DataBind() method of the page. | True
+Which variables can use by all users and in all pages? | Application
+Item stored in ViewState exist for the life of the current page | True
+What is the lifespan for items stored in ViewState | Exists for the Life of the current page
+The first event to be triggered in an aspx page is ... | Page_Init
+Which of following extension does a Web service file will have?  | asmx
+What does the "EnableViewState" property do?  | It allows the page to save the users input on a form across postbacks.
+How many web.config files an ASP.NET application can have | Only 1.
+What are required services in an ASP.NET Web server | IIS Admin and World Wide Web Publishing
+Which method is fired lastly during the page load | UnLoad()
+We can use ... and ... methods to ensure that application-level | Block and Unblock
+Server side code is excuted at the server side on IIS in ASP. | Yes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+when will the garbage collector run | when the application is low in memory
+___ is he normal output type for a Windows Forms project | Windows application
+viewstate allows the state of objects (serializable) to be stores in a hidden field on the page | true
+which namespace dose the class listview belong to? | system.windows.forms
+session variables can be any valid .net framework type? | yes
+can we enable and disable connection pooling? | yes, we can by setting pooling=true in ADO.NET connection string
+session variables (httpcontext session) are stored in a sessionstateitemcollection object? | yes
+in Windows, specify the method to place the focus on the control | focus
+The ___ object allows us to retrieve & mainpulate data in the database | command
+which control is used to link an html file the WinForms application? | helpProvider
+select the type Processing model that ASP.NET simulate | Event-driven
+What is significance of Server.MapPath? | return the physical file path that corresponds to virtual specified path
+what is authentication? | the process of accepting credentials from a user and validating thoe credentials against a designated authority
+... is an object in which the data retrieved from the database can be stored | dataset
+how to disable client side script in validation control? | set EnableClientScript to false
+by setting the Text property on the form, you will cause the value of the Textproperty to display on which part of the form? | Title bar
+Which keyword prevents your class from being inherited by another class? | sealed
+How can we save all data from dataset? | we can use the AcceptChanges method to save all data from Dataset
+what dose the "EnableViewState" property do? | when the page is posted back...| it save the server-side value...| it allows the page to save...
+___ is any action directed at the application | Event
+In Winfroms, ___ property is used to get or set value that is returned to the parent from when the button is clicked | DialogResult
+The method ___ of the Control class conceals the control from the user | Hide
+How to use a checkbox in a data grid(in WebFroms)? | Use DataBound Fields
+what tags do you need to add within the asp:datagrid tags to bind colimns manually? | inside tag in asp:Datagrid we set Text attribute to <%#DataBinder.Eval(Container.DataItem, "Col_Name")%>
+A thread object will change to "Blocked" state, when ... | It issues an I/O request
+ADO.NET has two core components, are | .NET Data Provider | DataSets
+what is not a characteristic of Web Service? | Uses standard Web protocols to communicate
+... are used to retrieve values in the DataTable | DataRow objects
+what is default authentication mode for lls? | Anonymous
+what 4-methods are fired during the page load? | preRender(), Load(), Init(), unload()
+in Webfrom, the ... property of the RadioButton control restricts the user to select only one option from given set of options | RadioName
+Sessions are identified by a unique identifier that can be read bu using the SessionID property? | yes
+___ property is used to get or set the edges of the control are anchored to the edges of its container | Anchor
+Under which of the following environments dose your programs execution code run? | CLR
+what are new language enhancements in Visual Studio 2008? | Extension methods | Automatic properties
+Microsoft Ajax library consists of a set of javaScript files | true
+An object is the implementation of a class | true
+an object is the instantiation of a class | true
+cannot convert implicitly from integer type to decimal type | true
+which sentence is incorrect? | cannot convert implicitly from integer type to decimal type
+A remote object is an object that runs on... | Server
+what is the Server.MachineName dose? | gets thw server's Machine Name
+in Winfroms, specify method used to specify the next control to be navigated according to the tab order | SetNextControl
+the...directive is used to consume a created custom control | Register
+how many classes can a single .NET DLL contain? | As much as you want
+choose 2 correct statements about the ViewState and SessionState | ViewState persist the values of control | SessionState persist the data of particular user 
+to use SQL.NET Data Provider what using statement of the following is correct? | using System.Data.SqlClient
+choose 2-correct statements about Server-side and Client-Side codes? | Server side code is executed at the server side... | client side code is executed on the IIS
+Unboxing is | Convert an object to a value type
+what is WCF? | Unified framework for rapidly building service-oriented application
+the___component is used to fetch the values from the data source to the DataSet and also to update the data source with the DataSet data |  DataAdapter
+which object is used to automatically generate commands | SqlCommandBuilder
+The DataAdapter will create 3 data tables in the dataset | true
+you are developing a Winfrom application. you have recived instructions to make sure that the PictureBox will | ErrorImage
+Hello world! | true
+the code will be processed on web server when the runat attribute of the <Script> tag has the followiing value | server
+what is the most important component of ASP.NET AJAX Client Framework? | Microsoft Ajax library
+which event is raised when user choose in item in combobox control? | selectedIndexChanged
+the ___ property of the Linklable control is used  to specify the text, which has to be display as a link | LinkArea
+thread is executed when we create a new instance of a thread object | false
+to perfrom a change to a table using the command object named Cmd, what statement of the following is correct? | Cmd.executedNonquery()
+in Asp.Net, "Change" event execute only in next action event by default | true
+how do you register a user control? | add SRC, tagPrefix, TagName
+how do we connect to SQL server database without using SQlconnection? | we cannot connect to SQl server database without using SQlconnection
+what is not a component of ASp.net ajax sever framework? | ajax-enable asp.net pages
+will the finally block get executed if an exception has not occurred? | yes
+the ___ control is used to display text when the mouse points to a particular control | tooltip
+what is the kind of asp.net technology? | server-side technology
+which of the following is not a member of response object? | execute
+you need to define a delegate for the following method | delegate int Met42(int i)
+a delegate object | is create with the new operator
+which method is fired lastly during the page load? | prerender()
+what is the size of the SessionID? | 32 bit long string
+how can we add a row is in a data table object? | we can use the add method of data table class
+which control is not used to receice information? | lable
+internetExplorer 6.0 is uplevel browser | true
+what are not sever control | html control
+what is the lifespan for item stored in viewstate | exists for thelife of the current page
+how can we check that some changed have been made to a data table since is was loaded? | we can use the property  IsChanged to check whether a datatable is changed or not
+what is the output format of the file the C# compiler produces? | IL
+where is a protected class-level variable available? | it is available to any sub-class derived from base class
+what of the followings is correct for creating a command object with the connection con? | sqlCommand cmd = new sqlcommand("select * from student", con);
+the first event to be triggered in an .aspx page is | page_init
+the deactivate event occurs when the user switches away from the from and concentrates on other from| statement 3 is correct
+what is the correct way of creating a data table in a dataset? | datatable dtOrder = new datatable("order");
+by default, the session ID values that are used in cookieless session sre recycled? | yes
+what dose the following sql statement return, assuming that all tables and column names are correct? | omly the matching records from the two tables
+which control supports paging? | datagrid
+int number1 = 3; | 1
+in winforms, which property of textbox control is used to create password input box? | passwordChar
+the ... directive is used to set the Caching duration of the output for a page | @cacheOutput
+what is WSDL? | is used to describe information about web service
+winform is a class library that enable developers build web application | false
+what of the following is correct if we want to set the AChild form as a child from of the parent form named TheParent? | TheParent.mdiChild = Achild
+the datatable structure is defined by its...and... | columns, constraints
+a class can have | many constructor | only one destructor
+the variable of which type is not signed number? | byte
+web service technology is based on what? | soap | xml
+you want to write the content of a dataset, dsetl, to a file Scores.xml | dsetl.writexml(@"D:\Scores.xml");dataset dset2 = new dataset(); dset2.readxml(@"D:\Scores.xml"); response.write(dset2.getxml());
+override method | is an instance method declaration includes an override modifier
+what are kinds of constraint in ADO.NET? | uniqueConstraint | foreignKeyConstraint
+you want to add a control to your form that allows you to set a particular option on or off. which control would you choose? | checkbox
+___ are the visual effects supported in winforms | Control Anchoring | control docking
+___ property is used to get or set the data source that the gridview is displaying data for | datasource
+in windows form, ___is a command type control | linklable
+what is default session time out? | 20 minutes
+what is different between server.execute and server.transfer | server.execute returns the execution back to the current page, and sever
+choose correct statements about user controls | a user control has an interface that can be completely edit | a user control is a server-side component that is shipped
+choose the concept that is not related to asp.net security | viewstate
+what dose the keyword "virtual" declare for a method? | the method can be overridden
+which event handler is fired when a new user logs on to your application? | session_start()
+display d1 = new display(displayHello); | compile error at line: display d1 = new display(displayHello);
+which object represents the actual data of a datatable? | a collection of datarow object
+what is CLR? | CLR is a set of rules provided to ensure that products of compilers will work properly in .net
+which sentence about html form is correct? | a html form is a named group of related ui clements used to gather 
+which property of control type is used to set a widget should be attached to which side (or sides) of a form? | top
+which object provides access to the provider's data reader object? | command
+which sentence about background threads is correct? | background thread are viewed by  the CLR as expendable paths of execution
+can we work with server-side code on html controls? | yes, by setting value for "runat" property if html controls is "server"
+when update an existing record in one table of database, should we use which method of command objects? | executeNonQuery
+what is name of templates that wrap a block of selected statements within a relevant scope? | surround with
+which control is usually used to input text | textbox
+which sentence about components is correct? | an example of components is openFileDialog
+dose .net framework support to monitor the modification of a given external file? | yes
+which sentence is correct about C# language? | C# language dose not full support for interface-based programming techniques
+vbscript and javascript are client-side script codes | sentence 1 is correct, sentence 2 is not correct
+base.display() | compile error
+~human() | destructor of student class | destructor of human class
+which sentence about shared assemblies is correct? | shared assemblies are *.dll files only
+what is utility shows all of the types in your current project from an object-oriented perspective? | solution explorer
+which validation control is used to validate that the value of an input control is equal to a fixed constant? | rangevalidator
+which sentence about session variables is correct? | you cannot change value of a session variable
+assume that you create a web service by visual C# language. can you consume this web service by a client that is write in java language? | no
+what is UDDI? | UDDI is a language is used to describe a xml web service
+display<system.int32>(2010) | 2010
+static void input(ref string s1) | yes, there is an error at line: input(ref s2)
+object o1 = n1; | runtime error
+a persistent cookie exists only within the http header | true
+int n2 = 0; | catch | finally
+what are advantage of code-behind page model? | it is possible to have designers working on the markup while programmers author the C# code
+sqlconnection cn = new sqlconnection(); | runtime error
+what kind of memory where an object is allocated? | managed heap
+arraylist arr1 = new arraylist(); | output of this code is 0
+which event of the page type is fired lastly when loading the page? | unload
+h.name = "nguyen van a"; | this code has error at line : h.name = "nguyen van a"
+which property of the form type sets the button on the form that is clicked then user press the esc key? | cancelbutton
+which sentence about Asp.net view state is correct? | view state data can be transferred between asp.net web pages
+which sentence about bufferedStream is correct | bufferedstream provides temporary storage for a stream of bytes that may be committed to storage at a late time
+what is name of this web service | my webservice
+interface animal | compile error at line: void display()
+console.writeline(dr.hasrows.tostring()) | runtime error
+datatable dt = new datatable() | 0
+what are formaters you can choose when serialization an object? | binaryFormater, soapFormater and xmlSerializer
+what is default value of autoPostback property? | fasle
+what are properties of[webmethod] attribute? | description, messagename and enablesession
+which sentence about .net assemblies is correct? | .net assemblies are veersioning, self-describing and configurable
+student s = new student() | 01234
+which control is a kind of value setting controls? | listbox
+what are enumerations? | Enumerations are composed of any number of members, such as properties, methods, and events
+student s1 = new student("02010","Nguyen van a"); | No is 02010
+the___control is used to display text when the mouse points to a particular control | menustrip
+how can we define an overridden base method? | use virtual keyword
+what is unboxing? | unboxing is conversion from an object to a value type
+how do we implement encapsulation by C#? | define overloaded operators
+public static int method42(int i) | delegate int class1.method42(int i)
+item stored in viewstate exist for the life of the current page? | true
+the data binding is done incorrectly | true
+select the correct statements about ADO.Net: | 1,2
+system.data.sqlclient.sqlcommand cmd = cn.createcommand() | compile error
+the ... object allows us to retrieve & manipulate data in the database | getdata
+system.data.sqlclient.sqlconnection cn = new system.data.sqlclient.sqlconnection() | runtime error
+a c# class can be inherited from multi interfaces? | no
+you need to get access to an microsoft excel 2003 file. which data adapter would you use? | oledataadapter
+do we have to set value for a variable before using? | yes
+which sentence about private assemblies is correct? | private assemvlies are *.dll files only
+it is possible to check whether an .aspx page is posted back to the server with the halp of the ... property of the page | IsPostBack
+we cannot place multiple select command in the selectcommand property of the dataadapter | true
+int x = 2009; | compile error
+how do we create a new text file? | use streamWriter class | use createText() method of Fileinfor class
+which of the following extension dose a web service file will have? | aspx
+application_start - we can place code to initialize variable once during application start | true
+session_start - we can place code to initilize variables specific to the session | true
+... variable can be accessed by all the pages in the application | session | server
+what is protected access modifier? | marks a member as accessible limited to the current assembly, but not outside the assmbly
+why the data is not inserted using the following code? | don't have integrated connection for the command object
+console.writeline(dt.rows.count.tostring()); | total rows of products table
+select the output of the statement<form method = "post" action = "test.aspx"> | calls post method on the test.aspx
+can we use methods that have some arguments for a delegate? | yes, but methods have to only one argument
+which sentence abour namespace is correct? | namespace are physical mechanism
+___ control combines the features of the textbox and the listbox controls | combobox
+name two properties common in every validation control? | commandArgument property | controlToValidate property
+2008 | true
+what are responsibilities of clr? | loading the type into memory nd compiling cil into platform-specific instruction
+list<int> array1 = new list<int>() | array1
+the ___ event of the form control is used to perform tasks such as allocating resources used by the form | allocate
+the...method of the...object is used to redirect the user to another page | redirect, response
+string cnnstring = @"data source=local\sqlexpress;initial catalog=northwind;integated security=true | true
+which sentence about foreground threads is correct? | foreground threads are viewed by the CLR as....
+the method___of the control class conceals the control from the user | hide
+which sentence about application domain is correct? | the CLR dose not create automatically any application domains at the time the process launches
+what is the name of entity that compiles CIL code into meaningful cpu instruction? | just-in-time (JIT) compiler
+what is managed code? | it is the code targeting the .NET runtime
+hoe many time the .NET programs are compiled? | 2
+which event handler is fired when a new user logs on to your application? | session_start()
+delegate void Display(); | compile error at line: display d1 = new display(displayHello)
+which object represents the actual data of a datatable? | a collection of dataRow object
+what is CLR? | CLR is physically represented by mscore.dll library
+which sentence about HTML form is correct? | an HTML form is a named group of related UI elements used to gather used input
+which property of control type is used to get a widget should be attached to which side (or side) of a form | dock
+which object provides access to the provider's data reader object? | datareader
+which sentence about background thread is correct? | background thread are viewed by the CLR as expendable paths of execution that can be ignored at any point in time
+when update an existing record in one table of database, should we use which method of command objects? | ExecuteNonQuery
+what is name of templates that wrap a block of selected statements within a relevant scope? | Surround with
+which control is usually used to input text? | textbox
+class Mammal : Animal | Mammal
+datatable dt = new datatable() | 0
+which sentence about .NET assemblies is correct? | .NET assemblies are versioning, self-descrbing and configurable
+which control is a kind of value setting controls? | textbox
+
+
+
+
+
+
+
+
+.NET is said to accelerate the next generation of the Internet | True
+The unique feature of .NET is the ___________support that it provides | Multi-language
+.NET is a whole new platform centered around the Intranet | False
+A program in .NET is first compiled by the language specific compiler into | Intermediate Language
+What is the role of the CLR (Select all that apply) | Manages memory va Compile once and run on any CPU & OS that supports the runtime.
+Microsoft .NET is primarily made up of the following three components. | Visual Studio .NET va 3rd party .NET services va .NET platform itself
+Microsoft .NET allows developers to develop applications using different languages, which run on the Unix platform | True
+The .NET platform is built on Internet Protocols such as _______ and _______ | TCP /IP va HTTP
+The .NET platform is built on the following features of the Windows 2000 server family.(Select all that apply) | Reliability va Security va Manageability
+Select the core .NET Enterprise Servers | Commerce Server 2000 va Exchange 2000 Server
+Core Microsoft .NET building block services | Calendar va Dynamic delivery va Notification
+_______ service allows users to handle their own rules for handling messages and notifications. | Personalization
+Select the service, which allows users to maintain their schedules thus facilitating timely and manageable interactions with other users. | Calendar
+________ allows developers and business analysts work together to define and modify business processes shared between applications. | Orchestration
+Microsoft .Net was formerly known as __________ | NGWS (Next Generation Windows Services)
+What is the correct syntax for comment entries in C# | /*… */
+The public keyword can be ignored for the Main function in C#. | True
+A C# program can have only one using directive | False
+The WriteLine method is a part of the ______ class | Console
+C# is considered as a modern replacement for the language/s like (Choose all that apply) | C++ va C
+C# is a ____________language. | purely Object-Oriented
+Manual memory management needs to be done in C# | False
+Access Modifiers for variables in C# can be the following (Select all that apply) | public va private va protected
+In C#, an underscore is allowed as an initial character of a variable | True
+The prefix ______ enables the use of keywords as identifiers, which is useful when interfacing with other programming languages. | @
+In C# array elements are automatically assigned default values | True
+What statement is used to completely abort the execution of a loop? | break
+Console.ReadLine() returns the input as a ________ | String
+In C# datatypes are divided into two fundamental categories | Value types and reference types
+__________in simple terms is nothing but conversion of a value type into a reference type. | Boxing
+__________is all about converting a reference type into a value type. | Unboxing
+Unboxing requires an ___________cast. | explicit
+The _______class is the ultimate base class for all data types. | Object
+System namespace is used in the C# programs to: | interact with the system environment
+Which of the following is a correct statement to declare the class “MyClass”? | class MyClass
+Which of the following is a valid variable in C#? | _Class va @class va Class
+Basic input and output operations are performed in C# using the methods of the ______ class in the _________namespace. | Console,System
+C# provides an Unified Type System, which means that all data types are derived from __________ class. | Object 
+Which of the following are value types? | Struct va Union
+Which of the following will execute without errors at compile time. | class Object{ static void Main(){} }
+Which of the following are valid identifiers? | @void va _void va _var
+for(int i=0;i<2;i++){for(int j=0;j<3;j++){if(i==j) continue;}Console.WriteLine(“i={0} j={1}”,i,j);}Which lines would be the part of output? | i=0 j=1 va i=0 j=2 va i=1 j=0
+How can you initialize an array of three Boolean values? | bool[] b=new bool[3]; va bool[] b={true,true,true};
+using System;class MyClass{int Var1=1; int Var2;public static void Main(){int LocalVar=3;MyClass m1=new MyClass(); Console.WriteLine(m1.Var1+m1.Var2+LocalVar);}}The output of above code will be: | 4
+What is wrong with the following for statement?for(i=0;j=0, i<10; ++i,j+=i){k+=i*j+j*j;} | It uses more than one loop index.
+Array X and Y have integer data types. If these arrays are initialized properly, what is wrong with the following statement?for(int var=0;var<0;++var){if(x[var]>100) break;if(x[var]<0) continue;x[var+1]=x[var]+y[var];} | There is nothing wrong with the statement.
+If you ran the following program what lines would be included in its output?int var1,var2;for(var1=0,var2=0;var1+var2<20;++var1,var2+=1){Console.WriteLine(var1+var2);} | 8
+using System;class Test {static void Main() {int @Main;int[] Static= new int[3];@Main =100*Static[1]; Console.WriteLine(@Main);}}What will be the output of above code? | The code will display 0.
+For decimal, the default value is | 0.0m
+Value types differ from reference types as___ | data can be stored using value types but not in the reference type. va Variables of the value types directly contain their data, whereas variables of the reference types store references to objects.
+What would be the output of the following code fragment?int x=0,y=4,z=5;if(x<2)if(y<4){Console.WriteLine("One");}else {Console.WriteLine("Two");}else if(z>5){Console.WriteLine("Three");}else {Console.WriteLine("Four");} | Two
+Which statement is true about the following code fragment?1. int j=2,a=1;2. switch(j){3. case 2: Console.WriteLine("Two");break;4.case 1+a: Console.WriteLine("Two Two"); break;5.default: Console.WriteLine(j);6.} | The code is illegal because of expression at line 4.
+Which statement is true about the following code fragment?1. int j=2;2. switch(j){3. case 2: Console.WriteLine("Two");break;4. case 2+1: Console.WriteLine("Three");break;5. default : Console.WriteLine(j);} | The output would be only the text “Two”.
+char c=’a’;switch(c ){case ‘a’: Console.WriteLine("A");break;default: Console.WriteLine("Default");}What will happen if you attempt to compile and run code that includes this snippet? | The code will compile and run and the letter “A” will be written to the standard output.
+Which of the following is a legal loop construction? | int j=0;for(int k=0;j+k!=10;j++,k++){Console.WriteLine("j= {0} k={1}",j,k);}
+int myVar=3;if (myVar<5)if(myVar<3)Console.WriteLine("<3");else if (myVar>2)Console.WriteLine(">2");else Console.WriteLine("Other");What will appear on the standard output? | >2
+Class Book{int num1=1;int num2;public static void Main(){int num3=3;Console.WriteLine(num1+num2+num3r);}} | The code does not compile because static method cannot access nonstatic variables Var1 and var2.
+If you run the following program what lines would be included in its output?class A{public static void Main (){int i=0;switch (i) {default:System.Console.Write (i);break;case 1:System.Console.Write ("{0}",1);goto default;case 0:System.Console.Write ("{0}",0);goto case 1;}}} | 010
+A constructor is a special type of a _______ in a class. | method
+The constructor without parameters is called _________. | default constructor
+Static constructor has _______ parameter/s. | no
+The object invokes the default constructor when no parameters were passed to it. | True
+If a class has a static constructor then it is automatically called when the class is loaded. Static constructors cannot be invoked explicitly.| True
+_______ enables the possibility for a function to be polymorphic when it is overridden in one or more inherited classes. | virtual
+Which of the following sentences are true about Constructors? | The constructor must have the same name as that of the name of its class.
+Which of the following methods can act as a constructor for the class “Object” that is used to create an object? | Object(){}
+Which of the following methods can act as a constructor for the class “Employee” that is used to create an object? | Employee (){} va Employee(int empno){}
+Methods can be overloaded in C# by: | specifying different number of parameters va specifying different types of parameters
+Which of the following is a legal constructor for the class Test. | Test() { } va Test(int a, int b){} va public Test(int a, int b){}
+Which of the following statements are true? | A static constructor is a member that implements the actions required to initialize a class. va A static constructor cannot have accessibility modifiers.
+class A { public static int X = B.Y + 1; }class B { public static int Y = A.X + 1;static void Main() { Console.WriteLine("X = {0}, Y = {1}", A.X, B.Y); } }what will be the output of above code? | X=1, Y=2
+Which of the following statements are true with respect to Static constructors. | Static constructors cannot take parameters. va Static constructors cannot be called explicitly.
+Which of the following methods can be used as a destructor for a class “myClass”. | ~myClass() { }
+The method that overrides a method in the base class must be prefixed with the ____ keyword. | new
+Which of the following statements is correct for a method, which is overriding the following method: public void add(int a) {…}Select the most appropriate answer | the overriding method must return void 
+What error does the following code generate?//No overload for method 'SuperClass' takes '0' argumentspublic class SuperClass {SuperClass(string s) { }}public class SubClass : SuperClass {SubClass(string s) { }public static void Main(){SuperClass s = new SubClass( "The" );}} | No constructor matching SuperClass() found in class SuperClass
+We have the following organization of classes.class Parent { } class DerivedOne :Parent { } class DerivedTwo :Parent { }Which of the following statements is correct for the followingexpression.Parent p = new Parent();DerivedOne d1 = new DerivedOne();DerivedTwo d2 = new DerivedTwo();p = d1; | Legal at compile and runtime
+Given these class definitions:class Superclass { }class Subclass1 extends Superclass { }and these objects:Superclass a = new Superclass();Subclass1 b = new Subclass1();which of the following explains the result of the statement:b = a;Select the correct statement. | Illegal at compile time
+At least one _______ constructor must be declared to suppress the automatic generation of a default constructor. | Parameterized
+Which of the following statements are true with respect to Static constructors? | A class has no other constructors than those that are actually declared in the class va Constructors are not inherited
+What is the output of the following code?public Test(int i){System.Console.WriteLine("Test(" +i +")");}}public class Q12{static Test t1 = new Test(1);Test t2 = new Test(2);static Test t3 = new Test(3);public static void Main(){Q12 Q = new Q12();}} | Test(1)Test(3)Test(2)
+Which of the following statements are true with respect to destructors? | When an instance is destructed, the destructors in an inheritance chain are called in order, from most derived to least derived. va  A class has no other destructors than those that are actually declared in the class.
+Statement I: The sealed modifiers are not permitted in an enum declaration.Statement II: Delegate types are implicitly sealed | Both the statements are true.
+1. public class Test {2. void show() {3. System.Console.WriteLine("non-static method in Test");4.}5.}6.public class Q3:Test {7.static override void show() {8.System.Console.WriteLine("Overridden non-static method inQ3");9.}10. public static void Main() {a.Q3 a = new Q3();11. }} | Compilation error at line 7.
+class Test{ static void Main() { A.F(); B.F(); } }class A { static A() //static constructor{ Console.WriteLine("Init A"); }public static void F() { Console.WriteLine("A.F"); } }class B { static B() { Console.WriteLine("Init B"); }public static void F() { Console.WriteLine("B.F"); } } | Init A A.F Init B B.F
+Which of the following statements are true with respect to overloading? | Overloading of methods permits a struct, or interface to declare multiple methods with the same name, provided the signatures of the methods are all unique.
+What will happen if you compile/run the following code? 
+1. public class Q21 {2. int maxElements;3. void Q21() {4.maxElements = 100;5.(maxElements);6.}7.Q21(int i) {8.maxElements = i;9.System.out.println(maxElements);10. }[2.5]11. public static void Main() {12. Q21 a = new Q21();13.Q21 b = new Q21(999);14.}15.} | Compilation error at line 3.
+What will be printed to standard output?class Super{public int index = 5;public virtual void printVal() {System.Console.WriteLine( "Super" );}}class Sub : Super{int index = 2;public override void printVal() {System.Console.WriteLine( "Sub" );}}public class Runner {public static void Main( ) {Super sup = new Sub();System.Console.WriteLine( sup.index + "," );sup.printVal();}} | The code compiles and "5, Sub" is printed on the standard output.
+Assume that Sub1 and Sub2 are both subclasses of class Super. Given the declarations: Super super = new Super(); Sub1 sub1 = new Sub1();Sub2 sub2 = new Sub2(); Which statement best describes the result of attempting to compile and execute the following statement: super = sub1; | Compiles and definitely legal at runtime
+Which statements on the <<< call >>> line are valid expressions?public class SuperClass {public int x;public int y;public SuperClass(){}}public class SubClass : SuperClass {private float f;public void m2() {return;}public SubClass() {}}public class T {public static void Main() {int i;float g;SubClass b = new SubClass( );<<< call >>>} } | b.m2(); va i=b.x; va i=b.y;
+Which of the following is a valid method declaration? | public virtual void Display(){}
+The ______ declares a reference type that has abstract member only. | Interface
+Abstract class cannot be directly instantiated but it can be used to create object references. | True
+An interface is a pure abstract class. | True
+The ______ method is used to assign some value to a data member in a class. | set
+public class A:B,C,D{ }The above code represents ______ | multiple interface
+
+
+
+
+
+
+
+
+
+
+
+
+
+interface intA: one, two,three{ }Which of the following statements are true for the above code? | one, two, three must be interfaces.
+If Parent is a base class and Child is its derived class then which of the following statements is not valid? | Child c1=new Parent();
+Any class that contain one or more abstract methods must be declared as ____ | Abstract
+Which of the following are correct statements for implementing an abstract class. | public abstract class ClassA
+Which of the following methods can be called as an “operation”? | public void methodA();
+Abstract methods holds only: | name of method va Parameters va return type
+A __ can be thought as a mould of a class. | abstract class
+Which of the following is a valid statement to implement class B in the class A. | class A:B
+Properties provide the opportunity to protect a field in a class by reading and writing to it using accessors. | True
+What error does the following code generates when compiled?1.abstract class Class2.{3.public void getNumber();4.}5.class ClassA:Class6.{} | 'Class.getNumber()' must declare a body because it is not marked abstract.
+abstract class Class{private abstract void getNumber();}class ClassA:Class{ }What error does the following code generates when compiled? | The abstract member cannot be private.
+Which of the following statements are true? | A class inherits all interface implementations provided by its base classes. va Without explicitly re-implementing, a derived class can alter the interface mappings it inherits from its base
+using System;public class Parent {public virtual void Display(){Console.WriteLine("100"); }}public class Child1:Parent {public override void Display(){Console.WriteLine("1000");}}public class Child2:Parent {public override void Display(){Console.WriteLine("1000");}public static void Main() {Child1 c1=new Child1();Child2 c2=new Child2();Parent p=c2;c1.Display();p.Display();}}will be the output of above code when compile/run? | The output of the code will be:1000 1000
+using System;public class Parent {public virtual void Display(){Console.WriteLine("100"); }}public class Child1:Parent {public override void Display(){Console.WriteLine("1000");}public void Display(int i){Console.WriteLine("{0}",i);}}public static void Main() {Parent p =new Child1();p.Display();p.Display(90);}}What will be the output of above code when compile/run? | The code will generate a compilation error, as parent class does not have a display method with one argument.
+Which of the following statements are true with respect to a virtual method | Because methods are allowed to hide inherited methods, it is possible for a class to contain only one virtual method with the same signature. va For every virtual method inherited by or declared in a class, there exists a most derived mplementation of the method with respect to that class.
+What will be the output of the code below?class Room{public bool isEmpty(){return (true);}}class StaffRoom: Room{public new bool isEmpty(){return false;}public static void Main() {Room R1 = new StaffRoom();System.Console.WriteLine(R1.isEmpty()); | True
+abstract class Class{public abstract void getNumber();public abstract void getHeight();public bool isEmpty(){return (true);}}abstract class ClassA:Class{public abstract void getWidth();}class ClassB:ClassA{ }What changes should be done in the above code so that the code does not generate any error at compile time? | Implement the methods getNumber(),getHeight(), getWidth() in the class ClassB.
+Which of the following statements are true with respect to abstract functions? | Abstract event declarations are only permitted in abstract classes. va An overriding event declaration must specify the exact same accessibility modifiers, type, and name as the inherited event
+class Room{int number=0;public bool isEmpty(){return (number>0);}}class StaffRoom: Room{int number=10;public new bool isEmpty(){return (number>0);}public static void Main() {Room R1=new StaffRoom();System.Console.WriteLine(R1.isEmpty());StaffRoom R2=new StaffRoom();System.Console.WriteLine(R2.isEmpty());}}The output of above code will be: | False, True
+Which of the following statements are correct? | An explicit interface member implementations can be abstract. va An explicit interface member implementations are permitted to call abstract methods.
+interface IMethods { void F(); void G(); }abstract class C: IMethods { void IMethods.F() { FF(); }void IMethods.G() { GG(); }protected abstract void FF();protected abstract void GG(); }Consider the above code.The non-abstract that derive from C will have to implement: | GG() va FF()
+Using directives are provided to facilitate the use of namespaces. | True
+Namespaces are defined using _____ statements. | Using
+Which of the following statements correctly declares a namespace? | namespace Namespacename{ ----- ----}
+The “using” alias directives can be used to pull out and bring into scope one component from a namespace. | True
+The _______ namespace provides the classes and methods for manipulating arrays. | System.Array
+For multiple levels of organizations ___ can be used. | a nested namespaces
+The ________namespace contains all code required to interact with the including the console output. | System
+When a class is used inside its namespace, the _______ of that class is used. | Unqualified name
+_____ keyword is used to import the classes of the namespace | using
+The Syntax of a predefined Sort method is: | System.Array.Sort(Arraytosort)
+Classes in the Base Class Library are categorized into ______ based on their functionality | Namespaces
+The syntax for declaring array is: | DataType[] arrayname;
+Within the namespace we can declare following: | All the options mentioned
+namespace Space1{namespace Space2{class MyClass{ }}}The fully qualified name of class MyClass is : | Space1.Space2.MyClass()
+namespace College.Library{namespace Shelf{class Book{ }}}The fully qualified name of class Book is: | College.Library.Shelf.Book()
+class Test{static void Main() {int[] Array1= {3,2,1};int i=Array.IndexOf(Array1,3);Console.WriteLine(i);}}What will be the output of above code | 0
+The _______________ namespace contains classes useful for synchronization. | System.Thread
+When the array is initialized at the same time they are created, the c# compiler determines the size of array using ________ | the number of items in the initialization list. va The number present in the square bracket next to the data type at the right hand side.
+By default the compiler opens _____assembly. | system.dll
+Which of the following statements are true? | An array is a data structure that contains a number of variables, which are accessed through computed indices. va The dimension lengths are not part of the type of the array, but rather are established when an instance of the array type is created at run-time. va At run-time, a value of an array type is null or a reference to an instance of that array type.
+Which of the following statements are true with respect to an Array type. | An implicit reference conversion exists from any array type to System.Array va The System.Array type is the abstract base type of all array types The members of an array are the members inherited from class System.Array.
+using System;class Test{static void Main(){int[] Array1= {3,2,1};Display1(Array1);Array.Sort(Array1);Display1(Array1);}static void Display1(Array pArray){foreach(int t in pArray){Console.Write(t);} }}What will be the output of above code? | The output of the code will be: 321123
+What output does the code below generate when compiled/run?1.class Employee{2.public int EmployeeId;3.public static Employee getEmpId(int EmpId){4.Employee emp=new Employee();5.emp.EmployeeId=EmpId;6.return(emp);7.}8.}9.class Test{10.public static void Main(){11.Employee[] emps=new Employee[2];12.emps[0]=Employee.getEmpId(1);13.emps[1]=Employee.getEmpId(2);14.foreach(Employee e in emps)15.System.Console.WriteLine(e.EmployeeId);16.}} | The code will compile successfully and outputs will be:1 2
+What will be the output of the code below when compiled/run?1.class Test {2.public static void Print(object[] arr){3.foreach(object p in arr)4.System.Console.WriteLine(p);5.}6.public static void Main(){7.string s="Programming in c#";8.char[] separator={' '};9.string[] words=s.Split(separator);10.Print(words);11.}} | The code will compile successfully and output will be ProgrammingInc#
+1.class Test{2.public static void Main(){3.int i=0;4.char c='s';5.object[] objArray=new object[3];7.objArray[0]=i;8.objArray[0]=c;//new char();9.}10.}The above code is compiled and run. The possible error is: | The code will compile successfully.
+Which of the following statements are true? | The expression of a lock statement must denote a value of a reference-type. va The lock keyword marks a statement block as a critical section.
+using System;class Test{public static void Main(){int value =Int32.Parse("99953");double dval=Double.Parse("1.3433E+35");Console.WriteLine(value);Console.WriteLine(dval);}};What will be the output of above code when compiled/run? | The code will generate a compile time error.
+________ is a unit of class deployment. | An Assembly
+The extension of an assembly is _________ | .dll
+An assembly cannot be used in more than one application at a time. | False
+A key pair is created using the _______utility. | sn.exe
+Private assemblies have no versioning policy. | False
+The _____ package forms the basic unit of versioning. | An Assembly
+The syntax to create an assembly file is: | csc /out:<assembly name>/target:library <filename1 filename2..>
+Identify the correct syntax for creating an executable file. | csc /out:< executable name >/target:exe<filename1 filename2..>
+For versioning the private assemblies, the CLR simply loads the newest assemblies found in the application directory. | True
+Identify the correct syntax for creating an executable file referencing an assembly. | csc /out:< executable name > /target:exe /r:<assembly name1;assemblyname2…;> <filename1 filename2..>
+Version number of an assembly are stored in the following format: | <Major version>.< Minor version >.<Revision>.<Build Number>
+The information about a class can be found out using ________ | Reflection
+Which of the following must be true for the object thrown by a throw statement | It must be assignable to the Exception type.
+A catch clause may catch exception of which type? | The Exception Type.
+The manifest contains data that ___ | describes how the elements in assembly are related to each other. va describes the other assemblies on which the elements of the assembly are dependent.
+Which of the following commands can be used to create assembly named “myAssembly” from the files “file1.cs and file2.cs”? | csc /out:myAssembly.dll /target:library file1.cs file2.cs
+The global assemblies are saved in the _________ | in the <drive>:\WINNT\Assembly folder.
+1.Place the assembly in the global assembly cache.2.Sign the assembly with the key pair.3.Create a key pair.Which of the following is a correct sequence to convert a Private assembly to a Shared assembly. | 3,2,1
+If there is a change in the major number or minor number of the version number it indicates that _______ | the assembly is incompatible with previous versions of that assembly.
+namespace Space1 {using System;public class A{public static void Main() {A objA=new A();Type t1 = objA.GetType();Console.WriteLine("The type of objA is : {0} ", t1);}}}What will be the output of above code when compiled/run? | The output of code will be: The type of objA is : Space1.A
+Which of the following are true about the finally clause of try-catch-finally statements? | It is always executed unless its thread terminates
+try {tryThis();return;} catch (DivideByZeroException x1) {System.Console.WriteLine("exception 1");return;} catch (Exception x2) {System.Console.WriteLine ("exception 2");return;} finally {System.Console.WriteLine ("finally");}What will appear in the standard output if tryThis() throws a 000000000FormatException?Select the one right answer. | exception 2 finally
+When we want to associate a key with values which of the following classes are preferred? | Hashtable
+The programmer has an assembly named pri.dll which other programmer also wants used the same assembly. Which of the following are the correct statements when executed will satisfy the above needs. | sn –k key1.snkcsc /out:pri.dll /target:library file2.cs /a .keyfile:key.snkgautil –I pri.dll
+Which of the following statements are true? | Assemblies can be shared by installing it in the global Assembly Cache. va Private assemblies are stored in the same folder as that of an application.
+Which of the following statements are true with respect to try-catch block? | catch statement are examined in order in which they appear .
+using System;class Question{public static void Main(){for (int i=0;i<10;++i) {try{if(i%3==0) throw new Exception("E0");try{if(i%3==1) throw new Exception("E1");Console.WriteLine(i);}catch (Exception inner){i+=3;}finally {++i;}}//try1catch(Exception outer){i+=3;}finally {++i;}}}}Which of the following lines does the above program display? | 5 va 8
+Which of the following statements are true about the Reflection API? | It can be used to effectively find all the types in an assembly and/or dynamically invoke methods in an assembly. va It can at times even be used to emit Intermediate Language code on the fly so that the generated code can be executed directly.
+Which of the following statements best illustrates the use of the Reflection API. | Obtains Class and Type Information from an Assembly va Obtains Member Information from a Class va Dynamically Invokes Methods from Classes in an Assembly
+Which of the following properties does the Type class have? | IsCLass va IsPublic va IsCOMObject
+class Question{public static void Main(){Function1();}static void Function1(){try{System.Console.WriteLine("In Try");return;}finally{System.Console.WriteLine("In Finally");}}}What will be the output of above code when compile/run? | The code will compile successfully and output the following text:In Try In Finally
+Imagine that you have two .cs files. The alpha.cs file contains a class called Alpha that contains an internal method called Method. The beta.cs file contains a class called Beta that also contains an internal method called Method. Can Alpha.Method be called from Beta.Method and vice versa? | Alpha.Method and Beta.Method can call each other only if Alpha and Beta are located in the same assembly.
+namespace Outer.Inner{class Wibble { }}namespace Test{using Outer.Inner;class SpecialWibble: Inner.Wibble { }}Which of the following statements are true about the above code? | The code generates a compile time error the code will compile successfully as the using-namespace-directive does not bring the name Inner itself into scope.
+Which of the following statements are true? | Reflection APIs does not allow creating of assembly in memory dynamically. va The Reflection API allows creating types on the fly and invoking methods on them.
+using System;class Test{public static void Main(){for (int i=0;i<10;++i) {try{try{if(i%3==0) throw new Exception("Exception1");Console.WriteLine(i);}catch (Exception inner){i*=2;if(i%3==0) throw new Exception("Exception2");}finally {++i;}}catch (Exception outer){i+=3;}finally {--i;}}}} | 4 va 5
+1.using System;2.class Test{3.public static void Main(){4.try{5.int p=10;6.Console.WriteLine(“enter a number”);7.int r=Int32.Parse(Console.ReadLine());8.p/=r;9.}10.catch(Exception e){11.Console.WriteLine(e);12.Console.WriteLine(Console.Error);13.}14.}15.}Above program is compiled and run.The user enters 0 when asked for the number.Does the code at line 11 and 12 displays the same output? | The try block throws an exception hence the control goes to catch block but line number 11 and 12 does not produce the same output.
+How can we create the object dynamically in C#? | By using the System.Activator.CreateInstance() method tocreate an instance of object in the following manner.Type=Type.GetTypeFromProgID("MyDll.MyOName")object myObject = System.Activator.CreatInstance(myObjectType)
+Delegates help to call a method at runtime? | True
+Indexers can have user-defined names | False
+Subscribing an object to an event depends on whether the event exists or not. | True
+An instance of a delegate type encapsulates one or more callable entities. | False
+The object that notifies the other objects, about events is known as the publisher. | True
+The type of event declaration must be of _________ type. | Event
+Clients can attach executable code for events by supplying ____________ | event subscribers
+Which of the following is a correct statement that defines a delegate? | private delegate int MyDelegate() ; va public delegate void MyDelegate() ;
+Return type of indexers is | same as return type of get method of a property.
+Which of the following is the correct syntax for declaring an indexer. | protected int this[int var1] va public int this[int var1]
+A delegate is a class derived from _________ | System.Delegate
+Which of the following is the correct sequence to handle an event in C# ?1.Subscribe object2.Notify subscriber3.Define an event | 3, 1, 2
+Which of the following is a correct event that is based on the delegate named “ MyDelegate” | public event MyDelegate MyEvent;
+C# code can be classified into types: | Managed code va Unmanaged code
+_______ is a member that enables an object or class to provide notifications. | An Event
+Statement I: Indexers should be used only in situations where the abstraction makes sense.Statement II: Indexers should have both a getter and setter, as arrays are read/write objects. | Statement II is true.
+indexer is always an instance member.Statement II: A get accessor of an indexer corresponds to a method with no parameters.Which of the above statements are true? | Statement II is true.
+For defining the delegate which of the following entities must be specified? | return types of each method va parameters used by each method
+1.class Test{2.delegate void SimpleDelegate();3.static void F() {4.System.Console.WriteLine(“Test.F”);5.}6.static void Main() {7.SimpleDelegate d = new SimpleDelegate(F);8.d();9.}10.}What will be the output of above code when compiled/run? | The code will compile successfully and the output of above code will be: Test.F
+A delegate instance encapsulates one or more methods, each of which is referred to as a _________ | Callable entity
+Statement I: The new modifier is only permitted on delegates declared within another typeStatement II: The new modifier applied on delegate overrides the method for which the delegate is being used.Statement III: The new modifier applied on delegates hides inherited member by the same name.Which of the above statements are true. | Only statement II is true.
+To declare a web service the class must inherit from __________ | System.Web.Service
+Two types of delegates are: | Single Cast delegate va Multi Cast delegate.
+Which of the following statements are true about delegates | A delegate can be thought of as a type-safe object-oriented function pointer. va It can handle only one method at a time. va It cannot be used for event handling.
+Which of the following statements are true? | An indexer element can be classified as variable. va The overridden indexer must differ from the signatures of all other indexers declared in the same class
+class Question{public Hashtable Directory = new Hashtable();public string this[string Person] {get {return (string) Directory[Person];}set {Directory[Person] = value;}}}class Test {static void Main() {Question Dir = new Question();// Add code here. . . . . . . .}}Two persons named SMITH and MARTIN are to be added in the directory created above. To achieve this which of the following are the valid statements that can be added in the space specified in the code above? | Dir [“S”]=”SMITH”; Dir [“M”]=”MARTIN”;
+Which of the following are true with respect to delegates? | For static methods, a callable entity consists of just a method. va Delegate types are implicitly sealed va It is not permissible to derive any type from a delegate type.
+Which of the following statements are true? | For a non-multicast delegate instance, the invocation list consists of the delegate instance itself va For a multi-cast delegate, the invocation list is formed by concatenating the invocation lists of the two operands of the addition operation that formed the multi-cast delegate.
+class Question{delegate void Delegate();static void Foo() {System.Console.WriteLine("Hello");}static void Main() {Delegate d = new Delegate(Foo);Question t=new Question();t.MultiCall(d,3);}void MultiCall(Delegate d, int count) {for (int i = 0; i < count; i++)d();}}What will be the output of above code when compiled/run? | The code will compile successfully and display following lines on the standard output: Hello Hello Hello
+Which of the following statements correctly differentiates between delegate and an interface? | In an interface the method name is fixed, whereas with a delegate only the signature is fixed. and Interface cannot be instantiated but delegates can be instantiated.
+
+
+
+
+
+
+
+
+
+
+
+
+
+the property of the Radio Button control restricts the users to select only one option from a give set of options | Group Name  
+what is purpose of code behind | to separate HTML layout and code different file
+who can access to sections state variables | a single session     
+what is default session time out | 20 minute
+select the control which dose not have any visible interface | repeater
+what data types do a range validator supports | all of above
+what is default authentication mode for us | anonymous
+how do you explicitly kill a user’s session | session.abandon()
+we can use…and…methods to ensure that application level variables are not update more than one user simultaneously | lock and unlock
+the directive is used to consume a created custom control | register
+select the type processing model that ASP.NET simulate | event-driven
+the control is used when a field a field must not be left banal | required field validator
+the …method of the…object is used to retrieve the data in the form fields submitted by the user | from.get Request object
+the…method of the … object is used to redirect the user to anther page | redirect.response 
+which of the following is not a member of server object | open
+what is the size of the session ID | 32 bit long string
+which of following field is not valid state management tool | cookies
+Variable can be accessed by all the pages in the application (choose 2 answer)  | application va session
+what is the server.machine name does | gets the server’s machine name
+to add a custom control to web form, we have to register with | all of above
+custom control created using C# need to be saved using the extension | ASCX
+select the caching type supported by ASP.NET | both of them
+what is at the heart of Ajax programming | XML Http request object
+the first event to be triggered in an .ASPX page is | page.Init
+when an .ASPX page is request from the web server, the output will be rendered to Brower in following format | HTML
+what dose response,end will do | stop the server process
+which of following extension does a web service file will have | ASMX
+how do you register a user control | add Src, tag prefix tag name
+what is extension of a web user control file | ASCX
+what is significance of server.map path | return the physical file path that corresponds to virtual specified path
+the number of forms that can be add to an ASPX page is | 1
+which of following is not member of response object | execute
+which control support paging | data grid
+how do you manage state in ASP.Net Application | all of above
+when the user control’s code is executed | after the web form loads 
+select the output the statement (form method = “post” action = “test.aspx”) | transfers all the form data to test aspx with Http header
+validity a page can be checked using the … propertied | is valid
+the code will be process don web server when the run at attribute of the Script tag has the following value | server
+which property of the session object is used to set the local identifier | LCID
+what is the life span for items stored in view state | exit for the life of the current pace
+which is the following sentence is true | Is postback is read only property of system.web.UI.page class
+it is possible to check whether an ASPX page is posted back to server with the help of the … property of the page | Is Post Back
+
+
+
+
+
+
+
+
+
+
+
+
+
+Which of the following languages can be used to write server side scripting in ASP.NET | Both A and C (C# va Visual Basic)
+The Following are the minimum requirement to run Asp.net | Common Language Runtime
+When a .aspx page is requested from the web server, the out put will be rendered to browser in following format | HTML
+What executable unit gets created when we build an ASP.Net application?Skill/Topic | . DLL
+The best way to delimit ASP.Net code from HTML code in your pages is by using --------------- tags.Skill/Topic: Beginner | < Script >
+The code will be processed on web server when the runat attribute of the < Script > tag has the following value.Skill/Topic: Beginner | Server
+The Asp.net server control, which provides an alternative way of displaying text on web page, isSkill/Topic: Beginner | < asp:label >
+asp:dropdownlist> tag replaces which of the HTML tagsSkill/Topic: Beginner | < Select >
+The first event to be triggered in an aspx page isSkill/Topic: Beginner | Page_Init()
+Postback occurs in which of the following formsSkill/Topic: Beginner | Webforms
+what namespace does the Web page belong in the .NET Framework class hierarchy?Skill/Topic: Beginner | System.web.UI.Page
+Which method do you invoke on the Data Adapter control to load your generated datasetSkill/Topic: Beginner | Fill ( )
+How many configuration files can an ASP.NET projects have?Skill/Topic: Beginner | One
+How do you register a user control?Skill/Topic: Beginner | Add Src, Tagprefix, Tagname
+How do you post the current page to a different aspx page ?Skill/Topic: Beginner | FORM ACTION="actiopage.aspx" RUNAT="server" method="post"
+Which of these namespaces used for FileAccessSkill/Topic: Beginner | System.IO
+Which of the following is true ?Skill/Topic: Beginner |  Custom controls are displayed correctly in VS.Net Designer
+Can a dll run as stand alone application ?Skill/Topic: Beginner |  No
+To add a custom control to a Web form we have to register with Skill/Topic: Beginner | All of the above
+Custom Controls are derived from which of the classesSkill/Topic: Beginner | System.Web.UI.Customcontrols.Webcontrol
+A web application running on multiple servers is called as Skill/Topic: Beginner | Webfarm
+What is the transport protocol used to call a webserviceSkill/Topic: Beginner | SOAP
+How ASP.Net Different from ASPSkill/Topic: Beginner | Scripting is separated from the HTML, Code is compiled as a DLL, the DLLs can be executed on server
+What’s the difference between Response.Write() andResponse.Output.Write()?Skill/Topic: Beginner | Response.Output.Write() allows you to write formatted output
+Why is Global.asax is used Skill/Topic: Beginner | Implement application and session level events
+There can be more than 1 machine.config file in a systemSkill/Topic: Beginner | True
+What is the extension of a web user control file ?Skill/Topic: Beginner | . Ascx
+What is the default session out timeSkill/Topic: Beginner | 20 Min
+Which of the following is true ?Skill/Topic: Beginner | IsPostBack is a readonly property of System.Web.UI.Page class
+It is possible to set Maximum length for a text box through codeSkill/Topic: Intermediate | True
+The number of forms that can be added to a aspx page isSkill/Topic: Intermediate | 1
+How do you manage states in asp.net applicationSkill/Topic: Intermediate | All of the above
+what is the difference between user control and custom controlSkill/Topic: Intermediate | One Custom Control can be use in different project but not the same with User control
+The interface used by ASP.Net to create Unique Id’s?Skill/Topic: Intermediate | System.UI.Naming.Container
+Which property of the session object is used to set the local identifier ?Skill/Topic: Intermediate | LCID
+Select the caching type supported by ASP.NetSkill/Topic: Intermediate | Both a & b ( Output Caching va DataCaching)
+Where is the default Session data is stored in ASP.NetSkill/Topic: Intermediate | InProcess
+How do you disable client side validation ?Skill/Topic: Intermediate | Set the inherits property to codeb
+Select the validation control used for “PatternMatching”Skill/Topic: Intermediate | RegularExpressionValidator
+How do you trace the application_End event on runtime?Skill/Topic: Intermediate | Can not be done
+How do you turn off the Session state for a webform ?Skill/Topic: Intermediate | In Web.config file set the tag to false
+Who can access Session state variablesSkill/Topic: Intermediate | A Single session
+Select the type Processing model that asp.net simulateSkill/Topic: Intermediate | Event-driven
+Does the “EnableViewState” allows the page to save the users input on a formSkill/Topic: Intermediate | Yes
+Web Controls Supports CSSSkill/Topic: Intermediate | True
+Session Object classes are defined in which of the following namespace?Skill/Topic: Intermediate | System.Web.SessionState
+Which DLL translate XML to SQL in IISSkill/Topic: Intermediate | SQLISAPI.dll
+What is the default authentication mode for IISSkill/Topic: Intermediate | Anonymous
+Which of the following is not a valid state management tool?Skill/Topic: Intermediate | Querystate
+What is the maximum number of cookies that can be allowed to a web siteSkill/Topic: Intermediate | 20
+Select the control which does not have any visible interfaceSkill/Topic: Intermediate | Repeater
+How do you explicitly kill a user’s session ?Skill/Topic: Intermediate | Session.Abandon
+Why do we use XMLSerializer classSkill/Topic: Intermediate | WebServices
+What does Response.End will do?Skill/Topic: Intermediate | It will stop the server process
+Which control supports pagingSkill/Topic: Intermediate | Datagrid
+Where do you store the information about the user localeSkill/Topic: Intermediate | System.Web.UI.Page.Culture
+What is the purpose of code behind ?Skill/Topic: Intermediate | To separate HTML Layout and code to different file
+What is a satallite assembly ?Skill/Topic: Intermediate | An Assembly containing localized resources for another assembly
+Which of the following is not a member of Response Object?Skill/Topic: Advanced | Execute
+The object used by SQL connection to make Security DemandsSkill/Topic: Advanced | SQLPermission
+Which of the following is not a member of ADODBCommand objectSkill/Topic: Advanced |  Open
+Which method do you invoke on the DataAdapter control to load your generated dataset with data?Skill/Topic: Advanced |  Fill
+How to open more than one datareader at a timeSkill/Topic: Advanced | Use different datareader and connection variable
+What is the advantage of Disconnected mode of ADO.Net in ASP.NetSkill/Topic: Advanced | user data can update and retrieve in dataset and when connection connected, update values with server
+Which objects is used to create foreign key between tables?Skill/Topic: Advanced | DataRelation
+Which one of the following namespaces contains the definition for IdbConnectionSkill/Topic: Advanced | System.Data
+Select the Interface which provides Fast, connected forward-only access to dataSkill/Topic: | IdataReader
+How do we Delete, Update, Select data in a DatasetSkill/Topic: Advanced | Using SQLDataAdapter
+Which of the following is not a member of ConnectionObjectSkill/Topic: Advanced |  Execute
+Is it Possible to Serialize HashTable with XMLSerializerSkill/Topic: Advanced | Yes
+What is the Full Form of WSDLSkill/Topic: Advanced | Web Service Description Language
+What is the difference between Server.Transfer & Response.RedirectSkill/Topic: Advanced | Response.Redirect needs roundtrip, Server.Transfer does not
+Which Language can Support SOAPSkill/Topic: Advanced | All of the above
+What is the size of the session IDSkill/Topic: Advanced | 32 bit long string
+Which of the following extension does a webservice file will haveSkill/Topic: Advanced | .Asmx
+What is a strong name?Skill/Topic: Advanced | Combination Of both Public,Private key and digital signature
+What is the purpose of Reflection?Skill/Topic: Advanced | For Reading metadata at runtime
+Is it possible edit data in a repeater controlSkill/Topic: Advanced | No
+Why is Global.asax is used for ?Skill/Topic: Advanced | To implement application & Session level events
+What is a diffgram ?Skill/Topic: Advanced | The one which renders the dataset object contents to XML
+What is the lifespan for items stored in viewstateSkill/Topic: Advanced | Exists for the Life of the current page
+What data types do a Rangevalidator supportsSkill/Topic: Advanced | All of the above
+Select the output of the statement < form method=post action=”test.aspx” > Skill/Topic: Advanced | Transfers all the form data to test.aspx with HTTP headers
+What is the out put of the following codebyte a=200;byte b=100;byte c=a+b;Response.Write ( C );Skill/Topic: Advanced | Compile Time error
+What is the out put of Following codeString a=”Hello”;String b=”World”String c= a+bResponse.Write ( “C “);Skill/Topic: Advanced | C
+Whats the significance of Request.MapPath( )Skill/Topic: Advanced | Maps the specified virtual path to a physical path
+Which of the following are not a member of Server ObjectSkill/Topic: Advanced | Open
+What is the significance of Server .MapPathSkill/Topic: Advanced | Returns the physical file path that corresponds to virtual specified path
+What is the Server.MachineName doesSkill/Topic: Advanced | Gets the Server’s Machine Name
+Whats is the significance of Response.ClearHeaders( )Skill/Topic: Advanced | Clears all Headers from the buffer stream
+What is the significance of Response.AddHeaders( )Skill/Topic: Advanced | Adds HTTP Headers to output stream
+What is the difference between HTTP handlers & HTTP modulesSkill/Topic: Advanced | Httphandler is an class and Httpmodule is an assembly
+Which namespace allows us to formauthentication ?Skill/Topic: Advanced | System.Web.Security
+Which method displays the custom controlSkill/Topic: Advanced | Render
+When is the user controls code is executedSkill/Topic: Advanced | After the webform loads
+Client Sertificate is a collection ofSkill/Topic: Advanced |  Request
+What section of the config.Web file is used for storing a list of authorized users?Skill/Topic: Advanced |  4
+What version of the javascript should be used for client side scriptSkill/Topic: Advanced | 2.0
+How do you add ASP.Net 3rd party componentSkill/Topic: Advanced | Add reference of dll file and place the code where ever required
+
+
+
+
+
+What is output of this code? static void MainO { intnumberl = 1; switch (number"!) { case 1: System.Console.WriteLine("Number 1 is 1"); case 2: System.Console.WriteLine("Number 1 is 2"); break; default break; } } | Compile error 
+What is the base keyword | The base keyword is used to access members of a base class from within a derived class
+Which of the following can be defined as generic? (Choose one answer) | All of the others
+What kind of memory where an object is allocated | Stack area 
+You need to define a delegate for the following method: public class Classl { public static int Method42(int i) { return i*42; } } | delegate int Met42(int i);
+What is output of this code? interface Classl { public void SayHello(string yourName); } class Class2: Classl { public override void SayHello(string yourName) { System.Console.WriteLine("Hello {0}". yourName): } } class Program { static void Main(stringQ args) { Class2 obj = new Class2(); obj.SayHello('Visual C#"); } } | Compile error
+Where can you change 'Default Namespace" of Visual Studio | The Application tab of the project's Properties window
+What is output of the following code? using System: interface Animal { void DisplayO; } class Mammal: Animal { public void DisplayO { Console.WriteLine("Mammal"); } } class Program { static void MainO { Animal a = new Mammal(); a.DisplayO: } } | Mammal
+Determine the output of the following code segment intx = 2009: inty = 2010; System.Console.WriteLine ("The value of x & y is : {0}". (x & y)); | 2008
+What is output of this code? abstract class Classi { public abstract void SayHello(string yourName) { System.Console.WriteLine("Hello {0}". yourName): } } class Class2: Classi { public override void SayHello(string yourName) { System.Console.WriteLine("Goodbye {0}". yourName): } } class Program { static void Main(stringQ args) { Class2 obj = new Class2(); obj.SayHello('Visual C#"): } } | Complie error 
+What is output of the following code? using System: class Program { static void MainO { try Console.WriteLine("try"); catch Console.WriteLine("catch"); finally Console.WriteLine("finally"); } | try finally 
+The library provides shelter from the complexities of raw API calls and offers a consistent object model used by all .NET-aware languages | Base class 
+Study the following code and choose one correct sentence. using System: class Human { string name: public string Name { get {return name;} set { name = value;} } } class Program { static void MainO { Human h = new Human(); h.Name = "Nguyen Van A"; Console.WriteLine(h.Name); } } | Output of this code is "Nguyen Van A".
+We CANNOT use methods that have some arguments for a delegate | No 
+Which sentence about enumerations is correct? | Enumerations are a handy programming construct that allow you to group name/value pairs. 
+C# language offers the following features (choose a correct answer): | No pointers required: Automatic memory management through garbage collection! 
+When will the garbage collector run?  | When the application is low on memory
+Which class is at the top of.NET class hierarchy? | System.Object 
+What does the keyword "virtual" declare for a method?  | The method can be overridden. 
+Assume that BaseClass is a class. IFacel and IFace2 is interface Which of the following declarations is INVALID/"Line 1*/ class ImplDerivedClass: IFace2. BaseClass. IFacel { } /"Line 27class ImplClass: IFacel. IFace2 { } /"Line 37 class DerivedClass: BaseClass. IFacel { } /•Line 47 class DerivedClass: IFace2. IFacel. BaseClass { } | The lines 1 and 4
+What is output of the following code? List<int> arrayl = new List<int>0; breach (int n in arrayl ) System.Console.WriteLine(arrayl.ToStririgO): | Nothing 
+Which keyword is used when you wish to explicitly reference the fields and members of the current object? | this
+Which sentence is correct? | An abstract class is a class that cannot be instantiated.
+Assume that you wish to build a delegate that can point to any method that returns a bool value and takes a string as input parameter. What is corre ct syntax to declare this delegate? | public delegate bool Methodl(string si) ; 
+What can be signature of an application's entry point?  | public static void Main() { }
+An engine that shared by all .NET-aware languages is called: | A common runtime engine 
+Which of the following statements is true? | An object is the instantiation of a class.
+What is default accessibility for the structures in C£? | Internal 
+Whe n is the garbage collector invoked? | It s invoked when the stack does not have sufficient memory to allocate a requested object 
+Which type of the System. Threading namespace can be used to resolve the issue of concurrency? | Monitor 
+The DataTable structure is defined by its _ and _. | Columns. Constraints 
+Which delegate of System.Threading namespace points to any methods that take no argument and returns int? | In lib.dll 
+To get values of the columns of the i-th row in a DataTable object named datatable. what of the followings is correct | Object Q array = datatable.Rows[i].ltemArray; 
+Can we connect to SQL Server Database without using SqIConnection | Yes. we can connect to SQL Server Database using OleDbConnection
+Assume you wish show data of Customers table in a DataGridView control. What is the most suitable object to set to the DataSource property | DataTable 
+What is return value of ExecuteNonQueryO method of a Command object?  | An integer is number of affected rows.
+Why does the data not display using the following code? studentConnection.OpenO: studentCommand = studentConnection.CreateCommand(); studentCommand.CommandType = CommandType.Text studentCommand.CommandText = "SELECT * FROM Student"; studentAdapter = new SqIDataAdapter (studentCommand): studentSet = new DataSetO; this.txtFirstName.DataBindings.Add ("Text". studentSet "FirstName"); | The dataset has not been populated.  
+What is output of the following code? using System: using System.Data: class Program { static void MainO { DataTable dt = new DataTableO; Console.WriteLine(dtColumns.Count); } | 0
+Which sentence about Connection object is correct? | Connection object is used to establish a session with the data source.
+You need to get access to a database that is stored on a server running Microsoft SQL Server 2000. Which data adapter would you use? | SqIDataAdapter 
+Which of the statements on Serializable is true? | An instance of a type that is Serializable can be easily transmitted over the network, or stored in a file on the file system 
+A DataSet object is one of the components of the data provider | FALSE
+which sentence about background threads is correct | Background threads are viewed by the CLR as expendable paths of execution that can be ignored at any point in time. 
+An assembly consists of Assembly Metadata. Type Metadata. _ and | IL Code and Resources 
+Does NET Framework support to monitor the modification of a given external file?  | Yes 
+What is state of a thread after creating a Thread object | Unstarted
+What is the TrackBar control? | The  TrackBar control allows user to select a value from a range (of values), using scroll bar-like input mechanism
+You are required to build an application that can serialize an object to a file. Then, this file can be transferred to another program written in Java and running in Linux operating system to be de serialized Which of the following classes is the best choice for the above task? | SoapFormatter 
+Which member of System.Threading namespace is an enumeration | ThreadPriority 
+Assume you wish show data of Customers table in a DataGridView control. What is the best manner to do it | Use the Disconnected Layer
+By default can we delete a folder that contains subdirectories and files | No
+You want to add a control to your form that allows you to set a particular option on or off. Which control would you choose | CheckBox 
+The…method of the …object is used to redirect the user to another page | Redirect, Response 
+Which sentence about WSDL is correct | WSDL is used to describe information about the web service 
+What is NOT a client-site technology | VB.NET 
+How many Page directives an ASP.NET page can include | 1
+In ASP.NET application, and ________ variables can be accessed by all the pages in the application | Session, Application 
+Assume you wish to check validation of E-mail data. Which validation control is the most suitable to do it | RegularExpressionValidator 
+What is advantage of code-behind page model | It is possible to have designers working on the markup while programmers author the C# code. 
+What is name of this web service? [WebService(Namespace = "http://tempuri.org/", Name-'My Webservice")] [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)] [System.ComponentModel.Toolboxltem(false)] public class WebServicel : System.Web.Services.WebService { [WebMethod] public string HelloWorld() { return "Hello World"; } } | My Webservice
+Assume that a method named DataLoad is defined to makes a list of suppliers available by returning an ICollection interface. A Web page has a ListBox control named IbCustomers. The Page_Load event handler for the Web page contains this code: private void Page_Load(object sender, System.EventArgs e) { IbCustomers. DataSource = DataLoad(); IbCustomers. DataTextField = "CustomerName"; } The Web page opens without error, but no customer names are displayed. What is the problem? | Miss calling the DataBind() method of the page
+Which variables can use by all users and in all pages | Application 
+Item stored in ViewState exist for the life of the current page | True
+What is the lifespan for items stored in ViewState | Exists for the Life of the current page
+The first event to be triggered in an aspx page is ... | Page_Init
+Which of following extension does a Web service file will have | asmx 
+What does the "EnableViewState" property do | It allows the page to save the users input on a form across postbacks
+How many web.config files an ASP.NET application can have | Only 1
+What are required services in an ASP.NET Web server | IIS Admin and World Wide Web Publishing
+Which method is fired lastly during the page load | UnLoad() 
+We can use ... and ... methods to ensure that application-level variables are not updated by more than one user simultaneously | Block and Unblock 
+Server side code is excuted at the server side on IIS in ASP.NET framework, and client side code is executed on the browser | Yes
+.NET Framework has two main components, are | NET Framework class library  va Common Language Runtime
+Presents a logical view of our work using an Explorer-like view of the classes, methods and properties | Class View
+What is managed code | It is the code targeting the .NET runtime.
+Which thing is not included in a .NET PE file | Source code
+______are the collection of reusable classes or types | Class libraries
+What is the name of entity that compiles CIL code into meaningful CPU  instructions | Just-in-time (JIT) compiler
+What is the output format of the file the C# compiler produces | IL
+How many times the .NET programs are compiled | 2
+Which sentence is correct | A namespace is a logical compile-time mechanism
+Under which of the following environments does your programs execution code run | CLR
+A C# class can be inherited from multi other classes | No
+Which sentence is correct | A delegate must define name of the method on which it makes calls
+Which is internal access modifier | Marks a member as accessible limited to the current assembly, but not outside the assembly
+Which sentence is correct | Stack is a first-in, first-out queue
+Which parameter modifier marks a parameter as passed by value | None
+Does destructor of a class impact to garbage collection | Yes
+Which sentence is correct | An interface is name collection of semantically related abstract member
+How do we implement encapsulation? (choose 2) | Define a pair of accessor and mulator methods va Define a named property 
+Which sentence is correct | Override method and overridden base method must have the same return type
+Which sentence is correct | Elements of a List<T> variable cannot have different type
+what is boxing | Boxing is conversion form an object to a value type.
+Value types can be null | True
+Which sentence is correct | Shared assemblies are libraries intended to be consumed by numerous application on a single machine
+Which sentence about background threads is correct | Background threads are viewed by the CLR as expendable paths of execution that can be ignored at any point in time
+Which sentence about strong name is correct | Strong name is used to uniquely identify the publisher of a .NET library
+can multiple versions of the name .NET assembly be installed on a single machine | yes
+a class library that is written by C# can be used in any other .NET programming language | true
+What is described in “Win32 process ” term? (choose 2) | Set of resource, such as external code libraries and the primary thread | Necessary memory allocations used by a running application
+a given application domain can have only thread executing with it at any given time | false
+a single process may contain multiple application domains | true
+Why do we use Thread pool? (choose 2) | When using Thread pool, we can focus on our business problem rather than the application’s threading infrastructure. va The Thread pool manages thread efficiently by minimizing the number of threads that must be created, started and stopped
+which sentence about default context is correct | default context is used to group together .NET objects that have no specific or unique contextual needs
+can we draw a hexagonal with GDI+ | Yes, by using DrawPolygon method of Graphics object
+which sentence about the following code is correct? StreamWriter sw = new StreamWriter(“Text.txt”) | if file “Text.txt” does not exist, this code will create a new file
+Which sentence is correct | Object graph is a set of related object of serialized object
+can we cancel closing a form | Yes, by using FormClosing event
+What is the first event is raised when the form has been allocated on the managed heap | Load
+Which event of form handles pressing a key | KeyDown
+how do we create a control to enter password | how do we create a control to enter password
+What are states that a CheckBox can have | Checked only
+Which sentence is correct | Panel controls are used to group related controls in a logical unit
+What is spin control?(choose 2) | DomainUpDown va NumericUpDown
+What is SoapFormatter | SoapFormatter is a serialization formatter that represents graph as a SOAP message
+can we add a control at runtime | yes
+We have two sentences: ADO.NET provides a single set of types that communicate with multiple database management systems (DBMSs). ADO.NET supports multiple data providers, each of which is optimized to interact with a specific DBMS | (a) incorrect, (b) correct
+A command builder is only able to autogenerate SQL commands for use by a data adapter, if  | The SELECT command interacts with only asingle table, the single table has been attributed with a primary key, and the column(s) representing the primary key is accounted for in your SQL statement
+Does Microsoft supply data provider for Oracle database | yes
+Does DataTable class support a method that allows obtaining the data reader-like navigation scheme | yes
+Which sentence about DataSet is correct | A DataSet is an in-memory representation of external data
+What is a third-party data provider | MySQL
+Which class is used to insert, remove, evaluate and manipulate the values in a table of one DataSet | DataTable
+Data reader represents a read-only, forward-only cursor | true
+Which information is included in a connection string | Name of machine, name of the database on that machine, required security settings and other data provider-specific information
+What is result of the following SQL command?Select Students.StudentNo, Students.LastName, Students.FirstName, Classes.ClassNameFrom Students Inner Join Classes On Students.ClassID = Classes.ClassID | Return records that have StudentNo, LastName, FirstName from Students table and ClassName from Classes table
+Which sentence about Connection object is correct | Connection object is used to establish a session with the data source
+Which is return value of ExecuteNonQuery() method of a Command object | An integer is number of affected rows.
+Which sentence is correct | A persistent cookie is not destroyed after the user logs off your site
+In below events of page, which one is raised first | Prelnit
+What are properties of [WebService] attribute | Description. Name and Namespace.
+What are client-side script languages | VBScript and JavaScript
+Which sentence is correct | A web server is a software product in charge of hosting your web applications
+Which sentence is correct | ASP.NET supports single-file model only.
+Can the errors be displayed in a pop-up message box | Yes
+The runtime will automatically assign a new session ID for user when he/she logs on to an ASP.NET web application. | True
+Which sentence about ViewState is correct | Values of each GUI widget on the page are stored in a hidden form field.
+What are building blocks of an XML Web service | A discovery service, a description service and a transport protocol.
+For testing and development does website have to be hosted under IIS | yes
+_____is any action directed at the application | Event
+____property is used to get or set the object that contains data about the control | Value
+Which of the following statement with respect to Data Grid control are True? (Choose all correct answers) | Each field in the DataGrid is bound to a single column based on the DataSource va The DataGrid control display data in tabular format and optionally supports data editing
+When an MDI parent form is closed, the Closing event of all MDI child forms are raised before the MDI parent form’s Closing event is raised |  True
+What of the followings is correct for creating a command object with the connection con | SqlCommand Cmd = new SqlCommand(“Select * From Student”, con);
+The method can be used to draw a rectangle or a square depending on the coordinates passed as its argument |  DrawRetangle
+_____it the normal ouput type for a WinForm project | Windows Application
+To preserve screen space on the monitor, VS.NET provides us with (Choose all answers) Note | Command Window va Solution Explorer Window va  Auto-Hide Window va Properties Window
+The ____control groups a set of controls within a non-labeled an scrollable frame | Panel
+The ____feature of Windows Installer provider a standard method for distributing components and ensures that the installed component is of the correct version. | Merge Modules
+To create an instance of the Font class using existing Font and FontStyle, the constructor is | public Font(string fontname, float size);
+Which control is used to display a short, customized help message for individual controls on a form? | ToolTip 
+For using SQL.NET Data Provider what using statement of the following is correct? | using System.Data.SqlClient;
+Which namespace is VS.NET contains classes that help in constructing and sending emails? | System.Web.Mail
+To perform a change to a table using the Command object named Cmd, what statement of the following correct? | Cmd.ExecuteNonQuery()
+When a Data Form is created using the Data Form Wizard, which of the following classes are used by default?(Choose all correct answers) | OleDbDataReader va OleDbConnection va OleDbCommand
+____property of a connection object is used to get or set the string used to open a database | ConnectionString 
+_____property is used to get or set the edges of the control are anchored to the edges of its container. | Anchor
+____property is used to get or set the shortcut menu associated with the control. | PopUpMenu
+System.Windows.Forms is an important____of the class libraries in .NET framework | Namespace
+To get values of the columns of the i-th row in a DataTable object named datatable, what of the follwings is correct | DataRow array = datatable.Rows[i].ItemArray;
+What mode is VS.NET allow you to step through each line of code and trace the execution of your application | Debug Mode
+Brushes can be created using one of the following classe(Choose all correct answers) | TextureBrush va SolidBrush va LinearGradientBrush
+What mode is VS.NET allow you create a portable exe(EXE) file | Both Debug Mode and Release Mode
+What statement in the followings is correct I. The instance properties and methods are those, which are common to all the instances of the class. II. The shared properties and methods are those, which are specific to a particular instance. | Both of I and II statements are correct
+ADO.NET provides features for accessing traditional databases like SQL Server as well as databases, which are accessed using ____.(choose all correct answers) | ODBC
+Name the .NET data providers which are available is VS.NET?(Choose all correct answers) | ODBC.NET Framework Data Provider va OLEDB.NET Framework Data Provider va Oracle.NET Framework Data Provider
+The____ event of the PrintDocument class is triggered immediately before each PrintPage event ocurs. | QueryPageSettings
+Which namespace does the class ListView belong to | System.Windows.Forms
+The____property of a DataGrid control, allow filling various kinds of data in a DataGrid including data from a DataSet, DataViewManager, Arrays, Lists etc |  DataSource
+The Pen class belongs to the ____namespace and cannot be inherited | System.Drawing
+____are the visual effects supported in WinForms (Choose all correct answers). | Visual Inheritance va Visual Inheritance va Cotrol Docking  va Transparent Forms
+Which class represents shortcut menus that can be displayed when the user clicks the right mouse button over a control or area of the form | ContextMenu
+The value of the HelpButton property is ignored if the maximize of minimize boxes are shown | False
+List the key elements of COM (choose all correct answers) | A set of services for creating and exposing the classes va A set of specifications defining the programming protocol
+____ are the Print support controls provided by WinForms.(Choose all correct answers) | PrintPreviewControl va PrintDocument
+What of the followings are data validation mode in WinForms?(Choose all correct answers) | Form-Level Validation va Control-Level Validation va Control-Level Validation
+What of the folllowings is correct if we want to set the Achild form as a child form of the parent form named TheParent | AChild.MdiParent = TheParent;
+The ____control groups a set of controls within a non-labeled and scrollable frame | Panel
+Arrange the sequence in which the key events are triggered | KeyDown, KeyUp, KeyPress
+The types of list box supported in Winforms are(Choose all correct answers)  | ListBox
+What are thee steps involved involved in calling one from another form?(choose all answers) | Invoke Show
+Which of the following objects can we use to read data from a Micorosoft SQL Server 2000 database? (choose all correct answers) |  SQLDataAdapter va OleDbDataAdapter va ADORecordSet
+What is component is used to fetch the values from the data source to DataSet and also update the data source with data in the DataSet | DataAdapter
+The ____property of the Form control is used to determine whether there are any MDI child forms open in your MDI application | IsMdiChild
+____are the collection of reusable classes or types | Class libraries
+____control combines the features of the TextBox and the ListBox controls |  ComboBox 
+A custom control should you use to verify an authorized aplication user called as _____ | Complex Control 
+Which of the following statements with respect to ADO.Net are True? (Choose all correct answers) | System built on ADO.NET are intrinsically highly scaleable va When we use the DataSet object, ADO.NET is based on disconnected data access.
+What control support us to display the list items in different types as text only, text with small icons, text with large icons and report views? | ListView
+IntelliSence pops up a list of _____that can be called on an object (Choose all correct answers) | Properties
+The____ control is used to display text when the mouse points to a particular control | ToolTip
+What are the types of Dialog boxes?(choose all correct answers) | Modeless dialog boxes va Modal dialog boxes
+which class is the base class for all the controls that can be used in Windows Forms? |  Control
+GDI + resides in _____ assembly. | System.Drawing
+The ____ property of the LinkLabel control is used to specity the text, which has to be displayed as a link. |  LinkArea
+What of the following are correct for creating a connection object to database named MyDB? (Choose all correct answers) | SqlConnection con = new SqlConnection(“Data Source=myserver;Integrated Sercurity=SSPI; Initial Catalog=MyDB”);
+List the advantages of DCOM (Choose all correct answers) | Provides Location Transparency(Distributed Architecture) va Fully Language Independent va Supports version compatibility
+The view types supported in Winforms are (choose all correct answers) | Report view
+If maximize and minimize buttons are displayed then the HelpButton property is ignored | False
+The ____ event of the Form control is used to perform tasks such as allocating resources used by the form | Load
+To get values of the colums of the i-th row in a DataTable object named datatable, what of the followings is correct | DataRow array = datatable. Rows[i].ItemArray;
+ADO.Net.Provider features for accessing traditional database like SQL Server as well as databases , which are accessed using ___  | OLEDB + XML
+Dataset store its data inXML | true
+IntelliSence pops up a list of ___ that can be called on an onject | Hints + Properties
+Link Label is a commands control | true
+Microsoft Windows Installer is shipped alog with Windows 2000, windows ME and Windows XP as an installtion and configuration sevice. | True
+The___event of the Form control is used to perform tasks such as allocating resources used by the form | Allocate
+To preserve screen space on the monitor , VS.NET provides us with | SolutionExplorer Window + Tabbed Windows + Class View Window + Command Windows + Properties Window
+The term packaging imlies bunding up all the files in the application into a single file called a Distribution Until | True
+
+
+
+ 
+
+
+

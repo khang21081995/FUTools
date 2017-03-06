@@ -1,0 +1,187 @@
+Select the statement that is most correct. Which of the following applications may use a queue? | Multi-programming
+Select the most correct statement about the complexity of bubble sort | The best case is O(n), and the worst case is O(n^2)
+An algorithm that calls itself directly or indirectly is known as | Recursion
+Select the most correct statement: | In a linked list, the tail node is introduced for performance purpose only
+consider the following funtion: void fun(int n) {if (n<0) {fun(-n); System.out.println("n=" + n); } else if(n<35) System.out.println(n); else {System.out.println(n%10); fun(n/35); } } What values of n are directly handled by the stopping (base) case? | n>=0 && n<35
+To implement an AVL tree, a concept balance factor is introduced (bal = height(right)-height(left). Suppose an AVL tree is created by inserting to the tree the following keys sequentially: 6,4,7,3,5,2 What is the balance factor of the node 4? (please note that the tree is still AVL) | 0
+Consider the AVL tree below. What is the breadth first traversal of the tree after inserting a node with value 24? | 35,22,39,12,27,37,24,32
+Consider the following function: void fun(int n) {if (n<0) {System.out.println("-"); fun(-n); } else if(n<10) System.out.println(n); else {fun(n/10); System.out.println(n%10); } } Which call will result in the most recursive calls? | fun(-1023);
+Which of the following applications may use a stack? | Keeping track of previous choices(as in backtracking).
+Given a search() method in a binary search tree: Node search(int x) {Node p = root; while(p!=null && p.info!=x) {if(x<p.info) p = p.left; else p=p.right; } return(p); } The complexity of this algorithm is | O(n)
+What is the minimum number of nodes in a nearly complete binary tree with height 4? | 7
+In a singly-linked list every element contains some data and a link to the next element, which allows to keep the structure | True
+Suppose we are considering a singly linked list and p is some node in the list which has both predecessor and successor nodes. What does the java code snippet below do? Node f=head; while(f.next!=p) f=f.next; f.next=p.next; | It deletes the node p
+push() method of the stack | void push(Integer x) {Node p = new Node(x); p.next=head; head=p; }
+In a singly-linked list, there is no efficient way to insert a node before a given node in the middle or at the end of the list, but we can insert a node after a given node or at the beginning of the list with time complexity O(1) | True
+Binary search algorithm cannot be applied to | sorted doubly linked list
+What is the result of the breadth first traverse of the binary search tree T, after inserting the following keys into the tree sequentially (suppose T is empty before insertion): | 7,4,8,1,6,9,3
+In a linked list, the tail node is introduced for performance purpose only | True
+Select the statement that is most correct | A recursive method is a method that invokes itself directly or indirectly. For a recursive method to terminate there must be one or more base cases
+The operation for removing and returning the top element of the stack is traditionally called | pop
+A graph that has neither self-loop nor parallel edges are called | simple graph
+Suppose T is a binary tree with 14 nodes. What is the minmum possible height of T? (Note: In a tree the height of root is 1) | 4
+Specify the correct implementation of in-order traverse algorithm for binary trees | void inOrder(Node p) {if(p != null){ inOrder(p.left); visit(p); inOrder(p.right); } }
+What values of n are directly handled by the stopping (base) case? | n>=0 && n<15
+Specify the reason for data compression (select the best answer): | Saving data storage
+The worst case occur in linear search algorithm when | Item is the last element in the array or item is not there at all
+If the number of records to be sorted is small, then...sorting can be efficient. | Selection
+The complexity of sorting algorithm measures the ...... as a function of the number n of items to be sorter. | running time 
+Which of the following is not a limitation of binary search algorithm? | binary search algorithm is not efficient when the data elements more than 1500.
+The Average case occurs in linear search algorithm | when item is somewhere in the middle of the array
+Binary search algorithm cannot be applied to | pointer array\sorted linear array
+Complexity of linear search algorithm is | O(n)
+Sorting algorithm can be characterized as | Both of the above
+The complexity of bubble sort algorithm is | O(n2)
+The complexity of merge sort algorithm is | O(nlog n)
+is putting an element in the appropriate place in a sorted list yields a larger sorted order list. | Insertion
+order is the best possible for array sorting algorithm which sorts n item. | O(n+logn)
+is rearranging pairs of elements which are out of order, until no such pairs remain. | Exchange
+is the method used by card sorter. | Radix sort
+Which of the following sorting algorithm is of divide and conquer type? | Merge sort
+sorting algorithm is frequently used when n is small where n is total number of elements. | Insertion
+Which of the following sorting algorithm is of priority queue sorting type? | Selection sort
+Which of the following is not the required condition for binary search algorithm? | There must be mechanism to delete and/or insert elements in list.
+Partition and exchange sort is | quick sort
+linked lists are best suited | for relatively permanent collections of data
+The complexity of heap sort is | O(nlog n)
+What is the minimum number of nodes in a full binary tree with height 3? | 7
+'FFFFOOOOFFFOOFFFFFOO' (without single quote) | 4F4O3F2O5F2O
+What is the value of the Boundary Folding Hash Function if K = 42-58-67 and TSize = 100? | 94
+singly linked list | In a every element contains some data and a link to the next element, which allows to keep the structure
+Specify the correct statement about chaining method for handling collision | In chaining, some positions of the table is associated with a linked list or chain of structures whose info fields store keys or references to keys
+What of the following applications may use a stack? | Auxiliary data structure for algorithms.
+Select the most correct statement about the complexity of selection sort | Both best and worst cases are O(n^2)
+Which of the following applications may use a stack? | Store a waiting list of printing jobs
+The operation for adding an entry to a queue is traditionally called | enqueue
+What kind of list is best to answer questions such as "What is the item at position n?" | Lists implemented with an array.
+Entries in a stack are "ordered". What is the meaning of this statement? | There is a first entry, a second entry, and so on.
+The operation for adding an entry to a stack is traditionally called: | push
+The operation for removing an entry from a stack is traditionally called: | pop
+Which of the following stack operations could result in stack underflow? | pop
+What is written to the screen for the input "carpets"? | steprac 
+Consider the usual algorithm for determining whether a sequence of parentheses is balanced. What is the maximum number of parentheses that will appear on the stack AT ANY ONE TIME when the algorithm analyzes: (()(())(()))? | 3
+Suppose we have an array implementation of the stack class, with ten items in the stack stored at data[0] through data[9]. The CAPACITY is 42. Where does the push method place the new entry in the array? | data[10]
+Consider the implementation of the Stack using a partially-filled array. What goes wrong if we try to store the top of the Stack at location [0] and the bottom of the Stack at the last used position of the array? | Both push and pop would require linear time.
+In the linked list implementation of the stack class, where does the push method place the new entry on the linked list? | At the head
+In the array version of the Stack class, which operations require linear time for their worst-case behavior? | None of these operations require linear time.
+In the linked-list version of the Stack class, which operations require linear time for their worst-case behavior? | None of these operations require linear time. 
+What is the value of the postfix expression 6 3 2 4 + - *: | Something between -15 and -100
+One difference between a queue and a stack is: | Queues use two ends of the structure; stacks use only one.
+If the characters 'D', 'C', 'B', 'A' are placed in a queue (in that order), and then removed one at a time, in what order will they be removed? | DCBA
+Consider the implementation of the Queue using a circular array. What goes wrong if we try to keep all the items at the front of a partially-filled array (so that data[0] is always the front). | The getFront method would require linear time.
+In the linked list implementation of the queue class, where does the insert method place the new entry on the linked list? | At the tail
+In the circular array version of the Queue class, which operations require linear time for their worst-case behavior? | None of these operations require linear time.
+If every node u in G is adjacent to every other node v in G, a graph is said to be | complete
+Which data structure allows deleting data elements from front and inserting at rear? | Queues
+Identify the data structure which allows deletions at both ends of the list but insertion at only one end. | Input-restricted deque
+Which of the following data structure is non-linear type? | None of string,list,stack
+Which of the following data structure is linear type? | All off string,list,queue
+To represent hierarchical relationship between elements, which data structure is suitable? | tree
+A binary tree whose every node has either zero or two children is called | Extended binary tree
+The depth of a complete binary tree is given by | Dn=log2n+1
+When representing any algebraic expression E which uses only binary operations in a 2-tree, | the variable in E will appear as external nodes and operations in internal nodes
+A binary tree can easily be converted into q 2-tree | by replacing each empty sub tree by a new external node
+When converting binary tree into extended binary tree, all the original nodes in binary tree are | internal nodes on extended tree
+The post order traversal of a binary tree is DEBFCA. Find out the pre order traversal | ABDECF
+Which of the following sorting algorithm is of divide-and-conquer type? | Quick sort
+In a binary tree, certain null entries are replaced by special pointers which point to nodes higher in the tree for efficiency. These special pointers are called | thread
+The in order traversal of tree will yield a sorted listing of elements of tree in | Binary search trees
+In a Heap tree | Values in a node is greater than every value in children of it
+In a graph if e=[u, v], Then u and v are called | endpoints,adjacent node,neighbors
+A connected graph T without any cycles is called | tree graph,free tree,a tree
+In a graph if e=(u, v) means | e begins at u and ends at v
+In a graph if e=(u, v) means | u is processor and v is successor
+The memory address of the first element of an array is called | base address
+Which of the following data structures are indexed structures? | linear arrays
+Which of the following is not the required condition for binary search algorithm? | There must be mechanism to delete and/or insert elements in list
+Which of the following is not a limitation of binary search algorithm? | binary search algorithm is not efficient when the data elements are more than 1000.
+Two dimensional arrays are also called | both of above: table,matrix
+A variable P is called pointer if | P contains the address of an element in DATA.
+Which of the following data structure can't store the non-homogeneous data elements? | Arrays
+Which of the following data structure store the non-homogeneous data elements? | Records
+Each data item in a record may be a group item composed of sub-items; those items which are indecomposable are called | all: elementary ,atom,scalar
+The difference between linear array and a record is | all
+Binary search algorithm can not be applied to | sorted linked list
+Which of the following statement is false? | pointers store the next data element of a list
+When new data are to be inserted into a data structure, but there is no available space; this situation is usually called | overflow
+The situation when in a linked list START=NULL is | underflow
+Which of the following name does not relate to stacks? | FIFO lists
+The term "push" and "pop" is related to the | stacks
+A data structure where elements can be added or removed at either end but not in the middle | Deque
+When inorder traversing a tree resulted E A C K F H D B G; the preorder traversal would return | FAEKCDHGB
+Suppose T is a binary tree with 14 nodes. What is the minimum possible height of T? | 4
+What is the minimum number of nodes in a full binary tree with height 4? | 7
+Select the most correct statement about the complexity of insertion sort | The best case is O(nlogn), and the worst case is O(n^2)
+Select the most correct statement about the complexity of merge sort | The best case is O(n^2), and The worst case is O(nlogn)
+What is the correct definition of a hash function? | dai nhat
+Which of the following data structure is non linear data structure? | Trees
+Which of the following data structure is linear data structure? | Arrays
+The operation of processing each element in the list is known as | Traversal
+Finding the location of the element with a given value is: | Search
+Arrays are best data structures | for relatively permanent collections of data
+Linked lists are best suited | for the size of the structure and the data in the structure are constantly changing
+Each array declaration need not give, implicitly or explicitly, the information about | the first data from the set to be store
+The elements of an array are stored successively in memory cells because | by this way computer can keep track only the address of the first element and the addresses of elements can be calculated
+The memory address of the first element of an array is called | base address
+The memory address of fifth element of an array can be calculated by the formula | LOC(Array[5]=Base(Array)+w(5-lower bound), where w is the number of words per memory cell for array
+Which of the following data structures are indexed structures? | linear arrays
+Which of the following is not the required condition for binary search algorithm? | There must be mechanism to delete and/or insert elements in list
+Which of the following is not a limitation of binary search algorithm? | binary search algorithm is not efficient when the data elements are more than 1000.
+Two dimensional arrays are also called | matrix arrays
+A variable P is called pointer if | P contains the address of an element in DATA
+Which of the following data structure can't store the non-homogeneous data elements? | Arrays
+Which of the following data structure store the non-homogeneous data elements? | Records
+Each data item in a record may be a group item composed of sub-items; those items which are indecomposable are called | all of above 
+The difference between linear array and a record is | All of above 
+Which of the following statement is false? | pointers store the next data element of a list
+Binary search algorithm can not be applied to | sorted binary trees
+When new data are to be inserted into a data structure, but there is no available space; this situation is usually called | overflow
+The situation when in a linked list START=NULL is | underflow 
+Which of the following is two way list? | doubly linked list 
+The term "push" and "pop" is related to the | stacks
+A data structure where elements can be added or removed at either end but not in the middle | Deque 
+When inorder traversing a tree resulted E A C K F H D B G; the preorder traversal would return | FAEKCDHGB
+Which data structure allows deleting data elements from front and inserting at rear? | Queues
+Identify the data structure which allows deletions at both ends of the list but insertion at only one en | Input-restricted deque
+Which of the following data structure is non-linear type? | None of above
+Which of the following data structure is linear type? | All of above
+To represent hierarchical relationship between elements, which data structure is suitable? | Tree
+A binary tree whose every node has either zero or two children is called | Extended binary tree
+The depth of a complete binary tree is given by | Dn = log2n+1 
+When representing any algebraic expression E which uses only binary operations in a 2-tree, | the variable in E will appear as external nodes and operations in internal nodes
+A binary tree can easily be converted into q 2-tree | by replacing each empty sub tree by a new external node 
+When converting binary tree into extended binary tree, all the original nodes in binary tree are | internal nodes on extended tree
+The post order traversal of a binary tree is DEBFC Find out the pre order traversal | ABDECF
+Which of the following sorting algorithm is of divide-and-conquer type? | Quick sort
+Value of the first linked list index is | Zero
+A linked list index is ____ that represents the position of a node in a linked list. | an Integer
+Why is the constructor of the LinkedList class empty? | because initialization of data members of the LinkedList class is performed by the constructor of the LinkedList class.
+form of access is used to add and remove nodes from a queue | FIFO , First In First Out
+form of access is used to add and remove nodes from a stack | LIFO
+New nodes are added to the _____ of the queue. | back
+A _______ is a data structure that organizes data similar to a line in the supermarket, where the first one in line is the first one out. | queue linked list
+In an array queue, data is stored in an _____ element. | array
+The pop() member function determines if the stack is empty by calling the _____ member function | isEmpty()
+What happens when you push a new node onto a stack? | the new node is placed at the front of the linked list.
+In a binary tree, certain null entries are replaced by special pointers which point to nodes higher in the tree for efficiency. These special pointers are called | thread 
+The in order traversal of tree will yield a sorted listing of elements of tree in | Binary search trees
+In a Heap tree | Values in a node is greater than every value in children of it
+A connected graph T without any cycles is called | All of above 
+In a graph if e=(u, v) means | e begin, u is profe
+Which of the following case does not exist in complexity theory | Null case
+What happens when you push a new node onto a stack? | the new node is placed at the front of the linked list.
+A Linked list can grow and shrink in size dynamically at | run time
+What member function places a new node at the end of the linked list? | appendNode()
+The _______ function retrieves the value of the size member of the LinkedList class | getSize()
+Elements of an array are stored _______ in memory | Sequentially
+Each entry in a linked list is called a | Link
+How many parts are there in a declaration statement? | 3
+is the way you groups things together by placing one thing on top of another and then removing things one at a time from the top | Stack
+Pushdown list means: | All
+Which of the following is the feature of stack? | All operations are at one end 
+The five items: A, B, C, D and E are pushed in a stack,one after the other starting from A. The stack is popped four times and each element is inserted in a queue. Then two elements are deleted from the queue and pushed back on the stack. Now one item is popped from the stack.The popped item is. | D
+To delete a dynamically allocated array named `a`, the correct statement is | delete a;
+To create a linked list, we can allocate space and make something point to it, by writing: struct-name *pointer-variable; Which of the following statement will correctly allocate the space | pointer-variable = malloc(sizeof(struct struct-name)); 
+The size of a structure can be determined by a. size of variable name b. size of (struct tag) | Both a and b
+The reason for using pointer is ... Choose the false option from the following sentences | Accessing arrays or string elements 
+Arrays are the best data structures | for relatively permanent collections of data

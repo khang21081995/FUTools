@@ -1,0 +1,716 @@
+Why do we need consider security for project | To protect the system against external attack
+Which of the following design guidelines for secure systems engineering is NOT true | Avoid using redundancy and diversity to reduce risk
+What is the last stage in survivability analysis | Identify softspots and survivability strategies
+All of the following are the complementary strategies to achieve survivability EXCEPT | Conversion
+Define the security terms 'attack' | An exploitation of a system's vulnerability. Generally, this is from outside the system and is a deliberate attempt to cause some damage
+Which is the correct statement about integrity | Extent to which access to software or data by an unauthorized persons can be controlled
+Probability of a software failure is the | Reliability
+Password should be changed | On regular basis
+What was the software crisis | As more powerful hardware was introduced in the 1960s, larger software systems were developed. These were usually late, unreliable, did not meet user needs and cost more than expected. The problems of producing software was the software crisis
+What are the two fundamental types of software product | Generic products that are designed to meet the needs of many different customers
+What is software engineering | An engineering discipline concerned with all aspects of software production from specification to system maintenance
+What are the fundamental activities in software processes | Software specifiation, software development, software validation and software evolution
+What are the three general paradigms of software development | The waterfall approach, iterative development, component-based software engineering
+What are the principal components of a software engineering method | System model descriptions, rules, recommendations, process guidance
+What does the acronym CASE stand for | Computer Aided Software Engineering
+Why is maintainability an important attribute of software | Because all software is subject to change after it goes into use and the costs of software maintenance often exceeds the development costs of the software
+What are three key challenges facing software engineering | The heterogeneity challenge, the delivery challenge, the trust challenge
+What is a software engineering code of ethics | A set of principles that set out, in a general way, standards of expected behaviour for professional software engineers
+What are the fundamental activities that are common to all software processes | Software specification, software design and implementation, software validation, software evolution
+Why are iterations usually limited when the waterfall model is used | The waterfall model is a document-driven model with documents produced at the end of each phase. Because of the cost of producing and approving documents, iterations and costly and involve significant rework. Hence they are limited
+Briefly describe two types of evolutionary development | Exploratory development where the objective of the process is to work with customers to explore their requirements and deliver a final-system. Throw-away prototyping where the objective is to develop a better understanding of the customer’s requirements and deliver a better requirements specification
+Why is it increasingly irrelevant to distinguish between software development and evolution | Few software systems are now completely new and a more realistic model of software development is of an iterative process that lasts for the lifetime of the software
+What are the four phases of the Rational Unified Process | Inception, elaboration, construction, transition
+What is the distinction between a CASE tool and a CASE workbench | A CASE tool supports an individual process task such as checking the consistency of a design. A CASE workbench supports sets of related activities such as specification or design
+List five common project management activities | Any five from the following: proposal writing, project planning and scheduling, project costing, project monitoring and reviewing, personnel selection and evaluation, report writing and presentations
+What is the difference between a milestone and a deliverable | A milestone is a recognised endpoint of some activity that represents a decision point for a project. A deliverable is a project output that is delivered to the customer
+What is involved in project scheduling | Separating the total planned work in the project into separate activities and judging the time required to complete these activities
+Explain how bar charts and activity networks give different views of a project schedule | Activity networks show the time required to complete an activity and the dependence on activities. Bar charts show the activity timeline illustrating the relative length of activities and the dates when they take place
+Suggest four risks that may threaten the success of a software project | Staff turnover, management change, hardware unavailability, requirements change, specification delays, size underestimate, CASE tool underperformance, technology change, product competition
+What is involved in risk monitoring | Regularly assessing the project risks to decide whether or not that the risk is becoming more or less probable and whether the effects of the risk have changed
+What are system requirements | Descriptions of the services to be provided by a system and the system’s operational constraints
+What is the software requirements document | The offical document that defines the requirements that should be implemented by the system developers
+What is described in a context model | The immediate external environment of the system defining the system’s context and the dependencies that a system has on its environment
+What is described in a state machine model | How the system responds to external events
+What is a semantic data model | A model that describes the logical structure of the data processed by a system or managed by a database
+What is shown in an UML sequence model | The sequence of interactions between objects and actors in the system associated with a single defined use-case
+What is a structured method | A systematic way of producing models of an existing system or of a system that is to be built
+What is the distinction between an object and an object class | An object is created at run-time by instantiating an object class. The object includes state variables and operations on that state as defined in the object class definition
+What is the purpose of interface design in an OO design process | To define the signatures and semantics of the interfaces that are provided by an object or group of objects
+What is test-first development | When a system feature is identified, the tests of the code implementing that feature are written before the code. Tests are automated and all tests are run when a new increment is added to the system
+What is visual programming | An approach to development where a programmer manipulates graphical icons representing functions, data or user interface components and associates processing scripts with these icons
+What is a design pattern and why are patterns important for reuse | A design pattern is a description of a problem and the essence of its solution. This solution is expressed in a generic way and can be instantiated and reused in different settings
+What is generator-based reuse | An approach to reuse where reusable knowledge is embedded in a generator system which is programmed by domain experts to create the system. An executable system is then generated
+What major software problem is addressed by aspect-oriented software development | The problem of separation of concerns so that a software unit is designed to do one thing and one thing only
+What is a successful defect test | A successful defect test is one where the system’s operation does not conform to its specification, i.e. one that exposes a defect in the system
+What is path testing | A structural testing strategy whose objective is to exercise every independent path through a program.
+What is an equivalence partition? Give an example | A class of inputs or outputs where it is reasonable to expect that the system will behave the same way for all members of the class. For example, all strings with less than 256 characters
+What is meant by configuration management | The development and use of standards and procedures for managing an evolving software system
+What is a baseline | A controlled system where changes to the system have to be agreed and recorded before they are implemented
+What information may be included in a configuration database | Information about configuration items such as data of creation, creator, etc. Information about users of components, system customers, execution platforms, and proposed changes to the system.
+What are the objectives of change management procedures | To analyse the costs and benefits of proposed changes, approving changes that are worthwhile, and tracking which components of the system have been changed.
+What is the role of a change control board | To assess the impact of proposed changes from a strategic and organisational perspective rather than a technical perspective. They should decide if changes are worthwhile and should prioritise changes to be implemented.
+What is the difference between a system version and a system release | A system version is an instance of a system that differs, in some ways, from other instances. A system release is a version that is released to customers.
+What are the advantages of attribute-based version identification | When selecting components, you do not need to specify the version number (an error-prone process if there are many components) but simply list the required component attributes
+What is service engineering | The process of developing services for reuse in service-oriented applications
+What is the difference between BPMN and WS-BPEL | BPMN is a graphical language for defining workflows whereas WS-BPEL is a lower-level XML-based language
+What is a workflow | A sequence of activities, ordered in time, that make up a coherent business processes with each activity carrying out some part of the work of that process
+Define ‘software development with services | The creation of programs by composing and configuring services to create new composite services
+What non-functional requirements may be influenced by the choice of system architecture | Performance, security, safety, availability, maintainability
+What is the fundamental characteristic of a repository model | All shared data is held in a central database that can be accessed by all sub-systems.
+How is the system organised in a client-server model | A set of services is provided by servers and clients access and use these services
+What is a reference architecture | An abstract model of a system class that can be used to inform designers about the general structure of that type of system
+What is automated static analysis | A process where an analysis program examines the source code looking for possible anomalies. These are drawn to the inspector’s attention as they may represent faults in the program
+Define the security terms ‘vulnerability’ and ‘asset’.Vulnerability: A weakness in a computer system that MAY be exploited to cause loss or harm | Asset: A system resource that has a value and so should be protected
+What is security risk management | Security risk management is concerned with assessing the possible losses that might ensue from attacks on assets in the system and balancing these losses against the costs of security procedures that may reduce the losses
+Suggest two possible vulnerabilities when login/password authentication is used.Users set guessable passwords | Authorised users reveal their passwords to unauthorised users, perhaps through some social engineering process
+Why is it important to design for deployment | Because many security vulnerabilities are introduced when the system is configured for use in its deployment environment
+Which system model is described in the following graphic | Data-flow models
+Change request is proposal due to | All of the others
+What's the difference between functional and non-functional requirements | None of the others
+What are the user requirements | The statements in a natural language plus diagrams that describe the services' system and their constraints
+Suggest a most appropriate software process model that might be used as a basic for managing the developing of the software system that support categorizing goods based on consumption pattern, tracking payments from the customers | The waterfall model
+How is the system organized in a client-server model | None of the others
+Which of the following statements about the differences between integrating testing and component testing are true | The integrating testing test the result of the component while the component testing test its internal structure
+Which of the following statements about project management is true | The intangibility of software systems poses special problems for software project management
+What are the distinctions between an object and an object class | All of the others
+Which of the following is NOT a disadvantage of structured methods | There are not many CASE tools that support structured methods
+The economies of all developed nations are dependent on software | True
+If performance is a critical requirement the architecture should be designed to | localize critical operations and minimize communications; use large rather than fine-grain components
+Which of the following does NOT belong to important principles of agile methods | Process not people
+What are the advantages of explicitly designing and documenting software architecture | All of the others
+Which of the following statements about test first development are true | All of the others
+What is the problem that cannot arise when requirements are written in natural language | Lack of user's understandability
+All of the fallowings are main benefits of software reuse EXCEPT | Reduce maintenance costs
+Which of the following statements about testing is NOT true | Its goal is to fix errors of the software system
+Which of the following statement about the two distinct phases of system testing is NOT true | The integration team does NOT have access to the source code of the system 
+What is meant by configuration management | The development and use of standards and procedures for managing an evolving software system
+Which of the following statements about Service-oriented software engineering is true | Service-oriented software engineering is based on the notion that programs can be constructed by composing independent services that encapsulate reusable functionality
+Which of the fallowings does NOT belong to the important differences between software project management and other types of project management | Cost of software project maintenance is higher than other type of projects
+is concerned with developing an oriented system model to implement requirements | ]Object-oriented Analysis
+What are system requirements | A structured document setting out detailed descriptions of the system's functions, services and operational constraints
+What key factors should be considered when planning reuse | All of the others
+Applications frameworks are collections of concrete and abstract objects that are designed to be reused through specialization and the addition of new objects | True
+All of the following are the main benefits of software reuse EXCEPT | Reduce maintain cost
+Which of the following statements about Equivalence partitioning are NOT true | None of the others
+Which of these statements about extreme programming are true | New versions may be built several times per day
+Which of the following are the testing process goals | All of the others
+Which of the following statements about service interfaces is true | All of the others
+Which of the following statements about security is NOT true | Security threats can be threats to the only confidentiality and integrity of a system or its data
+All of the following are stages in an object-oriented development process EXCEPT | Object-oriented evolution
+What are the components of an object class definition in the UML | All of the others
+All of the following statement about design pattern are true EXCEPT | ( tat ca deu dung)
+Suggest the most appropriate generic software process model that might be used as a basic for managing the development of the following system: A university accounting system that replaces an existing system | Waterfall model
+Requirements are usually presented at_ and _ levels of detail in requirements document | a high level statement/ a detailed system specification
+What are advantages of pipeline model | All of the others
+All of the fallowings are the ways that a software prototype may be used EXCEPT | To test all functions of the completed system
+Which of the following is NOT object model that may be developed | Workflow model
+What is application security | Application security is a software engineering problem where the system is designed to resist attacks
+The change control board assess the impact of proposed changes from a strategic and organizational perspective rather than a technical perspective | True
+What can be represented by a workflow model | The sequence of activities in the process along with their inputs, outputs and dependencies
+Which of the following requirement statements belongs to functional requirements | An article information shall include Author, Title, Description and other related information
+The Waterfall approach is the BEST approach to development software when | The requirements are well-understood and changes will be fairly limited during the design process
+Domain requirements may be functional or non-functional requirements | True
+What is the basis of schedule and cost estimates in the extreme programming | The tasks that are broken down by the team from the scenarios or user stories written cards
+The term 'CASE' is the acronym of | Computer-Aided Software Engineering
+Which is the first stage in an object-oriented design process | Develop an understanding of the relationships between the software being designed and its external environment
+Select the BEST model when you want to design a software system that very fast responses to events is a critical requirement | Interrupt-driven model
+What are the purposes of system modelling | To help the analyst to understand more about the functionalities of the system, and help communicating with customer
+Which is the right sequence in the risk management process | 2=>1=>4=>3 (1) Risk analysis (2) Risk identification (3) Risk monitoring (4) Risk planning
+Object identification is a(n) process | Iterative
+What is SOAP standard | A message exchange standard that supports service communication
+In Waterfall approach, which phase takes the least cost | Specification
+Given the project activities chart as below, please define the critical path (the values mention in each arrow are activity name and activity duration) | AFDEI
+There are only one approach to reuse software applications or components that can be used | False
+What are stages of service interface design | Logical interface design, Message design, WSDL description
+Which one of the following statements about system testing is NOT true | End-users should be involved in system tests.
+Before doing integration testing this testing must have been done | Unit testing
+Acceptance testing will be done by | User
+The decision where the programmers can reuse a pattern or need to develop a special-purpose solution always easy | False
+What is WSDL standard | This standard allows a service interface and its bindings to be defined
+In Component-based software engineering approach, which phase takes the most cost | Specification
+Are the software engineering methods and tools used depending on the type of application being developed | Yes
+The practices small, frequent releases of the system, the approach to requirements description base on customer stories or scenarios in Extreme Programming fit into which principle of agile methods | Incremental delivery
+Which statement is correct about software processes | There are no right or wrong software processes
+What is the correct sequence of the following activities in the debugging process? | 3 => 2 => 1 => 4 (1) Repair error (2) Design error repair (3) Locate error (4) Re-test program
+In Waterfall approach, which phase takes the least cost | Specification
+What is software engineering concerned with | Software engineering is concerned with theories, methods and tools for professional software development
+Which is NOT related to a characteristic of rapid application development processes | The processes of specification, design and implementation are concurrent
+Which is NOT a problem with agile methods | Maintaining simplicity reduce effort
+Which is NOT the general issue that affects most software | Heterogeneity
+In Iterative development approach, which phase takes the least cost | Specification
+The practices pair programming, collective ownership of the system code, and sustainable pace in Extreme Programming fit into which principle of agile methods | People not process
+Which is NOT the benefit of Test first development | All previous and new tests are can not automatically run when new functionality is added
+The practices customer is the member of the development team and is responsible for bring system requirements to the team for implementation in Extreme Programing fit into which methods | Customer involvement
+What is the output of Requirements elicitation and analysis | System models
+Why is incremental delivery hard to maintain | System is poorly structured
+Which of the following NOT a principle of the agile methods | Test first development
+Which is the BEST case to use Agile methods | Agile methods used in product development where a software company is developing a large-sized product for sale
+In Waterfall approach, which phase takes the most cost | Integration and testing
+The current trends suggest that the economies of ALL developed and developing nations are dependent on software | True
+According to Ian Somerville, what are fundamental types of software product | Generic products, Customized (or Bespoke) products
+In iterative development approach, which phase takes the most cost | Iterative development
+Both the Waterfall model of the software process and the prototyping model can be accommodated in the spiral process model | True
+The software systems that are developed using Evolutionary development are more cost-effective, easier to maintain than that developed using Waterfall model | True
+Which is the CORRECT statement about development and validation sector in Boehm's spiral model | A development model for the system is chosen which can be any of the generic models
+Unit testing is a___ | While box testing
+Study object models for one system, each object has been named and showed the relation between them (by inheritance, a..) What is a forced rule had to follow in terms below | Every object must have at least one associated operation.
+Which is true about the use of italics in the diagram of the image | The use of italics carries no standard UML meaning.
+Which of the following is a black box design technique | Error-guessing
+What is the purpose of analysis | The main objective of the analysis is to capture a complete, unambiguous, and consistent picture of requirements of the system must do to satisfy the users’ requirement and needs
+What is the normal order of activities in which software testing is organized | Unit test, integration test, validation test, system test
+Which is NOT a common characteristic that used to evaluate architecture design solution | Technology
+What describes an actor best | An actor specifies a role played by a user or any other systems that interacts with the subject
+Generalization in the UML is implemented as ___ in Object Oriented programming languages | Inheritance
+The testing intended to show that previously correct software has not been adversely affected by changes is call | Regression testing
+What is the role of state machine model | State machine is used to help the analyst to understand the functionality of the system, communicating with customer
+When you design a Banking software system that use redundant components and mechanisms for fault tolerance for not only availability but also makes security of that system easier to implement | False
+Which one of the following statements about system testing is NOT true | End-users should be involved in system test
+Which non-functional system requirements that the software system architecture may depend on | Performance, Security, Safety, Availability Maintainability
+A generalization relationship is NOT used between___ | an Actor and a UseCase
+Which pattern provides a standard way of accessing the elements in a collection, irrespective of how that collection is implements | Façade pattern
+Which is NOT increases software maintainability | High coupling
+When should you use-case diagram | Should use use-case diagram to represent exception behavior (when errors happen)
+We split testing into distinct stages primarily because | Each test stage has a different purpose
+A has-a relationship is implemented via inheritance | False
+What are advantages of explicitly designing and documenting a software architecture | Stakeholder communication; System analysis; Large-scale reuse
+Which is the correct statement about object identification | Object identification is a waterfall process; it relies on the skill, experience and domain knowledge of system designers.
+Which architectural model shows the process structure of the system | Dynamic process model
+Which is the attribute name of the diagram in the image | Eat
+What is NOT important class of interface error | Interface misunderstanding
+What is the correct statement about software design and implementation | The activities of design and implementation are closely related and may be inter-leaved
+A program validates a numeric field as follows Values less than 10 are rejected, value between 10 and 21 are accepted, values greater than or equal to 22 are rejected. Which of the following input values cover all equivalence partitions | 10, 11, 21
+When you design a software system that use fine-grain, replaceable components for not only improves the maintainability but also improves the performance of that system | False
+What are types of behavioral models | Data-Flow, Static model
+Why are plan-driven (rather than agile) processes used in systems engineering | Because different parts of the system are developed by the same group at the same time and plan are needed to coordinate their activities
+Which of the following is NOT a fundamental type of service that may be identified | Security services
+Which is NOT a fundamental type of service | Business services.
+Which is NOT a common maintenance cost factor | Name of technology
+What is a release | An instance of a system which is distributed to users outside of the development team.
+A proxy class communicating with a web service normally uses SOAP to send and receive | True
+Can we think SOA services and web services are the samein some ways | Yes, SOA services can be realized as web services
+A tool that supports traceability, recording of incidents or scheduling of tests is called____ | a debugging tool
+Which is the CORRECT explanation of Configuration control term | An instance of configuration item that differ, in some way, from other instances of that item.
+What is the CORRECT explanation of Branching term | The creation of a new codeline from a version in an existing codeline. The new codeline and the existing codeline may then develop independently.
+Which is NOT an element of change request from | Project manager name
+What is the CORRECT description of sociotechnical system | Sociotechnical system include hardware and software components but not procedures and processes
+Which is the CORRECT explanation of Baseline term | A Baseline is a collection of component versions that make up a system.
+Which is NOT an important factor that is used to assess applications for evolution | Number of end users
+In a service-oriented architecture, what role does WSDL play | It defines the semantic behavior of the Web Service.
+What are stages of service interface design | Logical interface design, java object interface design, WSDL description
+Which is the LAST stage in the change management process if change is accepted | Create new system version
+What are the Fundamental Constructs of Service-0riented architectures | Services
+What is WSDL standard | Defines the components of a service specification that may be used to discover the existence of a service17: Which is CORRECT explanation of Version term | An instance of a configuration item that differs, in some way, from other instances of that item.
+The customer wants to make a change to the project scope. The best thing for the project team to evaluate is the | effect of the change on the project schedule, cost, quality, and risks
+How do Web services fit into a Service Oriented Architecture (SOA) | A Web service must publish itself to UDDI registry to become part of SOA
+Which is NOT an advantage of frequent system building of software | The successful of frequent system building of software does NOT require a very stringent change management process to keep track of problems that have been discoverer.
+What is a variant | An instance of a system which is functionally identical but non-functionally distinct from other instances of a system
+Which is the correct sequence of activities of Service Engineering process? | 2=>1=>3 1: Service design 2: Service candidate identification 3: Service implementation and development
+Acording to Guimaraes (1983) the Maintenance effort Distribution of Fault repair is | 17%
+Which is a NOT good attribute of services in SOA | Tight coupling
+Which is the CORRECT explanation of Release term | The creation of a new codeline from a version in an exting codeline. The new codeline and the exting codeline may then develop independently.
+Which is the CORRECT explanation of Workspace term | A private work area where software can be modified without affecting other developer who may be using or modifying that software
+Which is the question that the configuration database should NOT allow queries about configurations to be answered | What is the version number of programming language?
+In Iterative development approach, which phase takes the least cost | Specification
+What are generic software process models? (Choose one) | Waterfall, Iterative development, Component-based software engineering
+What is a software process model | A simplified representation of a software process, presented from a specific perspective
+The current trends suggest that the economies of ALL developed and developing nations are dependent on software | False
+In Waterfall approach, which phase takes the most cost | Integration and testing
+What is a software process | A set of activities whose goal is the development or evolution of software
+The distribution of the costs of software engineering NOT depends on the process model that is used | False
+In Waterfall approach, which phase takes the least cost | Specification
+Which of the following is NOT a disadvantage of structured methods | There are not many CASE tools that support structured methods
+The economies of all developed nations are dependent on software | True
+If performance is a critical requirement the architecture should be designed to | localize critical operations and minimize communications; use large rather than fine-grain components
+Which of the following does NOT belong to important principles of agile methods | Process not people
+What are the advantages of explicitly designing and documenting software architecture | All of the others
+Which of the following statements about test first development are true | All of the others
+What is the problem that cannot arise when requirements are written in natural language | Requirement amalgamation
+All of the fallowings are main benefits of software reuse EXCEPT | Reduce maintenance costs
+Which of the following statements about testing is NOT true | Its goal is to fix errors of the software system
+Which of the following statement about the two distinct phases of system testing is NOT true | The integration team does NOT have access to the source code of the system
+Which of the following statements about Enterprise Resource Planning (ERP) systems is NOT true | Enterprise Resource Planning systems are very widely used
+What is the second stage of risk management process | Risk analysis
+Both the waterfall model of the software process and the prototyping model can be accommodated in the spiral process model | True
+Which of the following is a type of software process model that represents the roles of the people involved in the software process and the activities for which they are responsible | An role/action model
+What does computer science concern with | Computer science is concerned with theories and methods that underlie computers and software systems
+What are included in a quality plan | The quality procedures and standards that should be used in a project
+Which of the followings belong to Server type of concurrent object implementation | The object is a parallel process with methods corresponding to the object operations. Methods execute in response to external requests
+What is meant by configuration management | The development and use of standards and procedures for managing an evolving software system
+Which of the following statements about Service-oriented software engineering is true | Service-oriented software engineering is based on the notion that programs can be constructed by composing independent services that encapsulate reusable functionality
+Which of the fallowings does NOT belong to the important differences between software project management and other types of project management | Cost of software project maintenance is higher than other type of projects
+is concerned with developing an oriented system model to implement requirements | Object-oriented Analysis
+What are system requirements | A structured document setting out detailed descriptions of the system's functions, services and operational constraints
+What key factors should be considered when planning reuse | All of the others
+Applications frameworks are collections of concrete and abstract objects that are designed to be reused through specialization and the addition of new objects | True
+All of the following are the main benefits of software reuse EXCEPT | Reduce maintain cost
+Which of the following statements about Equivalence partitioning are NOT true | None of the others
+Which of these statements about extreme programming are true | New versions may be built several times per day
+Which of the following are the testing process goals | All of the others
+Which of the following statements about service interfaces is true | All of the others
+Which of the following statements about security is NOT true | Security threats can be threats to the only confidentiality and integrity of a system or its data 
+All of the following are stages in an object-oriented development process EXCEPT | Object-oriented evolution
+What are the components of an object class definition in the UML | All of the others
+All of the following statement about design pattern are true EXCEPT  | All of the others true
+Suggest the most appropriate generic software process model that might be used as a basic for managing the development of the following system: A university accounting system that replaces an existing system | Waterfall model 
+Requirements are usually presented at_ and _ levels of detail in requirements document | a high level statement/ a detailed system specification
+What are advantages of pipeline model | All of the others
+All of the fallowings are the ways that a software prototype may be used EXCEPT | To test all functions of the completed system
+Which of the following is NOT object model that may be developed | Workflow model
+What is application security | Application security is a software engineering problem where the system is designed to resist attacks
+The change control board assess the impact of proposed changes from a strategic and organizational perspective rather than a technical perspective | True
+What can be represented by a workflow model | The sequence of activities in the process along with their inputs, outputs and dependencies
+Which of the following requirement statements belongs to functional requirements | An article information shall include Author, Title, Description and other related information 
+The Waterfall approach is the BEST approach to development software when | The requirements are well-understood and changes will be fairly limited during the design process
+Domain requirements may be functional or non-functional requirements | True
+What is the basis of schedule and cost estimates in the extreme programming | The tasks that are broken down by the team from the scenarios or user stories written cards
+The term 'CASE' is the acronym of | Computer-Aided Software Engineering
+Which is the first stage in an object-oriented design process | Develop an understanding of the relationships between the software being designed and its external environment 
+Select the BEST model when you want to design a software system that very fast responses to events is a critical requirement | Interrupt-driven model
+What are the purposes of system modelling | To help the analyst to understand more about the functionalities of the system, and help communicating with customer
+Which is the right sequence in the risk management process | 2=>1=>4=>3 (1) Risk analysis (2) Risk identification (3) Risk monitoring (4) Risk planning
+Object identification is a(n)_process | Iterative
+What is SOAP standard | A message exchange standard that supports service communication
+In Waterfall approach, which phase takes the least cost | Specification
+Given the project activities chart as below, please define the critical path (the values mention in each arrow are activity name and activity duration) | AFDEI
+There are only one approach to reuse software applications or components that can be used | False
+What are stages of service interface design | Logical interface design, Message design, WSDL description
+Which one of the following statements about system testing is NOT true | End-users should be involved in system tests
+Before doing integration testing this testing must have been done | Unit testing
+Acceptance testing will be done by | User 
+The decision where the programmers can reuse a pattern or need to develop a special-purpose solution always easy | False
+What is WSDL standard | This standard allows a service interface and its bindings to be defined 
+Which pattern allows dependent objects to be notified when an object changes state | Observer
+What is the correct sequence of the following activities in the testing process| 3 => 1 => 2  (1)System testing (2)Acceptance testing (3) Component testing
+A program validates a numeric field as follows: values less than 15 are rejected, values between 15 and 26 are accepted, values greater than or equal to 27 are rejected Which of the following input values cover all [equivalence partitions | 8,15,27
+Which is increases software maintainability | Code factoring  
+The practices pair programming, collective ownership of the system code, and sustainable pace principle of agile methods | People not process
+Which diagram in the image reflects the relationship: “A is always associated with one B” | E
+Which is NOT an advantage of reengineering | Reduced code
+What is the CORRECT description of sociotechnicaI systems | Sociotechnical systems are self-aware and include defined operational processes and procedures
+Which is the correct statement about architectural design decisions | The architectural design process differs depending on the type of system being developed
+Which is NOT the main activijty in design process | Designing the test case
+One Key reason why developers have difficulty testing their own work is | Lack of Objectivity
+Which is the CORRECT explanation of Branching term | The creation of a new codeline from a version in an existing codeline. The new codeline and the existing codeline may then develop independently
+Code refactoring | Which is NOT a | SE0904
+Which are object-oriented strategies (Choose one) | Object-oriented analysis, Object-oriented design, Object-oriented programming
+What’s the BEST way to start creating a data-flow diagram | In the data-flow diagram, you first start by analyzing the overall procurement process and then move on to the analysis of sub-processes
+What is software engineering discipline concerned with | Using appropriate theories and methods to solve problems bearing in mind organizational and financial constraints 
+Which is NOT the correct statement about architectural design | Architectural design is a late stage of the system design process
+The distribution of the costs of software engineering NOT depends on the process model that is used | False
+ What is NOT an example of emergent properties | Volume of voice
+The practices regular system release, test-first development and continuous integration in Extreme Programming fit into which principle of agile methods | Embrace change
+What does a workflow model represent | It shows the sequence of activities in the process along with their inputs, outputs and dependencies
+In the following descriptions, select a FUNCTIONAL requirement of a library system | Users of the library system shall authenticate themselves using their student authority identity card
+Which of the following are the key practices of the extreme programming (Choose one) | Test first development; Pair programming
+In the following descriptions, select a PRODUCT requirement of a library system | Downtime within normal working hours shall not exceed five seconds in any one day 
+What is NOT important class of interface error | Interface understanding
+Which is the right sequence in the process of prototype development | 2 => 1 => 4 => 3 (1)Define prototype functionality (2)Establish prototype objectives (3)Evaluate prototype (4)Develop prototype
+What is the BEST practice when design service interface | The number of messages exchanged to complete a service request should normally be minimized
+Select the BEST Architectural style when you want to design a software system that distributed architecture, effective use of networked systems with many distributed processors, easy to add new servers and integrate it with the rest of the system are critical requirements | Response time
+How the Lehman’s Laws derived | They were derived from studies of the growth and evolution of a number of large software systems
+How do objects work together | Object work together by sending messages to one another at run time
+Which is a NOT good characteristic of Software Requirement Specifications | Ambiguous 
+What fundamental process activities those are| common to all software process | Specification; development; validation; evolution
+Which architectural model shows the process structure of the system | Dynamic process model
+What are disadvantages of structured methods | All of the others
+What is software engineering concerned with | Software engineering is concerned with theories, methods and tools for professional software development
+What is NOT a process metrics might be used to assess maintainability | Number of screens
+What are non - functional requirements | Non-functional requirements are not directly concerned with specific system functions but specify required system properties or place constraints on the system or its development process
+Which is NOT an advantage of frequent system building of software | Developers are put under pressure not to ‘break the build’
+In a service- oriented architecture, what role does WSDL play | It defines the interface that the web service provides
+What is UDDI standard | Defines the components of a service specification that may be used to discover the existence of a service
+Which is the MOST correct statement a | Service-Oriented Architectures are a way of developing distributed systems where the components of these systems are stand-alone services
+What is the CORRECT description of technical computer-based systems | Technical computer-based systems include hardware and software components but not procedures and processes
+Acording to Guimaraes (1983) the Maintenance effort Distribution of Fault repair is | 17% 
+See the following image Which type relation in UML show above | Generalization (inheritance) relation (a specialized version of another class)
+What is the BEST way to use Throw-away prototyping, a type of evolutionary development | The prototype concentrates on experimenting with the customer requirements that are poorly understood
+A web service normally uses SOAP to send and receive messages | True 
+Who review and approves the change request | Change control board 
+Which is the right sequence in the software testing process | 2 => 1 => 3 => 4 (1)Prepare test data (2)Create test case (3)Perform test (4)Create test report
+Which is NOT the correct statement about architectural design? | rchitectural design is a late stage ofthe system design process
+What is software engineering concerned with? | oftware engineering is concerned with theories, methods and tools for professional software development 
+What does a workflow model represent? | It shows the sequence of activities in the process along with their inputs, outputs and dependencies
+In the following descriptions, select a FUNCTIONAL requirement of a library system? | Each student member using the system shall be uniquely identified by his or her 8-digit student number
+Which is NOT the main activity in design process? | Designing the test case
+What's the BEST way to start creating a data-flow diagram? | In the data-flow diagram, you first start by analyzing the overall procurement process and then move on to the analysis of sub-processes
+Which is the CORRECT explanation of Merging term? | The creation of a new version of a software component by merging separate versions in different codelines.
+Which of the following is NOT part of configuration management? | The people in the project team
+Another name for [_has a_] relationship is | Composition
+To make a test effective it is most important that | The expected outcome is specified before execution
+Which are object-oriented strategies? (Choose one) | Object-oriented analysis. Object-oriented design. Object-oriented programming
+Which is increases software maintainability? | Code factoring
+What is software engineering discipline concerned with? | Using appropriate theories and methods to solve problems bearing in mind organizational and financial constraints
+For most types of system, the majority of costs of software are the costs of changing the software after it has gone into use | SE0904
+In a service- oriented architecture, what role does WSDL play? | defines the interface that the web service provides
+Who review and approves the change request | Change control board
+What is the BEST practice when design service interface? | he number of messages exchanged to complete a service request should normally be minimized
+Which type relation in UML show above? | Dependency relation (a class denpendent on another class)
+What is NOT a process metrics might be used to assess maintainability? | Average time required for impact analysis
+The practices pair programming, collective ownership of the system code, and sustainable pace in Extreme Programming fit into which principle of agile methods? | People not process
+Which diagram in the image reflects the relationship: 'A is always associated with one ET? | C
+Which is NOT an advantage of reengineering? | Reduced code
+Which non-functional system requirements that the software system architecture may depend on? (Choose one) | Performance. Security. Safety. Availability. Maintainability
+Which architectural model shows the process structure of the system? | Relationships model 
+What is the BEST way to use Throw-away prototyping, a type of evolutionary development? | The prototype concentrates on experimenting with the customer requirements that are well understood
+What is the correct sequence of the following activities in the testing process? | 3=> 1 => 2  (1)System testing (2)Acceptance testing (3)Component testing
+How do objects work together? | Object work together by sending messages to one another at runtime.
+A program validates a numeric field as follows:
+values less than 15 are rejected, values between 15 and 26 are accepted, values greater than or equal to 27 are rejected
+Which of the following input values cover all equivalence partitions? | 5.16.26
+How the Lehman's Laws derived? | They were derived from studies of the growth and evolution of a number of large software systems.
+Answer Which is the correct statement about Inheritance? | sub-class inherits the attributes and operations from its super class and may add new methods or attributes of its own
+Which is the right sequence in the process of prototype development? | (2)Establish prototype objectives (1)Define prototype functionality (4)Develop prototype (3)Evaluate prototype
+What is the CORRECT description of technical computer-based systems? | Technical computer-based systems include hardware and software components but not procedures and processes
+Which is the correct sequence of the following activities in the Waterfall model? | (2)	Requirement definition (1)System and software design (4)Implementation and unit testing (3)Integration and system testing (5)Operation and maintenance
+Select metric for specifying non-functional requirements (choose one) | Response time
+Are the software engineering methods and tools used depending on the type of application being developed? | Yes
+Which is NOT a type of software maintenance? | Code refactoring
+Which is the correct statement about architectural design decisions? | The architectural design process differs depending on the type of system being developed
+Which is the MOST correct statement about Service-Oriented Architectures? | Service-Oriented Architectures are a way of developing distributed systems where the components of these systems are stand-alone services
+Which is the right sequence in the software testing process? | (1)Prepare test data (2)Create test case (3)Perform test (4)Create test report
+What was the software crisis | As more powerful hardware was introduced in the 1960s, larger software systems were developed. These were usually late, unreliable, did not meet user needs and cost more than expected. The problems of producing software was the software crisis
+What is software engineering | An engineering discipline concerned with all aspects of software production from specification to system maintenance
+What are the fundamental activities in software processes | Software specifiation, software development, software validation and software evolution
+What are the three general paradigms of software development | The waterfall approach, iterative development, component-based software engineering
+What are the principal components of a software engineering method | System model descriptions, rules, recommendations, process guidance
+What does the acronym CASE stand for | Computer Aided Software Engineering
+Why is maintainability an important attribute of software | Because all software is subject to change after it goes into use and the costs of software maintenance often exceeds the development costs of the software
+What are three key challenges facing software engineering | The heterogeneity challenge, the delivery challenge, the trust challenge
+What is a software engineering code of ethics | A set of principles that set out, in a general way, standards of expected behaviour for professional software engineers
+What are the fundamental activities that are common to all software processes | Software specification, software design and implementation, software validation, software evolution
+List the three fundamental software process frameworks that are used to create specific software processes | The waterfall model, evolutionary development, component-based software engineering
+Why are iterations usually limited when the waterfall model is used | The waterfall model is a document-driven model with documents produced at the end of each phase, because of the cost of producing and approving documents, iterations and costly and involve significant rework, hence they are limited
+Why is it increasingly irrelevant to distinguish between software development and evolution | Few software systems are now completely new and a more realistic model of software development is of an iterative process that lasts for the lifetime of the software
+What are the four phases of the Rational Unified Process | Inception, elaboration, construction, transition
+What is the distinction between a CASE tool and a CASE workbench | A CASE tool supports an individual process task such as checking the consistency of a design. A CASE workbench supports sets of related activities such as specification or design
+List five common project management activities | Any five from the following: proposal writing, project planning and scheduling, project costing, project monitoring and reviewing, personnel selection and evaluation, report writing and presentations
+What is the difference between a milestone and a deliverable | A milestone is a recognised endpoint of some activity that represents a decision point for a project. A deliverable is a project output that is delivered to the customer
+What is involved in project scheduling | Separating the total planned work in the project into separate activities and judging the time required to complete these activities
+Explain how bar charts and activity networks give different views of a project schedule | Activity networks show the time required to complete an activity and the dependence on activities. Bar charts show the activity timeline illustrating the relative length of activities and the dates when they take place
+Suggest four risks that may threaten the success of a software project | Staff turnover, management change, hardware unavailability, requirements change, specification delays, size underestimate, CASE tool underperformance, technology change, product competition.
+What is involved in risk monitoring | Regularly assessing the project risks to decide whether or not that the risk is becoming more or less probable and whether the effects of the risk have changed
+What are system requirements | Descriptions of the services to be provided by a system and the system’s operational constraints
+What is a domain requirement | A requirements that is derived from the application domain of the system rather than from the specific needs of system users
+What is the software requirements document | The offical document that defines the requirements that should be implemented by the system developers
+What is described in a context model | The immediate external environment of the system defining the system’s context and the dependencies that a system has on its environment
+What is described in a state machine model | How the system responds to external events
+What is a semantic data model | A model that describes the logical structure of the data processed by a system or managed by a database
+What is shown in an UML sequence model | The sequence of interactions between objects and actors in the system associated with a single defined use-case
+What is a structured method | A systematic way of producing models of an existing system or of a system that is to be built
+What is the distinction between an object and an object class | An object is created at run-time by instantiating an object class, the object includes state variables and operations on that state as defined in the object class definition
+What is the purpose of interface design in an OO design process | To define the signatures and semantics of the interfaces that are provided by an object or group of objects
+What is test-first development | When a system feature is identified, the tests of the code implementing that feature are written before the code
+What is visual programming | An approach to development where a programmer manipulates graphical icons representing functions, data or user interface components and associates processing scripts with these icons
+What is a design pattern and why are patterns important for reuse | A design pattern is a description of a problem and the essence of its solution. This solution is expressed in a generic way and can be instantiated and reused in different settings
+What is generator-based reuse | An approach to reuse where reusable knowledge is embedded in a generator system which is programmed by domain experts to create the system. An executable system is then generated
+What major software problem is addressed by aspect-oriented software development | The problem of separation of concerns so that a software unit is designed to do one thing and one thing only
+What is a successful defect test | A successful defect test is one where the system’s operation does not conform to its specification, i.e. one that exposes a defect in the system
+What is an equivalence partition | A class of inputs or outputs where it is reasonable to expect that the system will behave the same way for all members of the class
+What is path testing | A structural testing strategy whose objective is to exercise every independent path through a program
+What is meant by configuration management | The development and use of standards and procedures for managing an evolving software system
+What is a baseline | A controlled system where changes to the system have to be agreed and recorded before they are implemented
+Why is it necessary to define a configuration item identification scheme | Because there may be thousands of source code modules, test scripts, design documentsWhat are the objectives of change management procedures | To analyse the costs and benefits of proposed changes, approving changes that are worthwhile, and tracking which components of the system have been changed
+What information may be included in a configuration database | Information about configuration items such as data of creation, creator, etc. Information about users of components, system customers, execution platforms, and proposed changes to the system
+What are the objectives of change management procedures | To analyse the costs and benefits of proposed changes, approving changes that are worthwhile, and tracking which components of the system have been changed
+What is the role of a change control board | To assess the impact of proposed changes from a strategic and organisational perspective rather than a technical perspective. They should decide if changes are worthwhile and should prioritise changes to be implemented
+What is the difference between a system version and a system release | A system version is an instance of a system that differs, in some ways, from other instances. A system release is a version that is released to customers
+What are the advantages of attribute-based version identification | When selecting components, you do not need to specify the version number (an error-prone process if there are many components) but simply list the required component attributes
+What is the definition of a (web) service | A loosely coupled reusable software component that encapsulates discrete functionality which may be distributed and programmatically accessed. A web service is a service that is accessed using standard Internet and XML-based protocols
+What is service engineering | The process of developing services for reuse in service-oriented applications
+How can web services be used to facilitate the use of legacy systems | The legacy system functionality is hidden by ‘wrapping’ it in a web service which is accessed by external applications. These applications therefore do not need to know the protocols and data structures used by the legacy system
+Define ‘software development with services | The creation of programs by composing and configuring services to create new composite services
+What is a workflow | A sequence of activities, ordered in time, that make up a coherent business processes with each activity carrying out some part of the work of that process
+What is the difference between BPMN and WS-BPEL | BPMN is a graphical language for defining workflows whereas WS-BPEL is a lower-level XML-based language
+What non-functional requirements may be influenced by the choice of system architecture | Performance, security, safety, availability, maintainability
+What is the fundamental characteristic of a repository model | All shared data is held in a central database that can be accessed by all sub-systems
+How is the system organised in a client-server model | A set of services is provided by servers and clients access and use these services
+What are the two principle styles used for modular decomposition | Object-oriented decomposition. Function-oriented pipelining
+What is a reference architecture | An abstract model of a system class that can be used to inform designers about the general structure of that type of system
+What are the two complementary approaches used for checking and analysis | Software inspections or peer reviews. Software testing
+What is automated static analysis | A process where an analysis program examines the source code looking for possible anomalies. These are drawn to the inspector’s attention as they may represent faults in the program
+What are the main argument for the use of formal specification and verification | Formal specification forces a detailed analysis of the requirements so reveals errors and anomalies. Formal verification demonstrates that the program meets its specification so implementation errors do not compromise dependability
+What is the distinction between application and infrastructure security | Application security – the application is designed to resist attacks. Infrastructure security – the software is configured to resist attacks
+What is security risk management | Security risk management is concerned with assessing the possible losses that might ensue from attacks on assets in the system and balancing these losses against the costs of security procedures that may reduce the losses
+Suggest two possible vulnerabilities when login/password authentication is used.Users set guessable passwords | Authorised users reveal their passwords to unauthorised users, perhaps through some social engineering process
+What are the three levels of protection that might be used in an information system | Platform-level protection. Application-level protection
+Why is it important to design for deployment | Because many security vulnerabilities are introduced when the system is configured for use in its deployment environment
+What are the three complementary strategies to achieve survivability | Resistance. Recognition. Recovery
+Which system model is described in the following graphic | Data-flow models
+Change request is proposal due to | All of the others
+What's the difference between functional and non-functional requirements | None of the others
+Suggest a most appropriate software process model that might be used as a basic for managing the developing of the software system that support categorizing goods based on consumption pattern, tracking payments from the customers | The waterfall model
+How is the system organized in a client-server model | None of the others
+Which of the following statements about the differences between integrating testing and component testing are true | The integrating testing test the result of the component while the component testing test its internal structure
+Which of the following statements about project management is true | The intangibility of software systems poses special problems for software project management
+What are essential attributes of good software | Maintainability; Dependability; Efficiency; Acceptability
+In Component-based software engineering approach, which phase takes the least cost | Specification 
+What are the key challenges facing software engineering in the 21st century | The heterogeneity challenge, the delivery challenge, the trust challenge
+Which is the correct sequence of the following activities in the process of System evolution | 2=>1=>4=>3 (1) Assess existing systems (2) Define system requirements (3) Modify systems  (4) Propose system changes
+What is the main difference between the Spiral model and other software processes models | The explicit recognition of risk in the Spiral model
+What is the outputs of Requirements elicitation and analysis | System models 
+What is the correct sequence of the following iterations in the RUP(Rational Unified Process) model | 2 => 1 => 4 => 3 (1)Elaboration (2)Inception (3)Transition (4)Construction
+What is the output of Feasibility study phase in the requirements engineering process | Report that recommends whether or not to continue development project 
+In contrast, the RUP (Rational Unified Process) is normally described from which types of perspectives | Dynamic perspective, Static perspective, Practice perspective
+What is the main difference between the RUP (Rational Unified Process) and other software processes models | Phase are more closely related to business rather than technical concerns
+Which is the correct sequence of the following activities in the Waterfall model | 2=>1=>4=>3=>5 (1)System and software design (2)Requirement definition (3)Integration and system testing (4)Implementation and unit testing (5)Operation and maintenance
+Which is the correct sequence of the following activities in the Component-based software engineering | 1=>3=>2=>4 (1) Component analysis (2) System design with reuse (3) Requirements modification (4) Development and integration
+The Waterfall approach is the BEST approach to development software when __ |  The software system is large and that is need developed at several sites
+Three categories of risks are ___ | Project risks, technical risks, business risks
+Why many software projects are 'one-off' projects | Because the requirements of software projects are not the same 
+What is the BEST way to do work breakdown structure | Sets out the breakdown of the project into activities and identifies the milestones and deliverables associated with each activity
+What are milestones in project planning | Milestones are the end-point of a process activity
+What is the critical path | The critical path is the sequence of dependent activities that defines the time required to complete the project
+Select the BEST statement about critical path | Project manager should allocate experienced people to do the tasks on the critical path
+What is the output of the first milestone in software requirement engineering process | Feasibility study report document
+Which is the BEST principle of project scheduling | Minimize task dependencies to avoid delays caused by one task waiting for another to complete
+The project  schedule shows ___ | The dependencies between activities, the estimated time required to reach each milestone and the allocation of people to activities
+What are deliverables | Deliverables are project results delivered to customers
+Which is the principle of prototype model | A prototype is to build quickly demonstrate to the customer what the product look like. Only minimal functionality of the actual product is provided during prototyping phase
+What are non – functional requirements | Constraints on the services or functions offered by the system such as timing constraints, constraints on the development process, standards, etc
+What are good attributes of requirements | Testable, complete, clear, consistent, unambiguous
+What are domain requirements | Requirements that come from the application domain of the system and that reflect characteristics and constraints of that domain
+What are system requirements | A structured document setting out detailed descriptions of the system’s functions, services and operational constraints 
+Which are types of non-functional requirement | Product requirements; Organizational requirements; External requirements
+What is the BEST way to write requirement document | Should include both a definition of user requirements and a specification of the system requirements 
+What are functional requirements | Statements of services the system should provide how the system should react to particular inputs and how the system should behave in particular situations
+What are user requirements | What are user requirements 
+Which of the following requirement statements belongs to domain requirements | There shall be a standard user interface to all database that shall be base on the Z39.50 standard
+In reality, the distinction between different types of requirements is not clear-cut | True
+Which of the following requirement statements belongs to non-functional requirements | The user interface shall be implemented as simple HTML without frames
+What’s the BEST way to start creating a data-flow diagram | In the data-flow diagram, you should start by analyzing the overall procurement process and then move on to the analysis of sub-processes
+When should you use state machine model |  Describe how a system responses to external and internal events; It shows system states and events that cause transition from one state to another
+When should you use data flow diagrams (DFD) | DFD is used to describing all of the things that can be done with a database system
+Can two objects associate with one another in more than one way | Yes
+What’s the BEST way to start creating a state diagram | In the state diagram, you first list the states of the object and then focus on the transition
+What’s the BEST way to start creating a class diagram | operations
+Another name for inheritance is | Generalization
+When should you use sequence diagram  | Should use sequence diagram to illustrate the sequence of steps that must be performed in order to complete a task
+Which models give a static view of a system | Object model; Data model; Architectural model
+When should you use use-case diagram | Should use use-case diagram to represent all of the people who might use the functionalities of the system
+What are types of behavioral models | Data-Flow, State machine
+Which non-functional system requirements that the software system architecture may depend on | Performance, Security, Safety, Availability, Maintainability
+Select the BEST solution for architectural design of a software system that performance is a critical requirement | The architectural should be designed to localise critical operations and minimise communications, use large-grain rather than fine-grain components | 
+Which of the following models belong to Event-driven systems | Broadcast models, Interrupt-driven models
+What is the correct statement about software architectural design decisions | Architectural design is a creative process,  the activities in the process differs depending on the type of system being developed
+Which of the following styles belong to Control styles | Centralised control, Event-based control
+Which of the following styles belong to System organization | ]The repository model; The Client-server model; The Abstract machine (layered) model
+What is the correct statement about software architectural styles | Most large systems are heterogeneous architectural styles
+What is the correct statement about software architectural design | The architectural design is normally expressed as a block diagram presenting an overview of the system structure
+Which of the following models belong to Centralised control | Call-return model, Manager model 
+What are advantages of explicitly designing and documenting software architecture | Stakeholder communication; System analysis; Large-scale reuse
+What are the models in architecture design | Static, Dynamic, Interface, Relationship, Distribution
+What are three general architectural styles | System organisation; decomposition styles; Control styles
+Another name for [… is a…] relationship is | Generalization
+Which is the correct statement about coupling | ]Coupling deals with interactions between objects or software components
+Which is NOT a primary goal in the design of the UML | Be dependent on particular programming language
+What do you mean by coupling in software design | Coupling is a measure of the strength of association established by a connection from one object or software component to another
+Which of the following is NOT an approach that may be used to identify object classes | Use Event-based analysis
+Which are object-oriented strategies | Object-oriented analysis, Object-oriented design, Object-oriented programming
+Which is NOT the main activity in design process | Designing the test case
+What is the purpose of analysis? | The  main objective of the analysis is to capture a complete, unambiguous, and consistent picture of requirements of the system and what the system must do to satisfy the users’ requirement and needs
+Another name for […has a…] relationship is | Composition
+Which is NOT an advantage of inheritance | The inheritance graphs of analysis, design and implementation have different functions and should be separately maintained
+Which is the correct statement about object identification | Object identification is an iterative process; it relies on the skill, experience and domain knowledge of system designers
+Which is the first stage in an object-oriented design process | Develop an understanding of the relationships between the software being designed and its external environment
+Which is the right sequence in the process of prototype development | 2 => 1 => 4 => 3 (1)Define prototype functionality (2)Establish prototype objectives (3)Evaluate prototype (4)Develop prototype
+The practices small, frequent releases of the system, the approach to requirements description base on customer stories or scenarios in Extreme Programming fit into which principle of agile methods | Incremental delivery
+What are common principles of agile methods | Customer involvement; incremental delivery; people not process; embrace change; maintain simplicity
+Which of the following BEST describes the major difficulties with incremental development | Contractual problems, validation problems, management problems and maintenance problems
+Which of the following is NOT an advantage of using incremental development and delivery | Systems are often have good structures
+The practices regular system release, test-first development and continuous integration in Extreme Programming fit into which principle of agile methods | Embrace change
+Which is NOT an advantage of rapid software development | Only senior programmer are capable of taking the kind of decisions required during the development process
+Which is the evidence when said that “pair programming is as efficient as the same number of programmers working individually | Measurements suggest that development productivity with pair programming is similar to that of two people working independently
+What is a user story in extreme programming | It is a requirement expressed as scenario
+The practices pair programming, collective ownership of the system code, and sustainable pace in Extreme Programming fit into which principle of agile methods | People not process
+Who chooses the stories for inclusion in the next release based on their priorities and the schedule estimates | Customer
+To help develop stories that defines the requirements | Application system, Component reuse, Object and function
+The trend of design process in most software engineering disciplines is base on | Reuse of existing system or component
+If  the applications or components are developed in difference programming language from the programming language you are using then you can not reuse that | False
+Which is NOT the main benefit of software reuse | Creating and maintaining a component library
+You can not to combine multiple patterns in the complex software system | False
+Which is the correct statement about Product line architectures | Architectures must be structured in such a way to separate different sub-systems and to allow them to be modified
+All of the following are the design choices have to be made when reusing COTS products EXCEPT | How will data be exchanged between different modules
+The trend of Reuse-based software engineering is an approach to development that tries to | Maximize the reuse of existing software
+What are the benefits of software re-using | To have faster delivery of system, lower cost, increased software quality
+Which is NOT a key factor that you should consider when planning reuse | The name of the application or component reuse
+All of the following are types of program generator EXCEPT | Component generators
+What is the normal order of activities in which software testing is organized | Unit test, integration test, validation test, system test 
+The main focus of acceptance testing is | testing from a business perspective
+Unit testing is a | White box testing
+The effort required for locating and fixing an error in an operational program is | Maintainability
+Workbenches are also called | All of the other choices
+A program validates a numeric field as follows values less than 10 are rejected | 3,10,22
+A successful defect test is a test which causes a program to behave in an normal way | False
+Which document identifies and describes the testing that will be implemented and executed | Test case
+What is the purpose of defect testing | To discover faults that make software’s behavior incorrect
+The testing intended to show that previously correct software has not been adversely affected by changes is call | Regression testing
+We split testing into distinct stages primarily because | Each test stage has a different purpose.
+Which is the right sequence in the software testing process | 2 => 1 => 3 => 4 (1) Prepare test data (2) Create test case (3) Perform test (4) Create test report
+Which of the following is NOT part of configuration management | The people in the project team
+Which is the change management concerned with | All of the other choices
+Software systems are subject to continual change requests from | Developers, Users, Market forces
+The customer wants to make a change to the project scope. The best thing for the project team to evaluate is the | effect of the change on the project schedule, cost, quality, and risks
+Which of the following is the source for software version up | All  of the other choices
+A configuration management system would NOT normally provide | Facilities to compare test results with expected results
+What is a release | An instance of a system which is distributed to users outside of the development team.
+Who review and approves the change request | Change control board
+Which of the following items would not come under Configuration Management | Live data
+Which is the right sequence of the change management process Analyze change request Request change by completing a change request form Make changes to software | 2 => 1 => 4 => 3=>5
+Which are levels of protection in application security engineering | Platform-level. Application-level. Record-level|
+Consider security design for username and password protection, what is the good design | System users are authenticated using a login name/password combination. Requires user change password after 2 months
+What is the first stage in survivability analysis | Review system requirements and architecture.
+Password should be changed | All of the other choices
+Why do we need consider security for project | To protect the system against external attack
+Which of the following design guidelines for secure systems engineering is NOT true | Avoid using redundancy and diversity to reduce risk
+What is the last stage in survivability analysis | Identify softspots and survivability strategies
+All of the following are the complementary strategies to achieve survivability EXCEPT | Conversion
+Define the security terms 'attack' | An exploitation of a system's vulnerability. Generally, this is from outside the system and is a deliberate attempt to cause some damage
+Which is the correct statement about integrity | Extent to which access to software or data by an unauthorized persons can be controlled
+Probability of a software failure is the | Reliability 
+Password should be changed | On regular basis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

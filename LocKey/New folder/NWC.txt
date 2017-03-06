@@ -1,0 +1,554 @@
+The higher the _____ of the router, the lower the ______ | Speed….processing delay
+As soon as the browser receives the IP address from____, it can initiate a TCP connection to the HTTP server located at port_____ at that IP address | DNS… 80
+The client-server model significantly relies on ____ infrastructure servers, the Peer-to-Peer model, instead, pairs of interminably connected peers, communicates ____ with each other| Always-on….directly
+Although HTTP is____, if the webserver wants to identify the users, ____is used| Stateless…Cookies
+FTP uses port 21 for sending…. and port 20 for sending…..| Identification and password…. Data file
+MIME is short for | Multipurpose Internet Mail Extensions
+Regarding to the DNS, IP addresses such as 209.191.122.70 or 10.22.8.8 are ____ to remember by human, but _____ to process by routers | Difficult… Easy
+What type of DNS Server has the IP addresses of all names in the Autonomous? | authoritative
+Which of the following is hybrid of client-server and P2P? | Skype
+Assume the RTT 40ms, the size of the Web object 0.2Mb and the transmission rate 20Mbps, how long does it take to download that object from a Web Server to a client if using non-persistent HTTP?? | 90ms
+Which one is incorrect about proxy? | Client caches the whole website to improve the downloading speed
+The connection establishment procedure in TCP is susceptible to a serious security problem called the _________ attack.| SYN flooding
+The job of delivering the data in a transport-layer segment to the correct socket is called_________. | De-multiplexing
+Which one is not in UDP segment header? | Receiving Windows
+rdt 1.1 assumes that the channel is | Perfectly reliable
+TCP connection provides ___________.| Full-duplex service
+In TCP congestion control, two important variables the sender has to keep track are | Congestion window and the threshold
+UDP and TCP use 1s complement checksum. Suppose you have the followings 2 bytes: 00110111 and 01011100. What is the 1s complement of the sum of those two bytes?| 01101100
+If the segment has sequence number of 128 and length of 8 bytes, the receiving computer will send ACK with value of _________| 136
+Host A and B are communicating over a TCP connection, host A send to host B the first segment with size 45 bytes, sequence number 200, the source port 1038, the destination port 80. What is the ACK number, the source port number, the destination port number in the ACK segment sent by host B to host A| ACK number: 245, source port: 80, destination port: 1038
+In ________, if timeout occurs while the current congestion window size is 64, the congestion window will reduce to 1| The congestion avoidance phase of TCP congestion control
+How many default gateway addresses does a computer need to function on a LAN (assume that not connect to other network)?| 0
+In a Datagram networks,| No call setup and packets may take different paths for the same source-destination pair
+The purpose of echo request and echo reply is to | check node-to-node communication
+Which field in the IP header is used to prevent an IP packet from continuously looping through a network? | Time-to-Live (TTL)
+What type of routing algorithm that OSPF use?| Link State Routing Algorithm
+What is (are) correct about DHCP?| All of the others
+What is the 32-bit binary equivalent of the IP address 254.1.8.252?| 11111110.00000001.00001000.11111100
+Suppose an ISP owns the block of addresses of the form 101.101.101.128/30, which address can be assigned to its customer? | 101.101.101.129
+Suppose datagrams are limited to 1500bytes including IP header of 20 bytes. UDP header is 8 bytes. How many datagrams would be required to send an MP3 of 50000 bytes | 34
+_____ in link layer guarantees to move each _____ datagrams across the link without error | Reliable delivery…..network
+Single parity check can | Detect a single bit error
+Assume the original message to be sent 101110, the generator is 1001. What is the remainder resulted during the CRC computation? | 011
+______is used in Ethernet | CSMA/CD
+Ethernet technologies provides ____ to the network layer | Unreliable service
+Switch has a characteristic of | Self-learning
+While MAC address is ___bit long, IP address is___ bit long | 48…32
+Which one is a MAC address: | F0-F0-16-F2-15-00
+In the exponential backoff phase of CSMA/CD for a 50Mbps Ethernet, after the first collision of a frame, the adapter then waits …. before sensing the channel again.| Either 0 or 10.24 microseconds
+Either 0 or 10.24 microseconds |802.11
+There are two categories of physical transmission medium: | Guided medium and unguided medium
+What are the two methods of circuit switching? | FDM and TDM
+POP3 is short for | Post Office Protocol-Version 3
+Assume a webpage has only 10 different images, using non-persistent HTTP, a client needs ______ to the server to load. | 10 different TCP connections
+In TCP, what can happen if timeout is much larger than the round-trip time? | When a segment is lost, TCP would not quickly retransmit the segment, resulting in long data transfer delays into the application.
+The transport layer protocol provides logical communication between ______, while the network layer protocol provides logical communication between _____. | Processes…..Hosts
+While IPv4 is …byte-long, IPv6 is … byte-long | 4….16
+Given the subnet with address 201.14.78.0 and the subnet mask 255.255.255.0, which address belongs to that subnet? | 201.14.78.64
+Manchester encoding is to | Synchronize between the sender and the receiver
+Slotted Aloha efficiency (useful transmission time) is approximately | 40%
+…. are sets of rules or guidelines that govern interactions between two computer systems in a computer network| Network protocols
+The packets in the application layer is called | Message
+Today's Internet is a _______________network. | packet-switched
+Total nodal delay is accumulated from the following delays: | Processing delay, queuing delay, transmission delay and propagation delay
+In OSI model, as data packet moves from the upper to the lower layer header are | Added
+A program running in a network attached device that passively receives all packet passing by the device's network interface is | Packet sniffer
+What is the total delay for transmission of 1.25MB of images over fiber optic cable with distance of 4500 km with transmission rate of 1Gbps (ignore all other delays). Assume that the speed of propagation is 300,000km/sec.| 25msec
+There are 4 serial links between the client and the server, with the transmission rates being 1Mbps, 1Mbps, 2 Mbps, and 0.7 Mbps. What is the throughput between the client and the server?| 0.7 Mbps
+The ____on the physical medium of the link is a little less than or equal to the speed of light | Propagation delay
+HTTP, FTP, SMTP and POP3 run on top of… | TCP
+The client-server model significantly relies on ____ infrastructure servers, the Peer-to-Peer model, instead, pairs of interminably connected peers, communicates ____ with each other | Always-on….directly
+Because FTP uses a separate control connection different from data connection, FTP is said to sent its control information_____ | Out-of-band
+Which one is correct about SMTP? | SMTP restricts the body of all mail messages to be in simple seven-bit ASCII.
+____ are responsible for domains such as com, org, gov, and all of the country domains such as uk, fr, ca, and jp| Top-level domain servers
+In DNS, TLD is short for | Top-Level Domain
+Skype is a | None of them
+Assume the RTT 50ms, the size of the Web object 0.4Mb and the transmission rate 10Mbps, how long does it take to download that object from a Web Server to a client if using non-persistent HTTP?? | 140ms
+Which statement is correct about cookie technology? | All of the others
+The combination of an IP address and a port number is called a _________. | socket
+The job of gathering data at the source host from different sockets, enveloping the data and passing the segments to the network layer is called | Multiplexing
+_____ applications typically uses ____ | Loss-tolerant……..UDP
+______ in the Internet is achieved through the use of acknowledgments and retransmissions. | Reliable data transfer
+TCP assigns a sequence number to each segment that is being sent. The sequence number for each segment is the number of the _______ byte carried in that segment. | first
+In modern implementations of TCP, a retransmission occurs if the retransmission timer expires or ________ duplicate ACK segments have arrived | three
+UDP and TCP use 1s complement checksum. Suppose you have the followings 2 bytes: 00101010 and 11001100. What is the 1s complement of the sum of those two bytes? | 00001001
+If the segment has sequence number of 118 and length of 8 bytes, the receiving computer will send ACK with value of _________ | 126
+Host A and B are communicating over a TCP connection, host A send to host B the first segment with size 55 bytes, sequence number 100, the source port 1028, the destination port 80. What is the ACK number, the source port number, the destination port number in the ACK segment sent by host B to host A | ACK number: 155, source port: 80, destination port: 1028
+In the congestion avoidance phase of TCP congestion control, if ____ occurs while the current congestion window size is 32, the congestion window will____ | Timeout……reduce to 1
+The IP broadcast address is | 255.255.255.255
+A Virtual Circuit maintains | Path from source to destination and forwarding tables in routers along path
+Who can send ICMP error-reporting messages? | Routers and destination hosts
+What is the data unit used in Internet Protocol (IP)? | Datagram
+Which statement is correct about tracert program? | To determine a router on the path, the program sends three packets with the same TTL
+NAT table in router | Store pairs of the host’s IP address and the port number
+Which one is not an IP address? | 251.222.258.1
+What is the 32-bit binary equivalent of the IP address 13.253.17.252? | 00001101.1111101.00010001.11111100
+Suppose a subnet has a block of IP addresses 101.101.101.0/24, which address does not belong to that block? | 101.101.111.0
+Suppose datagrams are limited to 1500bytes including IP header of 20 bytes. UDP header is 8 bytes. How many datagrams would be required to send an MP3 of 600,000 bytes| 408
+What is the name of packet in Link layer of Internet protocol stack? | Frame
+For even parity scheme (single), if the information is 101110, then information after adding parity bit is | 1011100
+Assume the original message to be sent 100001, the generator is 1001. What is the transmitted message? | 100001101
+______is used in Ethernet | CSMA/CD
+In CSMA/CD, if the adapter detects signal energy from other adapters while transmitting, | It stops transmitting its frame and transmits a jam signal.
+The Internet provides two types of services to its applications: | connectionless service and connection-oriented service.
+That the frequency spectrum of a link is shared among the connections established across the link is called….. |  Frequency division multiplexing
+If the buffer of the router in the Internet is full, the router will____| Drop incoming packets, resulting packet loss
+In OSI model, as data packet moves from the upper to the lower layer header are| Added
+A program running in a network attached device that passively receives all  packet  passing by the device's network interface is | Packet sniffer
+Suppose there are 5 routers between the source host and the destination host, 10ms is the processing delay at each router, 10ms is the propagation delay at each link, and 12ms is the transmission delay out of each router and the source, then the total delay is (ignore all other delays) | 192ms
+Assume that an image is about 1000 x 800 pixels with 1 byte/pixel and it is uncompressed. How long does it take to transmit it over a 2 Mbps channel? | 3.2 sec
+The time delay for checking bit-level error in the packet that occurs at the router can be classified as the _____ | Processing Delay
+Assume that the time it takes for a small packet to travel from the client to the server and then back to the client is 100 ms, then the round-trip time is | 100ms
+Which one is not belong to application layer? | ARP
+An HTTP request message always contains _______. |  a request line and a header
+FTP uses port 21 for sending…. and port 20 for sending….. | Identification and password…. Data file
+To talk with a mail server (with name serverName), we can use command | telnet serverName 25
+The______ that together implement the DNS distributed database, store____ for the hostname to IP address mappings. | DNS servers….Resource Records
+What type of DNS Server has the IP addresses of all names in the Autonomous? | authoritative
+Which one is correct about P2P network? | A user computer can be both client and server
+Assume the RTT 50ms, the size of the Web object 0.4Mb and the transmission rate 10Mbps, how long does it take to download that object from a Web Server to a client if using non-persistent HTTP?? | 140ms
+Which statement is correct about cookie technology? | Most major commercial Web sites today use cookies
+Which of the following is the pipelining protocol: | Selective Repeat
+The job of gathering data at the source host from different application processes, enveloping the data and passing the segments to the network layer is called | Multiplexing
+Electronic mail uses ____ while streaming multimedia typically uses_ | TCP……..UDP
+Pipelined reliable data transfer protocols allow the sender to _ | transmit multiple packets without waiting for an ACK
+TCP connection provides __ | Full-duplex service
+How many duplicate ACKs to trigger the Fast Retransmission mode? | 3
+UDP and TCP use 1s complement checksum. Suppose you have the followings 2 bytes: 00110111 and 01001100. What is the 1s complement of the sum of those two bytes? | 01111100
+Suppose that Host A then sends two segments to Host B over a TCP connection. The first and second segments contain 30 and 40 bytes of data, respectively. In the first segment, the sequence number is 165. In the acknowledgement of the first arriving segment, what is the acknowledgment number? | 195
+Host A and B are communicating over a TCP connection, host A send to host B the first segment with size 40 bytes, sequence number 410, the source port 1028, the destination port 80. What is the ACK number, the source port number, the destination port number in the ACK segment sent by host B to host A | ACK number: 450, source port: 80, destination port: 1028
+In ________, if timeout occurs while the current congestion window size is 64, the congestion window will reduce to 1 | The congestion avoidance phase of TCP congestion control
+Which of the following is the pipelining protocol: | Selective Repeat
+The job of gathering data at the source host from different…..,enveloping the data with header information to create ….is called multiplexing | application processes…. Segments
+Which one is incorrect about UDP? | Has congestion control
+______ in the Internet is achieved through the use of acknowledgments and retransmissions. | Reliable data transfer
+To accomplish flow control, TCP uses a ___________ window protocol. | sliding
+In the ________ algorithm of the TCP congestion control, the size of the CONGWIN (congestion window) increases exponentially. | slow start
+Suppose that Host A then sends two segments to Host B over a TCP connection. The first and second segments contain 30 and 40 bytes of data, respectively. In the first segment, the sequence number is 145. In the acknowledgement of the first arriving segment, what is the acknowledgment number? | 175
+Host A and B are communicating over a TCP connection, host A send to host B the first segment with size 2105 bytes, sequence number 100, the source port 1028, the destination port 1029. What is the ACK number, the source port number, the destination port number in the ACK segment sent by host B to host A | ACK number: 2205, source port: 1029, destination port: 1028
+In the congestion avoidance phase of TCP congestion control, if the timeout occurs at the current congestion window size 80, the congestion size will reduce to ___ and the is set to _____ | 1…. 40
+In classless addressing, __________ is assigned to an organization | a variable-length block
+What type of service that Virtual Circuit network provide? | Connection-oriented
+What field in the IP header changes when a datagram is forwarded by a simple router? | TTL
+What is the data unit used in Internet Protocol (IP)? | Datagram
+What is tracert (in Windows machine) or traceroute (in Linux machine) program for? | To  find the route path between thesender and receiver and to measure transit times of packets along the path
+1.SMTP, POP3, and IMAP protocols run on the following layer: | None of them
+2.In computer networking, hosts are sometimes divided into two categories: | clients and servers
+3.Two types of network switching are: | Circuit and packet switching
+4.Which delay mainly depends on the congestion of the network? | Queuing delay
+5.What is the order of the 5 layers in the Internet model? | Application, transport, network, link, physical
+6.Vulnerability Attack, Bandwidth Flooding, and Connection Flooding belongs to | Internet DoS Attack
+7.A packet of L bits is transmitted via the link with the transmission rate of R bits/sec; the transmission delay is | L/R
+8.Assume that an image is about 1000 x 800 pixels with 3 bytes/pixel and it is uncompressed. How long does it take to transmit it over a 1 Mbps channel? | 19.2 sec
+9.There are 4 serial links between the client and the server, with the transmission rates being 3Mbps, 12Mbps, 2 Mbps, and 2 Mbps. What is the throughput between the client and the server? | 2 Mbps
+10.If the router’s buffer memory is empty and no other packet is currently being transmitted, then the packet’s____ will be zero | Queueing delay
+11.As soon as the browser receives the IP address from____, it can initiate a TCP connection to the HTTP server located at port_____ at that IP address | DNS… 80
+12.In the file distribution of the client-server model, the server has to send ____ of file to many hosts, consuming a large amount of_____ | Copies…bandwidth
+13.Although HTTP is stateless, if the webserver wants to identify the users, ____is used | Cookies
+14.When you use ftp client (a utility in Windows), what is command used to get files from ftp server? | get
+15.This command identifies the receiver of the message in email. | RCPT TO
+16.Regarding to the DNS, hostnames such as www.fpt.edu.vn, www.stanford.edu are ____ to remember by human, but _____ to process by routers | Easy….Difficult
+17.DNS is short for | Domain Name System
+18.Skype is a | P2P application
+19.Assume the one-way propagation delay 100ms, the size of the Web object 0.2Mb and the transmission rate 10Mbps, how long does it take to download that object from a Web Server to a client if using non-persistent HTTP? | 420ms
+22.The job of delivering the data in a transport-layer segment to the correct application process is called_________. | De-multiplexing
+23.Which protocol is better for real-time video application over the Internet in term of minimizing the average transmission delay? | UDP
+24.Which the following is the individual characteristic of rdt3.0? | Requires countdown timer.
+25.The acknowledgment number in TCP segment is ________. | cumulative
+27.What is the one's compliment 8-bit checksum of the following 8-bit binary numbers: 1001 0101 and 1010 1010. | 1011 1111
+28.Host A and B are communicating over a TCP connection, host A send to host B the first segment with size 5105 bytes, sequence number 600, the source port 1028, the destination port 1029. What is the ACK number, the source port number, the destination port number in the ACK segment sent by host B to host A | ACK number: 5705, source port: 1029, destination port: 1028
+30.In the congestion avoidance phase of TCP congestion control, if the timeout occurs at the current congestion window size 32, the congestion size will reduce to ___ and the threshold window size is set to _____ | 1…. 16
+31.In IP fragmentation with MTU (Maximum Transmission Unit) size of 1500 bytes , a 2000 byte datagram is fragmented into  _______ datagram(s) | 2
+32.If the fragment offset has a value of 100 and MF = 0, it means that _______. | this is the last fragment.
+33.In Datagram networks and in Virtual networks: | One has each packet to route independently; one has all packet to route in one path, respectively
+34.Which layer does ICMP reside in? | Network
+35.What does the IP header’s protocol field identify? | The transport layer protocol that generated the information in the data field
+36.A _______ routing table is updated periodically using one of the adaptive routing protocols. | dynamic
+37.Which is the function of NAT router? | Replacing source IP address and port # with NAT IP address and new port # for every outgoing datagram and  doing vice verse for every incoming datagram
+38.Which one is not an IP address? | 251.222.258.1
+39.What is the 32-bit binary equivalent of the IP address 13.253.17.252? | 00001101.1111101.00010001.11111100
+40.In datalink layer, there are two types of networks links: | Point-to-point link and broadcast link
+41.Which one is not a service provided by the link layer? | Congestion control
+42.Assume the original message to be sent 11001, the generator is 1001. What is the transmitted message? | 11001010
+43.Channel partitioning, random access, and taking turns are______ | MAC protocols
+44.What does that mean by “Carrier Sense” in CSMA/CD? | The host listens for the carrier signal from other adapters before any transmission
+45.The broadcast MAC address in LAN is | FF-FF-FF-FF-FF-FF
+46.In the exponential backoff  phase of CSMA/CD, after 3rd collision of a frame, the adapter then waits K x 512 bit times before sensing the channel again, where K is chosen at a random from | {0,1,2,3,4,5,6,7}
+47.What is the MAC protocol used in 802.11 network? | CSMA/CA
+48.Examples of _______include copper wire, coaxial cable, optical fiber, and satellite radio. | physical transmission media
+49.In _____, the network establishes a dedicated end-to-end connection  between two hosts | Circuit switching
+50.IMAP and POP are_________ | Mail access protocols
+51.Regarding TCP, what can happen if timeout is much larger than the round-trip time? | When a segment is lost, TCP would not quickly retransmit the segment, resulting in long data transfer delays into the application.
+52.The transport layer protocol provides logical communication between ______, while the network layer protocol provides logical communication between _____. | Processes…..Hosts
+While IPv4 is …byte-long, IPv6 is … byte-long | 4….16
+QN=46 (9104)	A method for encapsulating data in a PPP frame, identifying the beginning and end of the frame is called |	Framing
+QN=47 (9117)	The destination address field in an Ethernet frame is |	6-byte long
+QN=48 (9129)	Which one is not a MAC address: |	A1-000-6C-2D-15-0A
+QN=49 (9141)	Assume an Ethernet network has speed of 15Mbps. In the exponential backoff  phase of CSMA/CD, after the first collision of a frame, the adapter then waits …. before sensing the channel again. |	Either 0 or 34 microseconds
+QN=50 (9147)	Multiple access link in 802.11 wireless LAN is a |	Broadcast link
+QN=51 (8729)	___ is a guided transmission medium, while___ is an unguided transmission medium |	Fiber-optic cable…… Wireless LAN channel
+QN=52 (8737)	The telephone networks are examples of __________. |	Circuit-switched networks
+QN=53 (8835)	Three popular mail access protocols are |		POP3,IMAP and HTTP
+QN=54 (8842)	Assume a website has only 15 different objects, using persistent HTTP, a client needs ______ to the server |	A single TCP connection
+QN=55 (8936)	In TCP, what can happen if the timeout  is smaller than the connection's round-trip time? |	It can result in unnecessary retransmissions.
+QN=56 (8942)	One of the responsibilities of the transport layer protocol is to create a logical  communication between: |	Processes
+QN=57 (9042)	While IPv4 address is …bit-long, IPv6 address is … bit-long |	32….128
+QN=58 (9055)	Consider an IP subnet with prefix 139.27.229.96/28. Which address belongs to the subnet? |		139.27.229.100
+QN=59 (9154)	And encoding technique used in Ethernet that encodes bit 1 a transition from up to down and bit 0 a transition from down to up (of electrical signal) is called |	Manchester encoding
+QN=60 (9162)	Two types of ALOHA are: |	Pure ALOHA and slotted ALOHA
+QN=1 (8950)	In classless addressing, __________ is assigned to an organization. |	a variable-length block
+QN=2 (8957)	A datagram is fragmented into three smaller datagrams. Which of the following is true? |	The identification field is the same for all three datagrams.
+QN=3 (8971)	What field in the IP header changes when a datagram is forwarded by a simple router? |	TTL
+QN=4 (8977)	IP is _________ datagram protocol. |	An unreliable and connectionless
+QN=5 (8988)	What is tracert or traceroute program for? |	To  find the route path between the sender and receiver and to measure transit times of packets along the path
+QN=6 (8996)	Which of the following describe the DHCP Discover message? |	It does not use a layer 2 destination address.
+QN=7 (9004)	Which one is not an IP address? |	254.322.255.1
+QN=8 (9013)	What is the 32-bit binary equivalent of the IP address 1.255.8.252? |	00000001.1111111.00001000.11111100
+QN=9 (9024)	Suppose a subnet has a block of IP addresses 101.101.101.0/24, which address does not belong to that block? |	a.101.101.102.0
+QN=10 (9040)	Consider sending a 5550-byte datagram into a link that has an MTU of 520 bytes (including IP header of 20 bytes). How many fragments are generated? |	12
+QN=11 (9057)	Where is link layer implemented? |	a.	NIC
+QN=12 (9071)	For even parity scheme (single), if the information is 101010, then information after adding parity bit is |	1010101
+QN=13 (9081)	Assume the original message to be sent 101001, the generator is 1001. What is the transmitted message? |	101001001
+QN=14 (9092)	Channel partitioning, random access, and taking turns are______ |	MAC protocols
+QN=15 (9101)	The most popular Ethernet network topology today is |	Star
+QN=16 (9108)	What is the framing method used in PPP? |	 Byte stuffing.
+QN=17 (9122)	A table has following information: < IP address; MAC address; TTL>, where TTL is Time-To-Live. This table can be a (an) | 	APR table
+QN=18 (9133)	The broadcast MAC address in LAN is | 	FF-FF-FF-FF-FF-FF
+QN=19 (9139)	In the exponential backoff  phase of CSMA/CD for a 1Mbps Ethernet, after the first collision of a frame, the adapter then waits …. before sensing the channel again. |	Either 0 or 512 microseconds
+QN=20 (9150)	What is the MAC protocol used in 802.11 network? | 	CSMA/CA
+QN=21 (8727)	There are two categories of__________: Guided medium and unguided medium | 	physical transmission medium
+QN=22 (8735)	In _____, the network establishes a dedicated end-to-end connection  between two hosts |	Circuit switching
+QN=23 (8833)	IMAP is designed to allow users to manipulate______, so it is more_______ than POP3 | 	Remote mailboxes…. Complex
+QN=24 (8840)	Assume a website has only 5 different images, using non-persistent HTTP, a client needs ______ to the server 	| 	5 TCP connections
+QN=25 (8934)	In TCP, what can happen if the timeout  is smaller than the connection's round-trip time? |	 It can result in unnecessary retransmissions.
+QN=26 (8946)	The transport layer protocol provides _____ communication between ______ running on different applications | 		Logical…..Processes
+QN=27 (9044)	How “big” is an IPv6 Internet address? |		 128 bits
+QN=28 (9050)	Given the IP address 201.14.78.65 and the subnet mask 255.255.255.224, what is the subnet address? | 	201.14.78.64
+QN=29 (9157)	With the following Manchester encoding, the bit stream transmitted is _____ |	None of them
+QN=30 (9166)	Which one is correct about ALOHA? |	Less bandwidth utilization than CSMA/CA
+What is tracert (in Windows machine) or traceroute (in Linux machine) program for?| To  find the route path between the sender and receiver and to measure transit times of packets along the path
+What does NAT stand for?| Network Address Translation
+Which one is not an IP address?| 256.222.255.1
+What is the 32-bit binary equivalent of the IP address 13.253.17.253? | 00001101.1111101.00010001.11111101
+Suppose a subnet has a block of IP addresses 101.101.101.0/24, which address belongs to that block? | 101.101.101.122
+Suppose datagrams are limited to 1500bytes including IP header of 20 bytes. UDP header is 8 bytes. How many datagrams would be required to send an MP3 of  80000 bytes | 55
+Which of the following is the service of link layer? | Error detection.
+In CRC, both receiver and sender knows | The Generator
+Assume the original message to be sent 101110, the generator is 1001. What is the transmitted message? | 101110011
+CSMA/CA belong to______ group, one of three broad classes of MAC protocols | Random access
+CSMA/CD stands for | Carrier Sense Medium Access/Collision Detection
+What is cut-through operation in switches? | They start forwarding frames as soon as the destination header field has come in, but before the rest of frame has arrived
+ARP is | Plug-and-play
+Which one is a MAC address:| F0-F0-16-F2-15-00
+Which statement is correct about packet switching and circuit switching? | With the same delay performance, packet-switching allows more number of users than circuit switching
+Total nodal delay is accumulated from the following delays: | Processing delay, queuing delay, transmission delay and propagation delay
+Which layer in the Internet that connects directly to wire? | None of them
+Which one is correct about Denial of Service (DoS) attack? | Attackers make network resources unavailable by overwhelming resource with bogus traffic
+Suppose there are 3 routers between the source host and the destination host, 10ms is the processing delay at each router or host, 12ms is the propagation delay at each link, and 2ms is the transmission delay out of each router and the source, then the total delay is (ignore all other delays) | 96ms
+There are 4 serial links between the client and the server, with the transmission rates being 1Mbps, 3Mbps, 2 Mbps, and 1 Mbps. What is the throughput between the client and the server? | 1 Mbps
+The lower the _____ of the router, the higher the ______ | Speed….processing delay
+As soon as the browser receives the IP address from____, it can initiate a TCP connection to the HTTP server located at port_____ at that IP address | DNS… 80
+While the____ significantly relies on  always-on infrastructure servers, the____does not (or minimally relies on) | Client-server model…Peer-to-Peer model
+A Web page consists of _______ such as a HTML file, a JPEG image, a GIF image, a Java applet, an audio clip, etc. | Objects
+FTP uses port____ for sending identification and password and port____ for sending data | 21…20
+The DNS servers that together implement the _____, store____ for the hostname to IP address mappings. | DNS database ….Resource Records
+An ISP has a DNS server that holds both names of Web servers and their IP addresses. That DNS servers is called | Authorative
+The ability of P2P networks to handle many peers is called | Scalability
+Assume the RTT 100ms, the size of the Web object 1kb and the transmission rate 100kbps, how long does it take to download that object from the Web Server to a client if using non-persistent HTTP? | 220ms
+Which one is INCORRECT about proxy? | Proxy helps to remove the bottleneck of access link
+Which of the following is the pipelining protocol: | Selective Repeat
+This job of delivering the data in a…. to the correct…. is called de-multiplexing | transport-layer segment….. application process
+Which one is not in UDP segment header? | ACK number
+Reliable data transfer in TCP ensures that data is delivered from sending process to receiving process__________ | Correctly and in order
+TCP allows the sending process to deliver data as a _______of bytes and allows the receiving process to obtain data as a _________ of bytes. | stream; stream
+In Congestion avoidance of TCP congestion control, if timeout occurs while the current congestion window size is 16, the congestion window will___ | Reduce to 1
+UDP and TCP use 1s complement checksum. Suppose you have the followings 2 bytes: 00111101 and 01010001. What is the 1s complement of the sum of those thow bytes? | 01110001
+Suppose that Host A then sends two segments to Host B over a TCP connection. The first and second segments contain 20 and 40 bytes of data, respectively. In the first segment, the sequence number is 145. In the acknowledgement of the first arriving segment, what is the acknowledgment number? | 165
+Host A and B are communicating over a TCP connection, host A send to host B the first segment with size 105 bytes, sequence number 600, the source port 1028, the destination port 1029. What is the ACK number, the source port number, the destination port number in the ACK segment sent by host B to host A | ACK number: 705, source port: 1029, destination port: 1028
+In the congestion avoidance phase of TCP congestion control, if the timeout occurs while the current______ size is 64, the ____size will reduce to 1 | congestion window…. congestion window
+Which method of networks access has the biggest difference between download and upstream speed? | ADSL
+That an application can rely on the connection to deliver all of its data without error and in the proper order is called | Reliable data transfer
+What are two fundamental switching approaches for building a network core? | Circuit switching and packet switching
+When does packet loss happen? | Packet arriving to the full queue at the routers
+Which layer in the Internet that connects directly to wire? | None of them
+What is DDoS stand for? | Distributed Denial-of-Service 
+In the transmission delay calculation t = L/R, what is R? | Link bandwidth of the link
+Assume that an image is about 1000 x 800 pixels with 1 byte/pixel and it is uncompressed. How long does it take to transmit it over a 1 Mbps channel? | 6.4sec
+SMTP, POP3, and IMAP protocols run on the following layer | None of them
+In computer networking, hosts are sometimes divided into two categories | clients and servers
+Two types of network switching are | Circuit and packet switching
+Which delay mainly depends on the congestion of the network | Queuing delay
+What is the order of the 5 layers in the Internet model | Application, transport, network, link, physical
+Vulnerability Attack, Bandwidth Flooding, and Connection Flooding belongs to | Internet DoS Attack
+A packet of L bits is transmitted via the link with the transmission rate of R bits/sec; the transmission delay is | L/R
+Assume that an image is about 1000 x 800 pixels with 3 bytes/pixel and it is uncompressed. How long does it take to transmit it over a 1 Mbps channel | 19.2 sec
+There are 4 serial links between the client and the server, with the transmission rates being 3Mbps, 12Mbps, 2 Mbps, and 2 Mbps. What is the throughput between the client and the server | 2 Mbps
+If the router’s buffer memory is empty and no other packet is currently being transmitted, then the packet’s will be zero | Queueing delay
+As soon as the browser receives the IP address from____, it can initiate a TCP connection to the HTTP server located at port_____ at that IP address | DNS… 80
+In the file distribution of the client-server model, the server has to send ____ of file to many hosts, consuming a large amount of | Copies…bandwidth
+Although HTTP is stateless, if the webserver wants to identify the users, ____is used | Cookies
+When you use ftp client (a utility in Windows), what is command used to get files from ftp server | get
+This command identifies the receiver of the message in email | RCPT TO
+Regarding to the DNS, hostnames such as www.fpt.edu.vn, www.stanford.edu are ____ to remember by human, but _____ to process by routers | Easy….Difficult
+DNS is short for | Domain Name System
+Skype is a | P2P application
+Assume the one-way propagation delay 100ms, the size of the Web object 0.2Mb and the transmission rate 10Mbps, how long does it take to download that object from a Web Server to a client if using non-persistent HTTP | 420ms
+The job of delivering the data in a transport-layer segment to the correct application process is called | De-multiplexing
+Which protocol is better for real-time video application over the Internet in term of minimizing the average transmission delay | UDP
+Which the following is the individual characteristic of rdt3.0 | Requires countdown timer
+The acknowledgment number in TCP segment is  | cumulative
+What is the one's compliment 8-bit checksum of the following 8-bit binary numbers:1001 0101 and 1010 1010 | 1011 1111
+Host A and B are communicating over a TCP connection, host A send to host B the first segment with size 5105 bytes, sequence number 600, the source port 1028, the destination port 1029. What is the ACK number, the source port number, the destination port number in the ACK segment sent by host B to host A | ACK number: 5705, source port: 1029, destination port: 1028
+In the congestion avoidance phase of TCP congestion control, if the timeout occurs at the current congestion window size 32, the congestion size will reduce to ___ and the threshold window size is set to  | 1…. 16
+In IP fragmentation with MTU (Maximum Transmission Unit) size of 1500 bytes , a 2000 byte datagram is fragmented into  _______ datagram(s) | 2
+If the fragment offset has a value of 100 and MF = 0, it means that  | this is the last fragment
+In Datagram networks and in Virtual networks | One has each packet to route independently; one has all packet to route in one path, respectively
+Which layer does ICMP reside in | Network
+What does the IP header’s protocol field identify | The transport layer protocol that generated the information in the data field
+A _______ routing table is updated periodically using one of the adaptive routing protocols. | dynamic
+Which is the function of NAT router | Replacing source IP address and port # with NAT IP address and new port # for every outgoing datagram and  doing vice verse for every incoming datagram
+Which one is not an IP address | 251.222.258.1
+What is the 32-bit binary equivalent of the IP address 13.253.17.252 | 00001101.1111101.00010001.11111100
+In datalink layer, there are two types of networks links | Point-to-point link and broadcast link
+Which one is not a service provided by the link layer | Congestion control
+Assume the original message to be sent 11001, the generator is 1001. What is the transmitted message | 11001010
+Channel partitioning, random access, and taking turns are______ | MAC protocols 
+What does that mean by “Carrier Sense” in CSMA/CD | The host listens for the carrier signal from other adapters before any transmission
+The broadcast MAC address in LAN is | FF-FF-FF-FF-FF-FF
+In the exponential backoff  phase of CSMA/CD, after 3rd collision of a frame, the adapter then waits K x 512 bit times before sensing the channel again, where K is chosen at a random from | {0,1,2,3,4,5,6,7}
+What is the MAC protocol used in 802.11 network | CSMA/CA
+Examples of _______include copper wire, coaxial cable, optical fiber, and satellite radio. | physical transmission media
+In _____, the network establishes a dedicated end-to-end connection  between two hosts | Circuit switching
+IMAP and POP are_________ | Mail access protocols
+Regarding TCP, what can happen if timeout is much larger than the round-trip time | When a segment is lost, TCP would not quickly retransmit the segment, resulting in long data transfer delays into the application.
+The transport layer protocol provides logical communication between ______, while the network layer protocol provides logical communication between _____. | Processes…..Hosts
+While IPv4 is …byte-long, IPv6 is … byte-long | 4….16
+The Internet provides two types of services to its applications | connectionless service and connection-oriented service
+That the frequency spectrum of a link is shared among the connections established across the link is called….. | Frequency division multiplexing
+If the buffer of the router in the Internet is full, the router will____ | Drop incoming packets, resulting packet loss
+In OSI model, as data packet moves from the upper to the lower layer header are | Added
+A program running in a network attached device that passively receives all  packet  passing by the device's network interface is | Packet sniffer
+Suppose there are 5 routers between the source host and the destination host, 10ms is the processing delay at each router, 10ms is the propagation delay at each link, and 12ms is the transmission delay out of each router and the source, then the total delay is (ignore all other delays) | 192ms
+Assume that an image is about 1000 x 800 pixels with 1 byte/pixel and it is uncompressed. How long does it take to transmit it over a 2 Mbps channel | 3.2 sec
+The time delay for checking bit-level error in the packet that occurs at the router can be classified as the  | Processing Delay
+Assume that the time it takes for a small packet to travel from the client to the server and then back to the client is 100 ms, then the round-trip time is | 100ms
+Which one is not belong to application layer | ARP
+An HTTP request message always contains  | a request line and a header
+FTP uses port 21 for sending…. and port 20 for sending….. | Identification and password…. Data file
+To talk with a mail server (with name serverName), we can use command | telnet serverName 25
+The______ that together implement the DNS distributed database, store____ for the hostname to IP address mappings. | DNS servers….Resource Records
+What type of DNS Server has the IP addresses of all names in the Autonomous? | authoritative
+Which one is correct about P2P network | A user computer can be both client and server
+Assume the RTT 50ms, the size of the Web object 0.4Mb and the transmission rate 10Mbps, how long does it take to download that object from a Web Server to a client if using non-persistent HTTP?? | 140ms
+Which statement is correct about cookie technology? | Most major commercial Web sites today use cookies
+Which of the following is the pipelining protocol: | Selective Repeat
+The job of gathering data at the source host from different application processes, enveloping the data and passing the segments to the network layer is called | Multiplexing
+Electronic mail uses ____ while streaming multimedia typically user | TCP……..UDP
+Pipelined reliable data transfer protocols allow the sender to  | transmit multiple packets without waiting for an ACK
+TCP connection provides  | Full-duplex service
+How many duplicate ACKs to trigger the Fast Retransmission mode | 3
+UDP and TCP use 1s complement checksum. Suppose you have the followings 2 bytes: 00110111 and 01001100. What is the 1s complement of the sum of those two bytes | 01111100
+Suppose that Host A then sends two segments to Host B over a TCP connection. The first and second segments contain 30 and 40 bytes of data, respectively. In the first segment, the sequence number is 165. In the acknowledgement of the first arriving segment, what is the acknowledgment number | 195
+Host A and B are communicating over a TCP connection, host A send to host B the first segment with size 40 bytes, sequence number 410, the source port 1028, the destination port 80. What is the ACK number, the source port number, the destination port number in the ACK segment sent by host B to host A | ACK number: 450, source port: 80, destination port: 1028
+In ________, if timeout occurs while the current congestion window size is 64, the congestion window will reduce to 1 | The congestion avoidance phase of TCP congestion control
+Which of the following is the pipelining protocol | Selective Repeat
+The job of gathering data at the source host from different…..,enveloping the data with header information to create ….is called multiplexing | application processes…. segments
+Which one is incorrect about UDP | Has congestion control
+in the Internet is achieved through the use of acknowledgments and retransmissions | Reliable data transfer
+To accomplish flow control, TCP uses a ___________ window protocol | sliding
+In the ________ algorithm of the TCP congestion control, the size of the CONGWIN (congestion window) increases exponentially | slow start
+Suppose that Host A then sends two segments to Host B over a TCP connection. The first and second segments contain 30 and 40 bytes of data, respectively. In the first segment, the sequence number is 145. In the acknowledgement of the first arriving segment, what is the acknowledgment number | 175
+Host A and B are communicating over a TCP connection, host A send to host B the first segment with size 2105 bytes, sequence number 100, the source port 1028, the destination port 1029. What is the ACK number, the source port number, the destination port number in the ACK segment sent by host B to host A | ACK number: 2205, source port: 1029, destination port: 1028
+In the congestion avoidance phase of TCP congestion control, if the timeout occurs at the current congestion window size 80, the congestion size will reduce to ___ and the is set to | 1…. 40
+In classless addressing, __________ is assigned to an organization | a variable-length block
+What type of service that Virtual Circuit network provide | Connection-oriented
+What field in the IP header changes when a datagram is forwarded by a simple router | TTL
+What is the data unit used in Internet Protocol (IP) | Datagram
+What is tracert (in Windows machine) or traceroute (in Linux machine) program for | To  find the route path between the sender and receiver and to measure transit times of packets along the path
+What does NAT stand for | Network Address Translation
+Which one is not an IP address | 256.222.255.1
+What is the 32-bit binary equivalent of the IP address 13.253.17.253 | 00001101.1111101.00010001.11111101
+Suppose a subnet has a block of IP addresses 101.101.101.0/24, which address belongs to that block | 101.101.101.122
+Suppose datagrams are limited to 1500bytes including IP header of 20 bytes. UDP header is 8 bytes. How many datagrams would be required to send an MP3 of  80000 bytes | 55
+Which of the following is the service of link layer | Error detection
+In CRC, both receiver and sender knows | The Generator
+Assume the original message to be sent 101110, the generator is 1001. What is the transmitted message | 101110011
+CSMA/CA belong to______ group, one of three broad classes of MAC protocols | Random access
+CSMA/CD stands for | Carrier Sense Medium Access/Collision Detection
+What is cut-through operation in switches | They start forwarding frames as soon as the destination header field has come in, but before the rest of frame has arrived
+ARP is | Plug-and-play
+Which one is a MAC address | F0-F0-16-F2-15-00
+Which statement is correct about packet switching and circuit switching | With the same delay performance, packet-switching allows more number of users than circuit switching
+Total nodal delay is accumulated from the following delays | Processing delay, queuing delay, transmission delay and propagation delay
+Which layer in the Internet that connects directly to wire | None of them
+Which one is correct about Denial of Service (DoS) attack | Attackers make network resources unavailable by overwhelming resource with bogus traffic
+Suppose there are 3 routers between the source host and the destination host, 10ms is the processing delay at each router or host, 12ms is the propagation delay at each link, and 2ms is the transmission delay out of each router and the source, then the total delay is (ignore all other delays) | 96ms
+There are 4 serial links between the client and the server, with the transmission rates being 1Mbps, 3Mbps, 2 Mbps, and 1 Mbps. What is the throughput between the client and the server | 1 Mbps
+The lower the _____ of the router, the higher the  | Speed….processing delay
+As soon as the browser receives the IP address from____, it can initiate a TCP connection to the HTTP server located at port_____ at that IP address | DNS… 80
+While the____ significantly relies on  always-on infrastructure servers, the____does not (or minimally relies on) | Client-server model…Peer-to-Peer model
+A Web page consists of _______ such as a HTML file, a JPEG image, a GIF image, a Java applet, an audio clip, etc | Objects
+FTP uses port____ for sending identification and password and port____ for sending data | 21…20
+The DNS servers that together implement the _____, store____ for the hostname to IP address mappings | DNS database ….Resource RecordsAn ISP has a DNS server that holds both names of Web servers and their IP addresses. That DNS servers is called | Authorative
+The ability of P2P networks to handle many peers is called | Scalability
+Assume the RTT 100ms, the size of the Web object 1kb and the transmission rate 100kbps, how long does it take to download that object from the Web Server to a client if using non-persistent HTTP | 210ms
+Which one is INCORRECT about proxy | Proxy helps to remove the bottleneck of access link
+Which of the following is the pipelining protocol | Selective Repeat
+This job of delivering the data in a…. to the correct…. is called de-multiplexing | transport-layer segment….. application process
+Which one is not in UDP segment header | ACK number
+Reliable data transfer in TCP ensures that data is delivered from sending process to receiving process | Correctly and in order
+TCP allows the sending process to deliver data as a _______of bytes and allows the receiving process to obtain data as a _________ of bytes | stream; stream
+In Congestion avoidance of TCP congestion control, if timeout occurs while the current congestion window size is 16, the congestion window will | Reduce to 1
+UDP and TCP use 1s complement checksum. Suppose you have the followings 2 bytes: 00111101 and 01010001. What is the 1s complement of the sum of those thow bytes | 01110001
+Suppose that Host A then sends two segments to Host B over a TCP connection. The first and second segments contain 20 and 40 bytes of data, respectively. In the first segment, the sequence number is 145. In the acknowledgement of the first arriving segment, what is the acknowledgment number | 165
+Host A and B are communicating over a TCP connection, host A send to host B the first segment with size 105 bytes, sequence number 600, the source port 1028, the destination port 1029. What is the ACK number, the source port number, the destination port number in the ACK segment sent by host B to host A | ACK number: 705, source port: 1029, destination port: 1028
+In the congestion avoidance phase of TCP congestion control, if the timeout occurs while the current______ size is 64, the ____size will reduce to 1 | congestion window…. congestion window
+Which method of networks access has the biggest difference between download and upstream speed | ADSL 
+That an application can rely on the connection to deliver all of its data without error and in the proper order is called | Reliable data transfer
+What are two fundamental switching approaches for building a network core | Circuit switching and packet switching
+When does packet loss happen | Packet arriving to the full queue at the routers
+Which layer in the Internet that connects directly to wire | None of them
+What is DDoS stand for | Distributed Denial-of-Service
+In the transmission delay calculation t = L/R, what is R | Link bandwidth of the link
+Assume that an image is about 1000 x 800 pixels with 1 byte/pixel and it is uncompressed. How long does it take to transmit it over a 1 Mbps channel | 6.4sec
+There are 4 serial links between the client and the server, with the transmission rates being 1Mbps, 3Mbps, 2 Mbps, and 0.5 Mbps. What is the throughput between the client and the server | 0.5 Mbps
+The higher the _____ of the router, the lower the  | Speed….processing delay
+As soon as the browser receives the IP address from____, it can initiate a TCP connection to the HTTP server located at port_____ at that IP address | DNS… 80
+The client-server model significantly relies on  ____ infrastructure servers, the Peer-to-Peer model, instead, pairs of interminably connected peers, communicates ____ with each other | Always-on….directly
+Although HTTP is____, if the webserver wants to identify the users, ____is used | Stateless…Cookies
+FTP uses port 21 for sending…. and port 20 for sending | Identification and password…. Data file
+MIME is short for | Multipurpose Internet Mail Extensions
+Regarding to the DNS, IP addresses such as 209.191.122.70 or 10.22.8.8 are ____ to remember by human, but _____ to process by routers | Difficult… Easy
+What type of DNS Server has the IP addresses of all names in the Autonomous | authoritative
+Which of the following is hybrid of client-server and P2P | Skype
+Assume the RTT 40ms, the size of the Web object 0.2Mb and the transmission rate 20Mbps, how long does it take to download that object from a Web Server to a client if using non-persistent HTTP | 90ms
+Which one is incorrect about proxy | Client caches the whole website to improve the downloading speed
+The connection establishment procedure in TCP is susceptible to a serious security problem called the _________ attack | SYN flooding
+The job of delivering the data in a transport-layer segment to the correct socket is called | De-multiplexing
+Which one is not in UDP segment header | Receiving Windows
+rdt 1.1 assumes that the channel is | Perfectly reliable
+TCP connection provides | Full-duplex service
+In TCP congestion control, two important  variables the sender has to keep track are | Congestion window and the threshold
+UDP and TCP use 1s complement checksum. Suppose you have the followings 2 bytes: 00110111 and 01011100. What is the 1s complement of the sum of those two bytes | 01101100
+If the segment has sequence number of 128 and length of 8 bytes, the receiving computer will send ACK with value of  | 136
+Host A and B are communicating over a TCP connection, host A send to host B the first segment with size 45 bytes, sequence number 200, the source port 1038, the destination port 80. What is the ACK number, the source port number, the destination port number in the ACK segment sent by host B to host A | ACK number: 245, source port: 80, destination port: 1038
+In ________, if timeout occurs while the current congestion window size is 64, the congestion window will reduce to 1 | The congestion avoidance phase of TCP congestion control
+How many default gateway addresses does a computer need to function on a LAN  (assume that not connect to other network) | 0
+In a Datagram networks | No call setup and packets may take different paths for the same source-destination pair
+The purpose of echo request and echo reply is to | check node-to-node communication
+Which field in the IP header is used to prevent an IP packet from continuously looping through a network | Time-to-Live (TTL)
+What type of routing algorithm that OSPF use | Link State Routing Algorithm
+What is (are) correct about DHCP | All of the others
+What is the 32-bit binary equivalent of the IP address 254.1.8.252 | 11111110.00000001.00001000.11111100
+Suppose an ISP owns the block of addresses of the form 101.101.101.128/30, which address can be assigned to its customer | 101.101.101.129
+Suppose datagrams are limited to 1500bytes including IP header of 20 bytes. UDP header is 8 bytes. How many datagrams would be required to send an MP3 of  50000 bytes | 34
+in link layer guarantees to move each _____ datagrams across the link without error | Reliable delivery…..network
+Single parity check can | Detect a single bit error
+Assume the original message to be sent 101110, the generator is 1001. What is the remainder resulted during the CRC computation | 011
+is used in Ethernet | CSMA/CD
+Ethernet technologies provides ____ to the network layer | Unreliable service
+Switch has a characteristic of | Self-learning
+While MAC address is ___bit long, IP address is___ bit long | 48…32
+Which one is a MAC address: | F0-F0-16-F2-15-00
+In the exponential backoff  phase of CSMA/CD for a 50Mbps Ethernet, after the first collision of a frame, the adapter then waits …. before sensing the channel again. | Either 0 or 10.24 microseconds
+Which is a protocol for wireless LAN | 802.11
+There are two categories of physical transmission medium | Guided medium and unguided medium
+What are the two methods of circuit switching | FDM and TDM
+POP3 is short for | Post Office Protocol-Version 3
+Assume a webpage has only 10 different images, using non-persistent HTTP, a client needs ______ to the server to load | 10 different TCP connections
+In TCP, what can happen if timeout is much larger than the round-trip time | When a segment is lost, TCP would not quickly retransmit the segment, resulting in long data transfer delays into the application.
+The transport layer protocol provides logical communication between ______, while the network layer protocol provides logical communication between | Processes…..Hosts
+While IPv4 is …byte-long, IPv6 is … byte-long | 4….16
+Given the subnet with address 201.14.78.0 and the subnet mask 255.255.255.0, which address belongs to that subnet | 201.14.78.64
+Manchester encoding is to | Synchronize between the sender and the receiver
+Slotted Aloha efficiency (useful transmission time) is approximately | 40%
+are sets of rules or guidelines that govern interactions between two computer systems in a computer network | Network protocols
+The packets in the application layer is called | Message
+Today's Internet is a _______________network | packet-switched
+Total nodal delay is accumulated from the following delays | Processing delay, queuing delay, transmission delay and propagation delay
+In OSI model, as data packet moves from the upper to the lower layer header are | Added
+A program running in a network attached device that passively receives all  packet  passing by the device's network interface is | Packet sniffer
+What is the total delay for transmission of 1.25MB of images over fiber optic cable with distance of 4500 km with transmission rate of 1Gbps (ignore all other delays). Assume that the speed of propagation is 300,000km/sec | 25msec
+There are 4 serial links between the client and the server, with the transmission rates being 1Mbps, 1Mbps, 2 Mbps, and 0.7 Mbps. What is the throughput between the client and the server | 0.7 Mbps
+The ____on the physical medium of the link is a little less than or equal to the speed of light | Propagation  delay
+HTTP, FTP, SMTP and POP3 run on top of | TCP
+The client-server model significantly relies on  ____ infrastructure servers, the Peer-to-Peer model, instead, pairs of interminably connected peers, communicates ____ with each other | Always-on….directly
+Because FTP uses a separate control connection different from data connection, FTP is said to sent its control information | Out-of-band
+Which one is correct about SMTP | SMTP restricts the body of all mail messages to be in simple seven-bit ASCII
+are responsible for domains such as com, org, gov, and all of the country domains such as uk, fr, ca, and jp | Top-level domain servers
+In DNS, TLD  is short for | Top-Level Domain
+Skype is a | None of them
+Assume the RTT 50ms, the size of the Web object 0.4Mb and the transmission rate 10Mbps, how long does it take to download that object from a Web Server to a client if using non-persistent HTTP | 140ms
+Which statement is correct about cookie technology | All of the others
+The combination of an IP address and a port number is called a  | socket
+The job of gathering data at the source host from different sockets, enveloping the data and passing the segments to the network layer is called | Multiplexing
+applications typically uses  | Loss-tolerant……..UDP
+in the Internet is achieved through the use of acknowledgments and retransmissions | Reliable data transfer
+TCP assigns a sequence number to each segment that is being sent. The sequence number for each segment is the number of the _______ byte carried in that segment | first
+In modern implementations of TCP, a retransmission occurs if the retransmission timer expires or ________ duplicate ACK segments have arrived | three
+UDP and TCP use 1s complement checksum. Suppose you have the followings 2 bytes: 00101010 and 11001100. What is the 1s complement of the sum of those two bytes | 00001001
+If the segment has sequence number of 118 and length of 8 bytes, the receiving computer will send ACK with value of  | 126
+Host A and B are communicating over a TCP connection, host A send to host B the first segment with size 55 bytes, sequence number 100, the source port 1028, the destination port 80. What is the ACK number, the source port number, the destination port number in the ACK segment sent by host B to host A | ACK number: 155, source port: 80, destination port: 1028
+In the congestion avoidance phase of TCP congestion control, if ____ occurs while the current congestion window size is 32, the congestion window will | Timeout……reduce to 1
+The IP broadcast address is | 255.255.255.255
+A Virtual Circuit maintains | Path from source to destination and forwarding tables in routers along path
+Who can send ICMP error-reporting messages | Routers and destination hosts
+What is the data unit used in Internet Protocol (IP) | Datagram
+Which statement is correct about tracert program | To determine a router on the path, the program sends three packets with the same TTL
+NAT table in router | Store pairs of the host’s IP address and the port number
+Which one is not an IP address | 251.222.258.1
+What is the 32-bit binary equivalent of the IP address 13.253.17.252 | 00001101.1111101.00010001.11111100
+Suppose a subnet has a block of IP addresses 101.101.101.0/24, which address does not belong to that block | 101.101.111.0
+Suppose datagrams are limited to 1500bytes including IP header of 20 bytes. UDP header is 8 bytes. How many datagrams would be required to send an MP3 of  600,000 bytes | 408
+What is the name of packet in Link layer of Internet protocol stack | Frame
+For even parity scheme (single), if the information is 101110, then information after adding parity bit is | 1011100
+Assume the original message to be sent 100001, the generator is 1001. What is the transmitted message | 100001101
+is used in Ethernet | CSMA/CD
+In CSMA/CD, if the adapter detects signal energy from other adapters while transmitting | It stops transmitting its frame and transmits a jam signal
+A method for encapsulating data in a PPP frame, identifying the beginning and end of the frame is called | Framing
+The destination address field in an Ethernet frame is | 6-byte long
+Which one is not a MAC address | A1-000-6C-2D-15-0A
+Assume an Ethernet network has speed of 15Mbps. In the exponential backoff  phase of CSMA/CD, after the first collision of a frame, the adapter then waits …. before sensing the channel again | Either 0 or 34 microseconds
+Multiple access link in 802.11 wireless LAN is a | Broadcast link
+is a guided transmission medium, while___ is an unguided transmission medium | Fiber-optic cable…… Wireless LAN channel
+The telephone networks are examples of | Circuit-switched networks
+Three popular mail access protocols are | POP3,IMAP and HTTP
+Assume a website has only 15 different objects, using persistent HTTP, a client needs ______ to the server | A single TCP connection
+In TCP, what can happen if the timeout  is smaller than the connection's round-trip time | It can result in unnecessary retransmissions
+One of the responsibilities of the transport layer protocol is to create a logical  communication between | Processes
+While IPv4 address is …bit-long, IPv6 address is … bit-long | 32….128
+Consider an IP subnet with prefix 139.27.229.96/28. Which address belongs to the subnet | 139.27.229.100
+And encoding technique used in Ethernet that encodes bit 1 a transition from up to down and bit 0 a transition from down to up (of electrical signal) is called | Manchester encoding
+Two types of ALOHA are | Pure ALOHA and slotted ALOHA
+In classless addressing, __________ is assigned to an organization | a variable-length block
+A datagram is fragmented into three smaller datagrams. Which of the following is true | The identification field is the same for all three datagrams
+What field in the IP header changes when a datagram is forwarded by a simple router | TTL
+IP is _________ datagram protocol | An unreliable and connectionless
+What is tracert or traceroute program for | To  find the route path between the sender and receiver and to measure transit times of packets along the path
+Which of the following describe the DHCP Discover message | It does not use a layer 2 destination address
+Which one is not an IP address | 254.322.255.1
+What is the 32-bit binary equivalent of the IP address 1.255.8.252 | 00000001.1111111.00001000.11111100
+Suppose a subnet has a block of IP addresses 101.101.101.0/24, which address does not belong to that block | 101.101.102.0
+Consider sending a 5550-byte datagram into a link that has an MTU of 520 bytes (including IP header of 20 bytes). How many fragments are generated | 12
+Where is link layer implemented | NIC
+For even parity scheme (single), if the information is 101010, then information after adding parity bit is | 1010101
+Assume the original message to be sent 101001, the generator is 1001. What is the transmitted message | 101001001
+Channel partitioning, random access, and taking turns are | MAC protocols
+The most popular Ethernet network topology today is | Star
+What is the framing method used in PPP | Byte stuffing
+A table has following information: < IP address; MAC address; TTL>, where TTL is Time-To-Live. This table can be a (an) | APR table
+The broadcast MAC address in LAN is | FF-FF-FF-FF-FF-FF
+In the exponential backoff  phase of CSMA/CD for a 1Mbps Ethernet, after the first collision of a frame, the adapter then waits …. before sensing the channel again | Either 0 or 512 microseconds
+What is the MAC protocol used in 802.11 network | CSMA/CA
+There are two categories of__________: Guided medium and unguided medium | physical transmission medium
+In _____, the network establishes a dedicated end-to-end connection  between two hosts | Circuit switching
+IMAP is designed to allow users to manipulate______, so it is more | Remote mailboxes…. Complex
+Assume a website has only 5 different images, using non-persistent HTTP, a client needs ______ to the server | 5 TCP connections
+In TCP, what can happen if the timeout  is smaller than the connection's round-trip time | It can result in unnecessary retransmissions 
+The transport layer protocol provides _____ communication between ______ running on different applications | Logical…..Processes
+How “big” is an IPv6 Internet address | 128 bits
+Given the IP address 201.14.78.65 and the subnet mask 255.255.255.224, what is the subnet address | 201.14.78.64
+With the following Manchester encoding, the bit stream transmitted is [file:9157.jpg] | None of them
+Which one is correct about ALOHA | Less bandwidth utilization than CSMA/CA
+

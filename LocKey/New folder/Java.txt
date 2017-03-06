@@ -1,0 +1,382 @@
+is a set of java API  for executing SQL statements | JDBC
+method is used to wait for a client to initiate communications | accept()
+drivers that are written partly in the Java programming language and partly in native code. These drivers use a native client library specific to the data source to which they connect | Type 2
+drivers that are pure Java and implement the network protocol for a specific data source. The client connects directly to the data source | Type 4
+drivers that use a pure Java client and communicate with a middleware server using a database-independent protocol. The middleware server then communicates the client's requests to the data source | Type 3
+drivers that implement the JDBC API as a mapping to another data access API, such as ODBC. Drivers of this type are generally dependent on a native library, which limits their portability | Type 1
+System.out.println(a.doit(4, 5)) | Line 26 prints a to System.out
+Which two are true if a NullPointerException is thrown on line 3 of class C | code on line 29, The exception
+What lines are output if the constructor at line 3 throws a MalformedURLException | Bad URL, Doing finally, Carrying
+What lines are output if the methods at lines 3 and 5 complete successfully without throwing any exceptions | Success, Doing, Carrying
+If lines 24, 25 and 26 were removed, the code would compile and the output would be 1 | 3.The code, would be 1, 2 
+An exception is thrown at runtime | An exception
+first second first third snootchy 420 | third second first snootchy 420
+dialog prevents user input to other windows in the application unitl the dialog is closed | Modal
+You would like to write code to read back the data from this file. Which solutions will work | 2.FileInputStream, RandomAccessFile
+A Java monitor must either extend Thread or implement Runnable | F
+A monitor called mon has 10 threads in its waiting pool; all these waiting threads have the same priority. One of the threads is thr1 | You cannot specify
+A programmer needs to create a logging method that can accept an arbitrary number of arguments. For example, it may be called in these ways | public void logIt(String... msgs)
+A signed data type has an equal number of non-zero positive and negative values available | F
+A thread wants to make a second thread ineligible for execution. To do this, the first thread can call the yield() method on the second thread | F
+catch (InterruptedException e) | running some time
+object is used to submit a query to a database | Statement
+object is uses to obtain a Connection to a Database | DriverManager
+After execution of the following code fragment, what are the values of the variables x, a, and b | x13, a7, b8
+Yen and Euro both return correct Country  value | 2.Euro returns, error at line 25
+BigOlLongStringWithMeaninglessName | tick all
+Compilation of class A will fail. Compilation of class B will succeed | B fail, A succeed
+Line 46 will compile if enclosed in a try block, where TestException is caught | 2.if the enclosing, is caught
+Holder h = new Holder() | 101
+Decrementer dec = new Decrementer() | 12.3
+Test t = (new Base()).new Test(1) | 2.new Test(1), new Test(1, 2)
+Base(int j, int k, int l) | 2.Base(), Base(int j, int k)
+Line 12 will not compile, because no version of crunch() takes a char argument | output: int version
+output results when the main method of the class Sub is run | Value 5 This value 6
+Float floater = new Float(3.14f) | Line 6
+The application must be run with the -enableassertions flag or another assertionenabling flag | dai nhat, one or more
+After line 3 executes, the StringBuffer object is eligible for garbage collection | line 2 executes..collection
+The code will compile but will throw an exception at line 7, because runtime conversion from an interface to a class is not permitted | type SwampThing
+The code will compile and run, but the cast in line 6 is not required and can be eliminated | The code will compile and run
+for (int i = 0; i < 2; i++) | 4.i0,j12 - i1,j02
+outer: for (int i = 0; i < 2; i++) | i = 1 j = 0
+The code will compile but will throw an exception at line 7, because runtime conversion from an interface to a class is not permitted | Line 7 will not compile
+int[] x = new int[25] | 2.x[24]=0, x.length is 25
+public float aMethod(float a, float b) throws Exception | int a,b float p,q
+public float aMethod(float a, float b, int c) throws Exception | 3.int a,b. float a,b-int c. private
+Given a string constructed by calling s = new String("xyzzy"), which of the calls modifies the string | None of the above
+Given arrays a1 and a2, which call returns true if a1 and a2 have the same length, and a1[i].equals(a2[i]) for every legal index i | Arrays.equals(a1, a2)
+Assuming the class does not perform custom serialization, which fields are written when an instance of Xyz is serialized | 3.Public, Private, Volatile
+can legally be placed before aMethod() on line 3 and be placed before aMethod() on line 8 | 3: private; 8: protected
+NUTMEG, CINNAMON, CORIANDER, ROSEMARY | 3.Spice sp, Spice, String
+List<String> names = new ArrayList<String>() | 2.Iterator, for
+Compilation fails because of an error in line 15 | error in line 19
+1 2 3 | 2 3
+public interface B inheritsFrom A | B extends A
+protected double getSalesAmount() { return 1230.45; } | 2.public, protected
+Line 16 creates a directory named “d” and a file ‘f’ within it in the file system | 3.An exception, Line 13, line 14
+Nav.Direction d = Nav.Direction.NORTH | Nav.Direction.NORTH
+new class Foo { public int bar() { return 1; } } | new Foo()
+IllegalArgumentException | StackOverflowError
+Circle c = new Circle(); c.Shape.setAnchor(10,10); c.Shape.draw() | Shape s = new Circle...s.draw()
+Compilation fails because of an error in line 12 | 1 2 3
+NullPointerException | Compilation fails
+A NumberFormatException is thrown by the parse method at runtime | Compilation fails
+An exception is thrown at runtime | Compilation fails
+passed An AssertionException is thrown without the word “stuff” added to the stack trace | An AssertionError...with the
+collie | collie harrier
+doStuff x = 6 main x = 6 | doStuff x =5 main x =5
+The setCardlnformation method breaks encapsulation | The ownerName
+The value of all four objects prints in natural order | Compilation fails...line 29
+The code on line 33 executes successfully | 3.33 throws, 35 throws, 33 executes
+What is the result if a NullPointerException occurs on line 34 | ac
+Compilation will fail because of an error in line 55 | Line 57...value 3
+java -ea test file1 file2 | 2.java -ea test, dai nhat
+String s = “123456789”; s = (s-”123”).replace(1,3,”24”) - “89” | 2.delete(4,6), delete(2,5).insert( 1, “24”)
+The Point class cannot be instatiated at line 15 | Line.Point p = new Line.Point()
+for( int i=0; i< x.length; i++ )   System.out.println(x[i]) | 2.for(int z : x), dai nhat
+int MY_VALUE = 10 | 3.final, static, public
+Compilation fails because of an error in line: public void process() throws RuntimeException | A Exception
+How can you ensure that multithreaded code does not deadlock | There is no single
+How can you force garbage collection of an object | Garbage collection
+How do you prevent shared data from being corrupted in a multithreaded environment | Access the variables
+How do you use the File class to list the contents of a directory | String[] contents
+The number of bytes depends on the underlying system | 8
+How many locks does an object have | One
+If all three top-level elements occur in a source file, they must appear in which order | Package declaration, imports
+the two classes are in different packages, and class X has a protected method called abby(), then any instance of Y may call the abby() method of any | F
+TestThread3 ttt = new TestThread3 | Y
+If you need a Set implementation that provides value-ordered iteration, which class should you use | TreeSet
+In order for objects in a List to be sorted, those objects must implement which interface and method | Comparable...compareTo
+after execution of line 1, sbuf references an instance of the StringBuffer class. After execution of line 2, sbuf still references the same instance | T
+what are the possible types for variable result | int, long, float, double
+helps manage the connection between a Java program and a database | Connection
+Is it possible to define a class called Thing so that the following method can return true under certain circumstances | Y
+Is it possible to write code that can execute only if the current thread owns multiple locks | Y
+JDBC supports ______ and ______ models | Two-tier and three-tier
+MVC is short call of | Model-View-Controller
+No output because of compile error at line: System.out.println("b="+b) | b = b * b1
+Object ob2= new Object() | Have a nice day
+Object ob2= ob1 | ob1 equals ob2, ob1==ob2
+String s2 = "xyz" | Line 4, Line 6
+String s2 = new String("xyz") | Line 6
+String s2 = new String(s1) | Line 6
+Select correct statement about RMI | All the above
+Select correct statement(s) about remote class | All the others choices
+Select correct statements about remote interface | All the others choices
+Select INCORRECT statement about  serialization | When an Object Output
+Select INCORRECT statement about deserialize | We use readObject
+Select incorrect statement about RMI server | A client accesses
+Select incorrect statement about ServerSocket class | To make the new object
+Select incorrect statement about Socket class | server through UDP
+Select the correct statement about JDBC two-tier processing model | A user's commands
+SQL keyword ___ is followed by the selection criteria that specify the rows to select in a query | WHERE
+Statement objects return SQL query results as | ResultSet
+When a JDBC connection is created, it is in auto-commit mode | Both 1 and 2 are true
+Suppose a method called finallyTest() consists of a try block, followed by a catch block, followed by a finally block | If the JVM doesn't crash
+Suppose a source file contains a large number of import statements and one class definition. How do the imports affect the time required to load the class | no additional time
+Suppose a source file contains a large number of import statements. How do the imports affect the time required to compile the source file | slightly more time
+Suppose class A extends Object; Class B extends A; and class C extends B. Of these, only class C implements java.io.Externalizable | C must have a
+Suppose class A extends Object; class B extends A; and class C extends B. Of these, only class C implements java.io.Serializable | B must have a
+Suppose class A has a method called doSomething(), with default access. Suppose class B extends A and overrides doSomething() | private
+Suppose class Supe, in package packagea, has a method called doSomething(). Suppose class Subby, in package packageb, overrides doSomething() | 2.public, protected
+void doSomething(int a, float b) | public...(int a, float b)
+Suppose interface Inty defines five methods. Suppose class Classy declares that it implements Inty but does not provide implementations for any of the five interface methods | 2.declared abstract, may not be  
+Suppose prim is an int and wrapped is an Integer. Which of the following are legal Java statements | All the above
+Suppose salaries is an array containing floats. Which of the following are valid loop control statements for processing each element of salaries | for (float f:salaries)
+Suppose the declared type of x is a class, and the declared type of y is an interface. When is the assignment x = y; legal | When the...x is Object
+Suppose the type of xarr is an array of XXX, and the type of yarr is an array of YYY. When is the assignment xarr = yarr; legal | Sometimes
+Suppose x and y are of type TrafficLightState, which is an enum. What is the best way to test whether x and y refer to the same constant | if (x == y)
+Suppose you are writing a class that will provide custom deserialization. What access mode should the readObject() method have | private
+Suppose you are writing a class that will provide custom serialization. What access mode should the writeObject() method have | private
+Suppose you want to create a custom thread class by extending java.lang.Thread in order to provide some special functionality | Override run()
+Suppose you want to write a class that offers static methods to compute hyperbolic trigonometric functions. You decide to subclass java.lang.Math and provide the new functionality as a set of static methods | subclass java.lang.Math
+Swing components cannot be combined with AWT components | T
+class is the primary class that has the driver information | DriverManager
+class is used to implement a pull-down menu that provides a number of items to select from | Menu
+The element method alters the contents of a Queue | F
+The Swing component classes can be found in the | javax.swing
+There are two classes in Java to enable communication using datagrams namely | DataPacket and DataSocket
+Compilation of Parrot.java fails at line 7 because method getRefCount() is static in the superclass, and static methods may not be overridden to be nonstatic | dai nhat: nonstatic
+Compilation of Nightingale will succeed, but an exception will be thrown at line 10, because method fly() is protected in the superclass | The program...After: 2
+void doSomething() throws IOException, EOFException | ngan-dai nhat, throws EOFException
+URL referring to databases use the form | protocol:subprotocol:datasoursename
+What are the legal types for whatsMyType | There are no possible legal types
+What does the following code do | Throws an exception
+There is no output because the code throws an exception at line 1 | output is i = 20
+1000 | -1
+What happens when you try to compile and run the following application | thrown at line 9
+The code compiles, and prints out >>null<< | out >>null<<
+An exception is thrown at line 6 | thrown at line 7
+What is -50 >> 2 | -13
+What is 7 % -4 | 3
+What is -8 % 5 | -3
+What is the difference between the rules for method-call conversion and the rules for assignment conversion | There is no difference
+The code will compile as is. No modification is needed | On line 1, remove
+What is the range of values that can be assigned to a variable of type byte | ?2mu7 through 2mu7 ? 1
+What is the range of values that can be assigned to a variable of type short | ?2mu15 through
+The code compiles and executes; afterward, the current working directory contains a file called datafile | The code fails to compile
+What is the return type of the instanceof operator | A boolean
+What method of the java.io.File class can create a file on the hard drive | createNewFile()
+The output: value is 99.99 | value is 9.0
+The output: b contains 250 | b contains 5
+What would be the output from this code fragment | message four
+When a byte is added to a char, what is the type of the result | int
+When a negative byte is cast to a long, what are the possible values of the result | Negative
+When a negative long is cast to a byte, what are the possible values of the result | All the above
+When a short is added to a float, what is the type of the result | float
+When comparing java.io.BufferedWriter to java.io.FileWriter, which capability exists as a method in only one of the two | writing a line
+When does an exception's stack trace get recorded in the exception object | is constructed
+When is it appropriate to pass a cause to an exception's constructor | in response to catching
+When is it appropriate to write code that constructs and throws an error | Never
+When is x & y an int | Sometimes
+When the user attempts to close the frame window, _______ event in generated | window closing
+When the user selects a menu item, _______ event is generated | Action event
+Java programming language, the compiler converts the human-readable source file into platform-independent code that a Java Virtual Machine can understand | bytecode
+Whenever a method does not want to handle exceptions using the try block, the | throws
+Which are the correct statements used for getting connection object to connect to SQL Server database | String url =jdbc:odbc
+Which class and static method can you use to convert an array to a List | Arrays.asList
+Which is four-step approach to help you organize your GUI thinking | Identify, Isolate, Sketch
+Which is the four steps are used in working with JDBC | Connect, Create, Look
+Which JDBC processing model  that requires a JDBC driver that can communicate with the particular data source being accessed | two-tier
+Which line of code tells a scanner called sc to use a single digit as a delimiter | sc.useDelimiter("\\d")
+Man has the best friend who is a Dog | private Dog bestFriend
+Which methods return an enum constant’s name | 2.name(), toString()
+Which modifier or modifiers should be used to denote a variable that should not be written out as part of its class's persistent state | transient
+Which of the following are legal argument types for a switch statement | 3.byte, int, char
+Which of the following are legal enums | 3.ngan-dai nhat, lion int weight
+Which of the following are legal import statements | 2.import...Vector, Vector.*
+Which of the following are legal loop constructions | for (int k=0, j+k != 10; j++,k++)
+Which of the following are legal loop definitions | None of the above
+double d = 1.2d5 | 2.double d = 1.2d, 1.2D
+int d = 0XABCD | 2.int c = 0xabcd, dai nhat
+char c = 0x1234 | 2.0x.., '\u1234'
+Vector <String> theVec = new Vector<String>() | 2.List...<String>(), dai nhat
+Which of the following are methods of the java.util.SortedMap interface | headMap, tailMap, subMap
+Which of the following are methods of the java.util.SortedSet interface | All the above
+System.out has a println() method | All the above
+The JVM runs until there is only one non-daemon thread | are no non-daemon
+When an application begins running, there is one non-daemon thread, whose job is to execute main() | 3.nhat, thread, non-daemon thread
+When you declare a block of code inside a method to be synchronized, you can specify the object on whose lock the block should synchronize | 2.the method always, nhat
+An enum definition should declare that it extends java.lang.Enum | 2.contain public, private
+Primitives are passed by reference | 2.by value
+An anonymous inner class that implements several interfaces may extend a parent class other than Object | implement at most, class may extend
+Which of the following are valid arguments to the DataInputStream constructor | FileInputStream
+Which of the following are valid mode strings for the RandomAccessFile constructor | All the above
+Which of the following calls may be made from a non-static synchronized method | All the above
+Which of the following classes implement java.util.List | 2.ArrayList, Stack
+Which of the following classes implements a FIFO Queue | LinkedList
+Which of the following declarations are illegal | 3.ngan-dai nhat, double d
+int x = 6; if (!(x > 3)) | 2.dai nhat, x = ~x
+String x = "Hello"; int y = 9; if (x == y) | 2.ngan nhat, x=x+y
+Which of the following expressions results in a positive value in x | int x = –1; x = x >>> 5
+Which of the following interfaces does not allow duplicate objects | Set
+Which of the following is not appropriate situations for assertions | Preconditions of a public method
+Which of the following is NOTa valid comment | /* comment
+Which of the following is the most appropriate way to handle invalid arguments in a public method | IllegalArgumentException
+Readers have methods that can read and return floats and doubles | None of the above
+An enum definition may contain the main() method of an application | All the above
+Which of the following may appear on the left-hand side of an instanceof operator | A reference
+Which of the following may appear on the right-hand side of an instanceof operator | 2.A class, An interface
+Which of the following may be declared final | 2.Classes, Methods
+Which of the following may be statically imported | 2.Static method, Static field
+Which of the following may follow the static keyword | 3.Data, Methods, Code blocks
+Which of the following may legally appear as the new type (between the parentheses) in a cast operation | All of
+Which of the following may not be synchronized | Classes
+Which of the following may override a method whose signature is void xyz(float f) | 2.void, public void xyz(float f)
+Which of the following methods in the Thread class are deprecated | suspend() and resume()
+Which of the following operations might throw an ArithmeticException | None of
+Which of the following operators can perform promotion on their operands | 3.cong, tru, xap xi
+Which of the following restrictions apply to anonymous inner classes | must be defined
+Which of the following should always be caught | Checked exceptions
+Which of the following signatures are valid for the main() method entry point of an application | 2.static void...(String arg[])
+Which of the following statements about the wait() and notify() methods is true | calls wait() goes into
+Which of the following statements about threads is true | Threads inherit their
+A final class may not contain non-final data fields | may not be extended
+An abstract class must declare that it implements an interface | None
+An abstract class may not have any final methods | Only statement 2
+Only object references are converted automatically; to change the type of a primitive, you have to do a cast | Both primitives
+Transient methods may not be overridden | variables are not
+Object references can be converted in both method calls and assignments, but the rules governing these conversions are very different | conversions are identical
+Bytecode characters are all 16 bits | Unicode characters
+To change the current working directory, call the changeWorkingDirectory() method of the File class | None
+When you construct an instance of File, if you do not use the file-naming semantics of the local machine, the constructor will throw an IOException | None
+When the application is run, thread hp1 will execute to completion, thread hp2 will execute to completion, then thread hp3 will execute to completion | None of
+Compilation succeeds, although the import on line 1 is not necessary. During execution, an exception is thrown at line 3 | fails at line 2
+Compilation fails at line 1 because the String constructor must be called explicitly | succeeds. No exception
+Line 4 executes and line 6 does not | Line 6 executes
+There will be a compiler error, because class Greebo does not correctly implement the Runnable interface | Runnable interface
+The acceptable types for the variable j, as the argument to the switch() construct, could be any of byte, short, int, or long | value is three
+The returned value varies depending on the argument | returns 0
+Lines 5 and 12 will not compile because the method names and return types are missing | output x = 3
+Line 13 will not compile because it is a static reference to a private variable | output is x = 104
+Which statements about JDBC are NOT true | 2.database system, DBMS
+Which two code fragments correctly create and initialize a static array  of int elements | 2.a = { 100,200 }, static
+Which two of the following interfaces are at the top of the hierarchies in the Java Collections Framework | 2.Map, Collection
+A new directory called dirname and a new file called filename are created, both in the current working directory | No directory
+protected class Cat extends Owner | public class Cat extends Pet
+Date vaccinationDue | 2.boolean, String
+What is -15 % -10 | -5
+command line on a Windows  system | 2.must contain  the statement, the file
+The string created on line 2 does not become eligible for garbage collection in this code | After line 3
+When the application runs, what are the values of n and w.x after the call to bump()  in the main | n is 10, w.x  is 11
+The addAll() method  of that  interface  takes a single argument, which is a reference to a collection whose elements are compatible with E. What  is the declaration of the addAll() method | addAll(Collection<? extends E> c)
+If you want a vector in which you know you will only store strings, what are the advantages of using fancyVec rather than plainVec | Attempting to...compiler error
+When should objects stored in a Set implement  the java.util.Comparable interface | Set is a TreeSet
+What relationship does the extends keyword  represent | is a
+class bbb.Bbb, which extends aaa.AAA, wants to override callMe(). Which access modes for callMe() in aaa.AAA will allow this | 2.public, protected
+Lemon lem  = new Lemon(); Citrus cit = new Citrus() | 3.cit = lem, cit=(Citrus), lem=(lemon)
+it also has a method  called chopWoodAndCarryWater(), which just calls the other two methods | inappropriate cohesion, inappropriate coupling
+sharedOb.wait() | 2.aThread.interrupt, sharedOb.notifyAll
+line prints double d in a left-justified field that is 20 characters wide, with 15 characters to the right of the decimal point | System.out.format("%-20.15f", d)
+What code at line 3 produces  the following output | String  delim =  “\\d+”
+How do you generate a string representing  the value of a float f in a format  appropriate for a locale loc | NumberFormat.getInstance(loc)
+you want to use a DateFormat to format  an instance of Date.  What factors influence the string returned by DateFormat’s format() method | 2.LONG, or FULL, The locale
+you want to create a class that compiles and can be serialized and deserialized without causing an exception  to be thrown. Which statements  are true regarding  the class | 2.dai nhat, ngan nhat
+you are writing a class that will provide custom deserialization. The class implements java.io.Serializable (not java.io.Externalizable) | private
+What interfaces can be implemented in order to create a class that can be serialized | 2.dai nhat, ngan nhat
+The file contains  lines of 8-bit text, and the 8-bit encoding represents the local character set, as represented by the cur- rent default locale. The lines are separated by newline characters | FileReader instance
+shorty is a short and wrapped is a Short | all
+How is IllegalArgumentException used | 2.certain methods, public methods
+While testing some code that you are developing,  you notice that an ArrayIndexOutOf- BoundsException is thrown. What is the appropriate reaction | None
+Which lines check that x is equal to four? Assume assertions  are enabled at compile time and runtime | 2.assert x  == 4
+int[]  ages = {  9, 41, 49  }; int sum = 0 | 2.i<ages.length, for (int i:ages)
+Which of the following types are legal arguments  of a switch statement | enums, bytes
+class A  extends java.util.Vector  { private  A(int x) | does not create a default
+void  callMe(String… names) | method,  names is an array
+Given a class with a public variable theTint of type Color, which of the following methods are consistent  with the JavaBeans naming standards | public Color getTheTint()
+are valid arguments  to the DataInputStream constructor | FileInputStream
+are valid mode strings for the RandomAccessFile constructor | r, rw, rws, rwd
+method  of the java.io.File class can create a file on the hard drive | createNewFile()
+class A extends Object; Class B extends A; and class C extends B. Of these, only class C implements java.io.Externalizable | C must have
+class A extends Object; class B extends A; and class C extends B. Of these, only class C implements java.io.Serializable | B must have
+you are writing a class that will provide custom deserialization. The class implements java.io.Serializable (not java.io.Externalizable) | private
+you are writing a class that will provide custom serialization. The class implements java.io.Serializable (not java.io.Externalizable) | private
+How do you use the File class to list the contents  of a directory | String[]  contents =  myFile.list();
+call returns  true if a1 and a2 have the same length, and a1[i].equals(a2[i]) for every legal index i | java.util.Arrays.equals(a1, a2)
+line of code tells a scanner called sc to use a single digit as a delimiter | sc.useDelimiter(“\\d”)
+you want to write a class that offers static methods to compute hyperbolic trigonometric functions.  You decide to subclass java.lang.Math and provide the new functionality as a set of static methods | java.lang.Math
+Given a string constructed by calling s = new String(“xyzzy”), which of the calls modifies the string | none
+Suppose you want to create a custom thread  class by extending  java.lang.Thread in order to provide some special functionality. Which of the following must you do | Override  run()
+you prevent shared data from being corrupted in a multithreaded environment | Access the variables
+Is it possible to write code that can execute only if the current  thread  owns multiple locks | yes
+Which of the following may not be synchronized | Classes
+statements  about  the wait() and notify() methods  is true | pool of waiting threads
+methods  in the Thread class are deprecated | suspend() and resume()
+A Java monitor must either extend Thread or implement  Runnable | F
+One of the threads  is thr1. How can you notify thr1 so that it alone moves from the Waiting state to the Ready state | You cannot  specify
+A thread  wants to make a second thread  ineligible for execution.  To do this, the first thread  can call the yield() method  on the second thread | F
+Which methods  return  an enum constant’s  name | name(), toString()
+restrictions apply to anonymous inner classes | inside a code block
+A pet has an owner,  a registration date, and a vaccination-due date. A cat is a pet that has a flag indicating whether  it has been neutered,  and a textual  description  of its markings | boolean, string
+Which of the following are valid declarations? Assume java.util | 1Vector 2Set 3Map string,string
+You can determine  all the keys in a Map in which of the following ways | Set object from the Map
+What keyword  is used to prevent an object from being serialized | transient
+abstract class can contain  methods  with declared bodies. | E.	public, protected, default,  private
+access modifier allows you to access method  calls in libraries not created in Java | native
+Which of the following statements  are true? (Select all that apply.) | object cannot reassigned   
+The keyword  extends refers to what type of relationship | is a
+keywords  is used to invoke a method  in the parent  class | super
+What is the value of x after the following operation is performed | 3
+method  call is used to tell a thread  that it has the opportunity | notify()
+Assertions are used to enforce all but which | Exceptions
+force garbage collection by calling System.gc(). | B.	False
+Select the valid primitive data type | 1.boolean 2.char 3.float
+How many bits does a float contain | 32
+What is the value of x after the following line is executed | 32
+StringBuffer is slower than a StringBuilder, but a StringBuffer  | True
+list of primitives ordered  in smallest to largest bit size representation | D.	char, int, float, long
+Which class provides locale-sensitive text formatting for date and time information | java.text.DateFormat
+int x  = 9; byte b  = x | False
+Which of the following code snippets compile | 1.Integer 2.Integer 3.byte 
+Java arrays always start at index 1 | False
+accurately  describes how variables are passed to methods | that are primitive type are passed by value
+change the value that  is encapsulated by a wrapper class after you have instan | None of the above.
+The class implements java.io.Serializable (and not java.io.Externalizable) | private  readObject
+A signed data type has an equal number  of non-zero  positive and negative values  | False
+signatures are valid for the main() method entry point of an application | public static  void main(String[] args)
+three top-level elements occur in a source file, they must appear | Package declaration, imports,  class/interface/enum definitions
+int[] x  = new int[25] | x[24] is 0 and x.length is 25
+How can you force garbage collection of an object | Garbage  collection cannot  be forced.
+range of values that can be assigned to a variable of type short | -215  through 215   - 1
+range of values that can be assigned to a variable of type byte | -27  through 27  - 1
+How do the imports  affect the time required  to compile the source file | Compilation takes slightly more time
+How do the imports  affect the time required  to load the class? | Class loading takes no additional time
+legal import statements | 1.import  java.util.Vector    2.import  static java.util.Vector
+may be statically imported | 1.Static method  names 2.Static field names
+int c  =  0xabcd and int d  =  0XABCD | 2 dap an
+double d  =  1.2d and double d  =  1.2D | 2 dap an
+char c  =  ‘\u1234’ | 1 dap an
+passed by value and passed by value | 2 dap an
+int x  =  6; if (!(x >  3)) and int x  =  6; x  =  ~x | 2 dap an
+int x  =  –1; x  =  x  >>> 5 | 1 dap an
+int y  =  9; x  += y; and int y  =  9; x  =  x  +  y; | 2 dap an
+What is -8 % 5 | -3
+What is 7 % -4? | 3
+ob1 == ob2 | No
+When a byte is added to a char | int
+When a short is added to a float | float
+ArithmeticException | 1.None of these      2./
+What is the return  type of the instanceof operator | boolean
+may appear on the left-hand  side of an instanceof operator | reference
+may appear on the right-hand side of an instanceof operator |  class and interface
+What is -50  >>  1 | -25
+default String s ,, abstract  double d ,, double hyperbolic | 3 dap an
+A final class may not have any abstract methods | true
+denote a variable that should not be written out as part of its class’s persistent  state | transient
+Both primitives and object references can be both converted  and cast | dap an
+and the rules governing these conversions  are identical | dap an
+may legally appear  as the new type (between the parentheses)  in a cast operation | All of the above
+type of x is a class, and the declared type of y is an interface. When is the assignment  x  =  y | When the type of x is Object
+xarr is an array of XXX, and the type of yarr is an array of YYY | Sometimes
+When is x  &   y an int | Sometimes
+negative long is cast to a byte | All of the above
+negative byte is cast to a long | Negative
+operators can perform  promotion on their operands |  + - ~(nga)
+difference between the rules for method-call conversion and the rules for assignment conversion | There is no difference
+Which of the following are appropriate situations for assertions | DAP AN SAI : Preconditions of a public method
+appropriate way to handle invalid arguments  in a public method | IllegalArgumentException
+Suppose salaries is an array containing  floats | for (float f:salaries)
+Suppose a method  called finallyTest() consists of a try block | If the JVM doesn’t crash and 
+appropriate to pass a cause to an exception’s constructor | thrown in response to catching of a different exception  type
+Which of the following should always be caught | Checked exceptions
+When does an exception’s stack trace get recorded  in the exception  object | is constructed
