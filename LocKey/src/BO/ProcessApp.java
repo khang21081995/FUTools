@@ -47,7 +47,7 @@ public class ProcessApp {
             } catch (IOException ex) {
             }
             String qAndA[] = line.replace("|", "~~").split("~~");
-            if (qAndA.length != 2 || qAndA[0] == "") {
+            if (qAndA.length != 2 || qAndA[0].equals("")) {
                 continue;
             }
 
@@ -55,6 +55,7 @@ public class ProcessApp {
             QandA qa = new QandA();
             qa.setQuestion(qAndA[0]);
             qa.setAnswer(qAndA[1]);
+//            System.out.println(countQA+" : "+qa.toString());
             boolean flag = true;
             if (listQA.isEmpty()) {
                 listQA.add(qa);

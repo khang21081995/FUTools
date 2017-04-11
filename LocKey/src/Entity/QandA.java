@@ -5,6 +5,8 @@
  */
 package Entity;
 
+import UI.Main;
+
 /**
  *
  * @author KhangPQ
@@ -28,7 +30,6 @@ public class QandA implements Comparable<QandA> {
     }
     private String question;
     private String answer;
-
     public QandA() {
     }
 
@@ -41,7 +42,7 @@ public class QandA implements Comparable<QandA> {
     public int compareTo(QandA o) {
         //  System.out.println("Substring: "+question.substring(2));
 
-        if (o.getQuestion().substring(5).toLowerCase().contains(question.toLowerCase().substring(5)) || question.toLowerCase().substring(5).contains(o.getQuestion().toLowerCase().substring(5))) {
+        if (o.getQuestion().substring(Main.SUBSTRINGNUMBER).toLowerCase().contains(question.toLowerCase().substring(Main.SUBSTRINGNUMBER)) || question.toLowerCase().substring(Main.SUBSTRINGNUMBER).contains(o.getQuestion().toLowerCase().substring(Main.SUBSTRINGNUMBER))) {
             if (o.getAnswer().toLowerCase().contains(answer.toLowerCase()) || answer.toLowerCase().contains(o.getAnswer().toLowerCase())) {
                 return 0;
             }

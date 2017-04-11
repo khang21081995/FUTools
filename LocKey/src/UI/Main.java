@@ -14,16 +14,18 @@ import java.util.Scanner;
  * @author KhangPQ
  */
 public class Main {
-
+    public static int SUBSTRINGNUMBER = 2;//thay ve 0 neu an exception
     public static void main(String[] args) {
 
         ProcessApp process;
-        String INPUT_PATH = ".\\inputTXT\\";
-        String OUTPUT_PATH = ".\\outputTXT\\";
-
+        String INPUT_PATH = "./inputTXT/";
+        String OUTPUT_PATH = "./outputTXT/";
+        
         File folder = new File(INPUT_PATH);
         File[] listOfFiles = folder.listFiles();
 
+//        process = new ProcessApp(INPUT_PATH+"testing.txt", OUTPUT_PATH+"testing.txt");
+//        process.run();
         for (File file : listOfFiles) {
             if (file.isFile()) {
                 System.err.println(file.getName());
